@@ -93,7 +93,7 @@ The Python shell
 - Interactive
 - Immediate output
 - Exploration
-- Can't re-run (files are better)
+- Can't re-run (use files instead)
 
 ----
 
