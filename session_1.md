@@ -47,7 +47,7 @@ PyCharm
 ---
 
 Python
-1. Clean and readable
+1. Designed to be clean and readable
 1. 3rd party libraries
 1. Popular
 
@@ -71,7 +71,7 @@ Create a new file
 
 Add this to `hello.py`
 
-```
+``` python
 print('Hello, World!')
 ```
 
@@ -83,3 +83,330 @@ Run the program:
 
 ---
 
+### Numbers and Operators in Python
+
+----
+
+The Python shell
+
+- Each line starts with `>>>`
+- Interactive
+- Immediate output
+- Exploration
+- Can't re-run (files are better)
+
+----
+
+![open Python shell](gifs/pycharm_python_shell.gif)
+
+----
+
+#### Task
+
+Type these lines into your **Python shell**
+
+``` python
+5 - 6
+8 * 9
+6 / 2
+5 / 2
+5.0 / 2
+5 % 2
+2 * (10 + 3)
+2 ** 4
+```
+
+What does each one do and what is its output?
+
+Are there any outputs you didn't expect?
+
+----
+
+Operator types
+* `+`: add
+* `-`: subtract
+* `*`: multiply
+* `/`: division
+* `**`: exponent
+* `%`: modulo (remainder)
+
+----
+
+**Integer:** a Python **data type** for **whole numbers**. For example `5`, `-99` and `1048` are all integers.
+
+**Float:** a Python **data type** for **decimal numbers**. For example `5.6`, `9.0` and `-67.1001` are all floats.
+
+---
+
+### The String Data Type
+
+----
+
+**String:** a Python data type for **text** and **characters**.
+
+`'Hello'`, `"abcdef1234"` and `'cats'` are all strings
+
+----
+
+Strings must be written between a pair of single or double speech marks
+
+ `'...'` or `"..."`
+
+
+``` python
+"This is a string"
+'This is also a string'
+```
+
+----
+Forgetting the speech marks
+
+``` python
+>>> hello
+```
+
+Will cause this exception
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hello' is not defined
+```
+
+----
+To fix it add speech marks
+
+
+``` python
+>>> "hello"
+```
+
+Now outputs
+
+```
+'hello'
+```
+
+----
+#### Task
+
+In your **Python shell** type each of these
+
+``` python
+print("Cat")
+print("Cat" + " videos")
+
+print("Cat" * 3)
+print("Cat" + 3)
+
+print("Cat".upper())
+print("Cat".lower())
+
+print("the lord of the rings".title())
+```
+
+What is the output for each one and why?
+
+One of them causes and exception. Read the exception message. What do you think it means?
+
+----
+
+1. The `+` operator can join two strings together, this is called **concatenation**
+
+1. The `*` operator repeats a string a number of times
+
+1. `.upper()`, `.lower()` and `.title()` are **methods**. They perform a specific action on the string e.g. uppercasing the characters
+
+----
+
+This exception is caused when trying to join a string value with an integer value
+
+``` python
+>>> print("Cat" + 3)
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'int' objects
+```
+
+----
+
+Putting a number in `str()` converts it to a string
+
+``` python
+>>> print("Cat" + str(3))
+Cat3
+```
+
+---
+
+### Variables
+
+----
+
+**Variable:** a reusable **label** for a piece of data in Python
+
+----
+
+Creating (assigning) a variable has three parts:
+1. The variable's name
+1. An equals sign `=`
+1. The data value it references
+
+``` python
+username = 'l33t_cat'
+age = 23
+```
+
+----
+
+A variable can be put anywhere that a data value can be used
+
+``` python
+username = 'l33t_cat'
+
+print(user_name)
+
+```
+
+----
+
+Variables can be reused
+
+``` python
+oranges = 12
+cost_per_orange = 0.3
+
+total_cost = oranges * cost_per_orange
+
+print(str(oranges) + " oranges")
+print("costs " + str(total_cost))
+
+```
+
+Outputs
+
+```
+12 oranges
+costs 3.6
+```
+
+----
+
+**Task**: In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
+
+Your will need:
+1. A **variable** for the number of **cats**
+1. A **variable** for the number of **cans** each cat eats in a day
+1. A `print()` function to output the result
+
+**Extension:** change the calculation to work out the amount needed for 7 days
+----
+
+An example answer:
+
+``` python
+cats = 10
+cans = 2
+
+total_cans = cats * cans
+
+output = str(cats) + " cats eat " + str(total_cans) + " cans"
+print(output)
+
+
+```
+
+----
+
+Extension answer:
+
+``` python
+cats = 10
+cans = 2
+days = 7
+
+total_cans = cats * cans * days
+
+msg = str(cats) + " cats eat " + str(total_cans) + " cans in " + str(days) + " days"
+print(msg)
+
+
+```
+
+---
+
+### String Formatting
+
+----
+
+Python strings have a method (`.format()`) that substitutes placeholders `{}` for values
+
+``` python
+oranges = 12
+cost_per_orange = 0.3
+
+total_cost = oranges * cost_per_orange
+
+output = "{} oranges costs £{}".format(oranges, total_cost)
+
+print(output)
+```
+
+----
+
+#### Task:
+Rewrite `cat_food.py` to use string formatting.
+
+An example of string formatting:
+```
+user_name = 'l33t_cat'
+age = 23
+
+output = '{} is {} years old'.format(user_name, age)
+print(output)
+```
+
+---
+
+### Comments
+
+----
+
+**Comment:** a way for a programmer to write human-readable notes in their code. When running a program, comments are ignored by Python.
+
+
+----
+
+Comments in Python start with a `#`
+
+```
+# A program to calculate the cost of some oranges
+
+oranges = 12
+cost_per_orange = 0.3
+
+total_cost = oranges * cost_per_orange
+
+output = "{} oranges costs £{}".format(oranges, total_cost)
+
+print(output)
+```
+
+---
+
+### Recap
+
+----
+
+1. Run Python with files and shell
+1. Data types (Integers, Floats and Strings)
+1. Maths operations
+1. Variables
+
+
+---
+
+#### Homework
+
+Create a program that 
