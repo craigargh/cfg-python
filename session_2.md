@@ -155,14 +155,22 @@ poem('pancakes')
 
 ----
 
-**Task:** Change you poem function to use an argument to change its output
+**Task:** Change your poem function to use an argument to change its output
 
-Use three or more values as arguments for your function
+**Extension:** store the result of `raw_input()` in a variable and use that when you call your function
+
+----
 
 ``` python
-poem('cats')
-poem('pancakes')
-poem('dressing up as a ghost and hiding in graveyards')
+def poem(thing_that_i_love):
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love {}}.'.format(thing_that_i_love))
+
+
+thing = raw_input('Enter something that you love: ')
+poem(thing)
 ```
 
 ----
@@ -383,3 +391,44 @@ Outputs
 3
 4
 ```
+
+----
+
+**Task:** Using a `for` loop, the `range()` function and the multiply operator, print this output:
+
+``` bash
+o
+oo
+ooo
+oooo
+ooooo
+oooooo
+ooooooo
+oooooooo
+ooooooooo
+```
+
+**Extension:** The `reversed()` function reverses a list. Can you use it to flip the pattern above?
+
+----
+
+Solution
+
+``` python
+for number in range(10):
+    print('o' * number)
+```
+
+Extension
+
+``` python
+for number in reversed(range(10)):
+    print('o' * number)
+```
+---
+
+### Logic and If Statements
+
+----
+
+
