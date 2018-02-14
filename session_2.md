@@ -69,7 +69,7 @@ Hello, Craig
 
 ----
 
-**Variable:** A reusable block of code
+**Function:** A reusable block of code
 
 ----
 
