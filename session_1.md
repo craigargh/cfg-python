@@ -49,6 +49,10 @@ PyCharm
 Python
 1. Designed to be clean and readable
 1. 3rd party libraries
+ - Web
+ - Data science
+ - Astronomy
+ - Machine learning
 1. Popular
 
 ---
@@ -409,4 +413,10 @@ print(output)
 
 #### Homework
 
-Create a program that 
+Create a program that calculates the total number of seconds in a film.
+
+The output should look something like:
+
+``` bash
+Fantastic 4 lasts 5940 seconds
+```

@@ -1,0 +1,361 @@
+Fill in the blanks:
+
+\_\_\_\_\_\_: a Python **data type** for **whole numbers**.
+
+\_\_\_\_\_\_: a Python **data type** for **decimal numbers**.
+
+\_\_\_\_\_\_: a Python data type for **text** and **characters**.
+
+\_\_\_\_\_\_: a reusable **label** for a piece of data in Python.
+
+
+*(5 mins)*
+
+----
+
+Answers:
+
+**Integer:** a Python **data type** for **whole numbers**.
+
+**Float:** a Python **data type** for **decimal numbers**.
+
+**String:** a Python data type for **text** and **characters**.
+
+**Variable:** a reusable **label** for a piece of data in Python.
+
+---
+
+# Code First: Girls
+
+#### Python Session 2
+
+---
+
+Homework
+
+---
+
+This session
+1. User input
+1. Functions
+1. Lists
+1. For loops
+1. Boolean operators
+1. If statements
+
+---
+
+### User Input
+
+----
+
+In a new file called `my_name.py`
+
+``` python
+name = raw_input('What is you name? ')
+print('Hello, {}'.format(name))
+```
+
+----
+
+``` bash
+What is your name? Craig
+Hello, Craig
+```
+
+---
+
+### Functions
+
+----
+
+**Variable:** A reusable block of code
+
+----
+
+``` python
+
+def poem():
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love cats.')
+
+
+```
+
+----
+
+All functions have
+1. a `def` operator
+1. a name
+1. brackets
+1. a colon
+1. body (indented 4 spaces)
+
+----
+
+We call a function to use it
+
+``` python
+
+def poem():
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love cats.')
+
+
+poem()
+```
+----
+
+Functions can be called many times
+
+``` python
+
+def poem():
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love cats.')
+
+
+poem()
+poem()
+poem()
+poem()
+
+```
+----
+
+**Task:** Using a function, write a poem (or copy one from the internet)
+
+Call the function three times to output the poem three times.
+
+----
+
+**Argument:** A parameter used to change the behaviour of a function
+
+----
+
+Arguments go inside the brackets and are treated like variables
+
+``` python
+
+def poem(thing_that_i_love):
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love {}}.'.format(thing_that_i_love))
+
+
+poem('pancakes')
+```
+
+----
+
+**Task:** Change you poem function to use an argument to change its output
+
+Use three or more values as arguments for your function
+
+``` python
+poem('cats')
+poem('pancakes')
+poem('dressing up as a ghost and hiding in graveyards')
+```
+
+----
+
+Functions can have multiple arguments seperated by commas
+
+``` python
+def poem(thing_that_i_love, author, title):
+    print(title)
+    print('')
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love {}}.'.format(thing_that_i_love))
+    print('')
+    print('by {}'.format(author))
+
+
+poem('hamburgers', 'Hamburgler', 'I love hamburgers')
+```
+
+----
+
+Values can be returned from functions using the `return` operator
+
+``` python
+def add(num_1, num_2):
+    return num_1 + num_2
+
+my_height = 182
+friend_height = 160
+
+total_height = add(my_height, friend_height)
+
+print(total_height)
+```
+
+----
+
+**Task:** Complete the function to return the area of a circle
+
+
+
+Use the comments to help you
+
+``` python
+def circle_area():  # add the radius argument inside the brackets
+    area = 3.14 * (radius ** 2)
+    # return area here
+
+
+area =  # call the function with a number here
+
+print(area)
+
+```
+
+----
+
+Answer
+
+``` python
+def circle_area(radius):
+    area = 3.14 * (radius ** 2)
+    return area
+
+area = circle_area(9)
+
+print(area)
+```
+
+---
+
+### Lists
+
+----
+
+**List:** an ordered collection of values
+
+----
+
+List are written inside square brackets and separated by commas
+
+
+``` python
+lottery_numbers = [4, 8, 15, 16, 23, 42]
+```
+
+``` python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+```
+
+----
+
+Lists can be made up of values of one or more data types
+
+``` python
+orchid_row = ['Magnoliopsida', 12, 3, 8, 9, 'white']
+```
+
+----
+List values can be accessed using their **index** in square brackets
+
+``` python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+
+print(student_names[2])
+```
+
+Outputs:
+
+``` bash
+Helena
+```
+
+----
+
+List indexes start counting from 0
+
+``` python
+student_names = [
+    'Diedre',    # index 0
+    'Hank',      # index 1
+    'Helena',    # index 2
+    'Salome'   # index 3
+]
+
+print(student_names[0])
+```
+
+Outputs:
+
+``` bash
+Diedre
+```
+
+---
+
+### For Loops
+
+----
+
+Lists ♥ `for` loops
+
+----
+
+**`for` loop:** allows you to repeat a block of code for every item in a list
+
+----
+
+``` python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+
+for student_name in student_names:
+    print(student_name)
+```
+
+Output
+
+
+``` bash
+Diedre
+Hank
+Helena
+Salome
+```
+----
+
+A `for` loop has
+- A `for` operator
+- A variable name that stores each list value one at a time
+- An `in` operator
+- A list of values
+- A body (indented four spaces)
+
+----
+
+**Task:** I have a load of cats and need you to feed them when I'm on holiday
+
+Here is a list of all my cats
+
+``` python
+cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+```
+
+To feed all my cats write a for loop that contains this code
+``` python
+print('I am feeding {}'.format(cat))
+print('{} says meow'.format(cat))
+```
+
+
+
+----
+
+
