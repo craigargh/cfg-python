@@ -427,7 +427,7 @@ for number in reversed(range(10)):
 ```
 ---
 
-### Logic and If Statements
+### Maths operators and If Statements
 
 ----
 
