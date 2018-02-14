@@ -354,8 +354,32 @@ print('I am feeding {}'.format(cat))
 print('{} says meow'.format(cat))
 ```
 
+----
 
+``` python
+cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+
+for cat in cats:
+    print('I am feeding {}'.format(cat))
+    print('{} says meow'.format(cat))
+
+```
 
 ----
 
+The pre-written `range()` function returns a list of numbers
 
+``` python
+for number in range(5):
+    print(number)
+```
+
+Outputs
+
+``` bash
+0
+1
+2
+3
+4
+```
