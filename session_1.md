@@ -359,8 +359,22 @@ print(output)
 
 ----
 
+This could have been written as
+``` python
+oranges = 12
+cost_per_orange = 0.3
+
+total_cost = oranges * cost_per_orange
+
+output = str(oranges) + " oranges costs £" + str(total_cost)
+
+print(output)
+```
+
+----
+
 #### Task:
-Rewrite `cat_food.py` to use string formatting.
+Rewrite `cat_food.py` to use string formatting instead of joining strings with `+`.
 
 An example of string formatting:
 ```
