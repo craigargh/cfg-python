@@ -211,7 +211,7 @@ print("the lord of the rings".title())
 
 What is the output for each one and why?
 
-One of them causes and exception. Read the exception message. What do you think it means?
+One of them causes an exception. Read the exception message. What do you think it means?
 
 ----
 
