@@ -511,3 +511,5 @@ The output should look something like:
 ``` command-line
 Fantastic 4 lasts 5940 seconds
 ```
+
+Use `raw_input()` to enter the film's name and it's length in minutes.
