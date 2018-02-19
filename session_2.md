@@ -58,7 +58,7 @@ print('Hello, {}'.format(name))
 
 ----
 
-``` bash
+``` command-line
 What is your name? Anita
 Hello, Anita
 ```
@@ -282,7 +282,7 @@ print(student_names[2])
 
 Outputs:
 
-``` bash
+``` command-line
 Helena
 ```
 
@@ -303,7 +303,7 @@ print(student_names[0])
 
 Outputs:
 
-``` bash
+``` command-line
 Diedre
 ```
 
@@ -331,7 +331,7 @@ for student_name in student_names:
 Output
 
 
-``` bash
+``` command-line
 Diedre
 Hank
 Helena
@@ -384,7 +384,7 @@ for number in range(5):
 
 Outputs
 
-``` bash
+``` command-line
 0
 1
 2
@@ -396,7 +396,7 @@ Outputs
 
 **Task:** Using a `for` loop, the `range()` function and the multiply operator, print this output:
 
-``` bash
+``` command-line
 o
 oo
 ooo
@@ -408,7 +408,9 @@ oooooooo
 ooooooooo
 ```
 
-**Extension:** The `reversed()` function reverses a list. Can you use it to flip the pattern above?
+**Extension 1:** Use `raw_input()` to set the number of lines output
+
+**Extension 2:** The `reversed()` function reverses a list. Can you use it to flip the pattern above?
 
 ----
 
@@ -427,9 +429,169 @@ for number in reversed(range(10)):
 ```
 ---
 
-### Maths operators and If Statements
+### Logical Operators
 
 ----
+
+**Logical Operators:** used to check if an expression is `True` or `False`
+
+----
+
+This code checks if the user has input `'Monday'` using the `==` operator
+
+``` python
+today = raw_input('What day is it? ')
+
+is_monday = today == 'Monday'
+
+print('Today is Monday: {}'.format(is_monday))
+```
+
+----
+
+Operators in Python
+
+Name | Python
+---|---
+Equal to | `==`
+Not equal | `!=`
+Greater than | `>`
+Less than | `<`
+Greater than or equal | `>=`
+Less than or equal | `<=`
+
+----
+
+This code checks if today is not Monday
+``` python
+today = raw_input('What day is it? ')
+
+is_not_monday = today != 'Monday'
+
+print('Today is not Monday: {}'.format(is_monday))
+```
+
+----
+
+**Task:** You have a budget of £10 and want to write a program to decide which burger restaurant to go to.
+
+1. Input the `price` of a burger using `raw_input()`
+1. Check whether the `price` is less than or equal (`<=`) `10.00`
+1. Print the result in the format below
+
+``` command-line
+Burger is within budget: True
+```
+
+**Hint:** remember to convert the input from a string to a decimal with `float()`
+
+----
+
+
+Answer
+
+``` python
+price = raw_input('How much is a burger? ')
+
+within_budget = float(price) <= 10.00
+
+print('Burger is within budget: {}'.format(within_budget))
+
+```
+
+----
+
+There are operators to combine multiple checks
+
+Python | What it does
+---|---
+and | both expressions are `True`
+or | at least one expression is `True`
+not | reverse the expression (`True` becomes `False` and vice-versa)
+
+----
+
+``` python
+today = raw_input('What day is it? ')
+raining = raw_input('Is it sunny? (y/n)')
+
+is_weekend = today == 'Saturday' or today == 'Sunday'
+is_raining = raining == 'y'
+
+is_beach_good_idea = is_weekend and not is_raining
+
+print('You should go to the beach: {}'.format(is_beach_good_idea))
+```
+----
+
+**Task:** Add code to your burger program to check whether the restaurant has a vegetarian option
+
+----
+
+``` python
+price = raw_input('How much is a burger? ')
+vegetarian = raw_input('Is there a vegetarian option? (y/n) ')
+
+within_budget = float(price) <= 10.00
+has_vegetarian = vegetarian == 'y'
+
+is_good_choice = within_budget and has_vegetarian
+
+print('Restaurant meets criteria: {}'.format(is_good_choice))
+```
+
+---
+
+### If Statements
+
+----
+
+**If statement:** used to run a block of code depending on whether a condition is `True` or `False`
+
+----
+
+``` python
+password = raw_input('password: ')
+
+if password == 'jumanji':
+    print('Success!')
+
+```
+
+----
+
+An `if` statement has the following:
+1. The `if` keyword
+1. A condition (logical operator expression)
+1. A colon
+1. Body (indented four spaces)
+
+----
+
+``` python
+
+today = raw_input('What day is it? ')
+raining = raw_input('Is it sunny? (y/n)')
+
+is_weekend = today == 'Saturday' or today == 'Sunday'
+is_raining = raining == 'y'
+
+is_beach_good_idea = is_weekend and not is_raining
+
+if is_beach_good_idea:
+    print('You sould go to the beach today!')
+
+if not is_beach_good_idea:
+    print('Don't go to the beach today')
+
+
+```
+
+----
+
+**Task:** Rewrite the output of your burger program to use if statements
+
+You should have one output when the restaurant is a good choice and one output for when the restaurant is not a good choice
 
 ---
 

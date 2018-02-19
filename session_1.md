@@ -431,6 +431,6 @@ Create a program that calculates the total number of seconds in a film.
 
 The output should look something like:
 
-``` bash
+``` command-line
 Fantastic 4 lasts 5940 seconds
 ```
