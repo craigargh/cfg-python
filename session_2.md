@@ -546,7 +546,7 @@ print('Restaurant meets criteria: {}'.format(is_good_choice))
 
 ----
 
-**If statement:** used to run a block of code depending on whether a condition is `True` or `False`
+**if statement:** used to run a block of code depending on whether a condition is `True` or `False`
 
 ----
 
@@ -592,6 +592,43 @@ if not is_beach_good_idea:
 **Task:** Rewrite the output of your burger program to use if statements
 
 You should have one output when the restaurant is a good choice and one output for when the restaurant is not a good choice
+
+----
+
+**else statement:** Used with an `if` statement and will run when the `if` condition is `False`
+
+
+----
+
+``` python
+password = raw_input('password: ')
+
+if password == 'jumanji':
+    print('Success!')
+else:
+    print('Fail!')
+
+```
+
+----
+
+``` python
+
+today = raw_input('What day is it? ')
+raining = raw_input('Is it sunny? (y/n)')
+
+is_weekend = today == 'Saturday' or today == 'Sunday'
+is_raining = raining == 'y'
+
+is_beach_good_idea = is_weekend and not is_raining
+
+if is_beach_good_idea:
+    print('You sould go to the beach today!')
+else:
+    print('Don't go to the beach today')
+
+
+```
 
 ---
 
