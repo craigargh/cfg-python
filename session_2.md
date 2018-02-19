@@ -36,32 +36,11 @@ Homework
 ---
 
 This session
-1. User input
 1. Functions
 1. Lists
 1. For loops
 1. Boolean operators
 1. If statements
-
----
-
-### User Input
-
-----
-
-In a new file called `my_name.py`
-
-``` python
-name = raw_input('What is you name? ')
-print('Hello, {}'.format(name))
-```
-
-----
-
-``` command-line
-What is your name? Anita
-Hello, Anita
-```
 
 ---
 
@@ -632,7 +611,16 @@ else:
 
 ---
 
-Recap
+### Recap
+
+----
+
+1. User input
+1. Functions
+1. Lists
+1. For loops
+1. Boolean operators
+1. If statements
 
 ---
 

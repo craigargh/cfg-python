@@ -32,6 +32,7 @@ This session
 1. Data types
 1. Maths operations
 1. Variables
+1. User input
 
 ---
 
@@ -385,6 +386,81 @@ output = '{} is {} years old'.format(user_name, age)
 print(output)
 ```
 
+----
+
+Answer:
+
+``` python
+cats = 10
+cans = 2
+
+total_cans = cats * cans
+
+output = "{} cats eat {} cans".format(cats, cans)
+print(output)
+
+
+```
+
+---
+
+### User Input
+
+----
+
+In a new file called `my_name.py`
+
+``` python
+name = raw_input('What is you name? ')
+print('Hello, {}'.format(name))
+```
+
+----
+
+``` command-line
+What is your name? Anita
+Hello, Anita
+```
+
+----
+
+Oranges with user input
+
+``` python
+oranges_string = raw_input('How many oranges do you want? ')
+
+oranges = int(oranges_string)
+cost_per_orange = 0.3
+
+total_cost = oranges * cost_per_orange
+
+output = str(oranges) + " oranges costs £" + str(total_cost)
+
+print(output)
+```
+
+----
+
+**Task:** Change `cat_food.py` so that the number of cats can be input when the program is run
+
+----
+
+Answer:
+
+``` python
+cats_string = raw_input('How many cats do you need to feed? ')
+
+cats = int(cats_string)
+cans = 2
+
+total_cans = cats * cans
+
+output = "{} cats eat {} cans".format(cats, cans)
+print(output)
+
+
+```
+
 ---
 
 ### Comments
@@ -421,6 +497,7 @@ print(output)
 1. Data types (Integers, Floats and Strings)
 1. Maths operations
 1. Variables
+1. User input
 
 
 ---
