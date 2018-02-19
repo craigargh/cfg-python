@@ -59,8 +59,8 @@ print('Hello, {}'.format(name))
 ----
 
 ``` bash
-What is your name? Craig
-Hello, Craig
+What is your name? Anita
+Hello, Anita
 ```
 
 ---
