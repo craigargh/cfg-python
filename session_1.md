@@ -291,8 +291,6 @@ print("costs " + str(total_cost))
 
 ```
 
-Note: oranges_1.py
-
 Outputs
 
 ```
