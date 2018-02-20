@@ -80,6 +80,8 @@ Add this to `hello.py`
 print('Hello, World!')
 ```
 
+Note: hello.py
+
 ----
 
 Run the program:
@@ -289,12 +291,16 @@ print("costs " + str(total_cost))
 
 ```
 
+Note: oranges_1.py
+
 Outputs
 
 ```
 12 oranges
 costs 3.6
 ```
+
+Note: oranges_1.py
 
 ----
 
@@ -322,6 +328,8 @@ print(output)
 
 ```
 
+Note: cats_1.py
+
 ----
 
 Extension answer:
@@ -338,6 +346,8 @@ print(msg)
 
 
 ```
+
+Note: cats_1_extension.py
 
 ---
 
@@ -357,6 +367,8 @@ output = "{} oranges costs £{}".format(oranges, total_cost)
 
 print(output)
 ```
+
+Note: oranges_2.py
 
 ----
 
@@ -402,6 +414,8 @@ print(output)
 
 ```
 
+Note: cats_3.py
+
 ---
 
 ### User Input
@@ -414,6 +428,8 @@ In a new file called `my_name.py`
 name = raw_input('What is you name? ')
 print('Hello, {}'.format(name))
 ```
+
+Note: my_name.py
 
 ----
 
@@ -434,10 +450,12 @@ cost_per_orange = 0.3
 
 total_cost = oranges * cost_per_orange
 
-output = str(oranges) + " oranges costs £" + str(total_cost)
+output = "{} oranges costs £{}".format(oranges, total_cost)
 
 print(output)
 ```
+
+Note: oranges_3.py
 
 ----
 
@@ -458,8 +476,9 @@ total_cans = cats * cans
 output = "{} cats eat {} cans".format(cats, cans)
 print(output)
 
-
 ```
+
+Note: cats_4.py
 
 ---
 
