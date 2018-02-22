@@ -6,3 +6,5 @@ Things to change:
 - API keys should be kept private
 - Use examples of import/pip before moving onto Flask
 - Reading/writing to files
+- Lists does not cover a lot of fundametal stuff (e.g. .append(), joining lists)
+- Dictionaries are never mentioned
