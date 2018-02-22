@@ -558,7 +558,7 @@ is_raining = raining == 'y'
 is_beach_good_idea = is_weekend and not is_raining
 
 if is_beach_good_idea:
-    print('You sould go to the beach today!')
+    print('You should go to the beach today!')
 
 if not is_beach_good_idea:
     print('Don't go to the beach today')
@@ -602,7 +602,7 @@ is_raining = raining == 'y'
 is_beach_good_idea = is_weekend and not is_raining
 
 if is_beach_good_idea:
-    print('You sould go to the beach today!')
+    print('You should go to the beach today!')
 else:
     print('Don't go to the beach today')
 

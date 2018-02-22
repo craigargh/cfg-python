@@ -272,7 +272,7 @@ A variable can be put anywhere that a data value can be used
 ``` python
 username = 'l33t_cat'
 
-print(user_name)
+print(username)
 
 ```
 
