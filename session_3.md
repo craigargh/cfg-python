@@ -258,9 +258,9 @@ def hello(name):
 
 In the web browser go to
 
-- [http://localhost:5000/hello/sailor/](http://localhost:5000/hello/kitty/)
+- [http://localhost:5000/hello/kitty/](http://localhost:5000/hello/kitty/)
 - [http://localhost:5000/hello/sailor/](http://localhost:5000/hello/sailor/)
-- [http://localhost:5000/hello/sailor/](http://localhost:5000/hello/friend/)
+- [http://localhost:5000/hello/friend/](http://localhost:5000/hello/friend/)
 
 Note: flask_dynamic_routing
 
