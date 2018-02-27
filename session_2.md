@@ -1,27 +1,4 @@
-Fill in the blanks:
-
-\_\_\_\_\_\_: a Python **data type** for **whole numbers**.
-
-\_\_\_\_\_\_: a Python **data type** for **decimal numbers**.
-
-\_\_\_\_\_\_: a Python data type for **text** and **characters**.
-
-\_\_\_\_\_\_: a reusable **label** for a piece of data in Python.
-
-
-*(5 mins)*
-
-----
-
-Answers:
-
-**Integer:** a Python **data type** for **whole numbers**.
-
-**Float:** a Python **data type** for **decimal numbers**.
-
-**String:** a Python data type for **text** and **characters**.
-
-**Variable:** a reusable **label** for a piece of data in Python.
+*Task:* Discuss your solution to the homework task with someone that you didn't work with last week
 
 ---
 
@@ -624,4 +601,4 @@ else:
 
 ---
 
-Homework
+**Homework:** 
