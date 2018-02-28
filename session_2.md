@@ -1,4 +1,4 @@
-*Task:* Discuss your solution to the homework task with someone that you didn't work with last week
+**Task:** Discuss your solution to the homework task with someone that you didn't work with last week
 
 ---
 
