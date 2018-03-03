@@ -1,4 +1,4 @@
-*Task:* Discuss your solution to the homework task with someone that you didn't work with last week
+**Task:** Discuss your solution to the homework task with someone that you didn't work with last week
 
 ---
 
@@ -30,7 +30,6 @@ This session
 ----
 
 ``` python
-
 def poem():
     print('Doubt thou the stars are fire;')
     print('Doubt that the sun doth move;')
@@ -54,7 +53,6 @@ All functions have
 We call a function to use it
 
 ``` python
-
 def poem():
     print('Doubt thou the stars are fire;')
     print('Doubt that the sun doth move;')
@@ -69,7 +67,6 @@ poem()
 Functions can be called many times
 
 ``` python
-
 def poem():
     print('Doubt thou the stars are fire;')
     print('Doubt that the sun doth move;')
@@ -98,7 +95,6 @@ Call the function three times to output the poem three times.
 Arguments go inside the brackets and are treated like variables
 
 ``` python
-
 def poem(thing_that_i_love):
     print('Doubt thou the stars are fire;')
     print('Doubt that the sun doth move;')
