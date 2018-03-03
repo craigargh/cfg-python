@@ -4,7 +4,7 @@ STARTER
 
 # Code First: Girls
 
-#### Python Session 2
+#### Python Session 3
 
 ---
 
