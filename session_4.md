@@ -89,7 +89,7 @@ Status Code | Name | Explanation
 
 ----
 
-**Task:** Get the *height* of the Pokemon and print the output
+**Task:** Get the *height* and *height* of the Pokemon and print the output
 
 Add `raw_input()` to choose which Pokemon you want information about
 
@@ -107,7 +107,9 @@ url = 'https://pokeapi.co/api/v2/pokemon/{}/'.format(pokemon_number)
 response = requests.get(url)
 pokemon = response.json()
 
+print(pokemon['name'])
 print(pokemon['height'])
+print(pokemon['weight'])
 ```
 
 Note: get_pokemon_height.py
