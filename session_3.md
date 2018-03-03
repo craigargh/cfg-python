@@ -326,4 +326,3 @@ DO NOT USE `raw_input()` WITH FLASK
 ### Flask: Forms
 
 ----
-
