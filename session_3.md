@@ -1,4 +1,4 @@
-**Task:** Discuss your solution to the homework task with someone that you didn't work with last week
+**Task:**
 
 ---
 
@@ -528,7 +528,123 @@ DO NOT USE `raw_input()` WITH FLASK
 
 ----
 
+Jinja is a template format for using HTML with Python
 
+Flask looks for Jinja templates in the `templates` folder
+
+----
+
+1. Create a Python file called `colours_html.py`
+
+1. Next to the file create a `templates` folder
+
+1. In the `templates` folder create a file called `colour.html`
+
+----
+
+![](images/flask_templates.png)
+
+----
+
+`colours_html.py`
+
+``` python
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+
+@app.route('/colour/')
+def show_colour():
+    return render_template('colour.html')
+
+
+app.run(debug=True)
+```
+
+----
+
+`colour.html`
+
+``` html
+<html>
+    <body>
+        <div style="color: red">
+            This text is red
+        </div>
+    </body>
+</html>
+```
+
+----
+
+![](images/red_html.png)
+
+
+----
+
+Similar to string formatting, Jinja templates have arguments
+
+``` html
+<html>
+    <body>
+        <div style="color: {{colour}}">
+            This text is {{colour}}
+        </div>
+    </body>
+</html>
+```
+
+----
+
+``` python
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+
+@app.route('/colour/<colour>/')
+def show_colour(colour):
+    return render_template('colour.html', colour=colour)
+
+
+app.run(debug=True)
+```
+
+----
+
+**Task:** Create a new html file called `size.html`. When I go to `localhost:5000/size/12/` it should show some text in that font size
+
+``` html
+<html>
+    <body>
+        <div style="font-size: {{size}}pt">
+            This text is {{size}}
+        </div>
+    </body>
+</html>
+```
+
+----
+
+Solution
+``` python
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+
+@app.route('/size/<size>/')
+def show_colour(size):
+    return render_template('size.html', size=size)
+
+
+app.run(debug=True)
+```
+
+----
+
+The course guide has an example of using if statements and css inside Jinja templates
 
 ---
 
