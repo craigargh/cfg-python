@@ -10,7 +10,7 @@
 
 Session 4 in the course guide
 
-Session 3 will be covered in Session 5
+Course guide content will be covered in Session 5
 
 ---
 
@@ -119,7 +119,13 @@ print('You should go to the beach: {}'.format(is_beach_good_idea))
 ```
 ----
 
-**Task:** Add code to your burger program to check whether the restaurant has a vegetarian option
+**Task:** Add code to your burger program to input whether the restaurant has a vegetarian option
+
+The output should say whether the cost is within budget **AND** has a vegetarian option
+
+``` command-line
+Restaurant meets criteria: True
+```
 
 ----
 
@@ -186,7 +192,17 @@ if not is_beach_good_idea:
 
 **Task:** Rewrite the output of your burger program to use if statements
 
-You should have one output when the restaurant is a good choice and one output for when the restaurant is not a good choice
+For example:
+
+``` command-line
+This restaurant is a great choice!
+```
+
+OR
+
+``` command-line
+Probably not a good idea
+```
 
 ----
 
@@ -247,6 +263,8 @@ turtle.right(90)
 
 turtle.done()
 ```
+
+**Tip:** Do not save this file as `turtle.py`
 
 Note: drawing_with_turtle.py
 
@@ -644,7 +662,7 @@ app.run(debug=True)
 
 ----
 
-The course guide has an example of using if statements and css inside Jinja templates
+The course guide has an example of using if statements, for loops and css inside Jinja templates
 
 ---
 
