@@ -708,6 +708,6 @@ Setup a Twitter account for next week
 
 ### Homework
 
-----
+[http://bit.ly/2D3vSLN](http://bit.ly/2D3vSLN)
 
 ----
