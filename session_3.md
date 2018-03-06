@@ -1,4 +1,10 @@
-**Task:**
+**Task:** Go to this url
+
+[http://bit.ly/2D4YuEx](http://bit.ly/2D4YuEx)
+
+Copy and fix the code with a partner
+
+
 
 ---
 
