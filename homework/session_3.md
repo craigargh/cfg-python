@@ -9,6 +9,32 @@ The program should:
 
 # Task 2
 
+Here is a list of food
+
+``` python
+foods = ['apple', 'cake', 'ham', 'pizza']
+```
+
+My favourite food is cake. Here is an if statement that checks whether an item is my favourite food:
+
+``` python
+if food == 'cake':
+    print('{} is my favourite'.format(food))
+else:
+    print('{} is not my favourite'.format(food))
+
+```
+
+By combining this if statement with a for loop, check each item in the list to output if it is my favourite food.
+
+The output should look like:
+``` command-line
+apple is not my favourite
+cake is my favourite
+ham is not my favourite
+pizza is not my favourite
+
+```
 
 
 # Task 3
