@@ -4,7 +4,7 @@
 
 Copy and fix the code with a partner
 
----
+----
 
 Solution
 ``` python
