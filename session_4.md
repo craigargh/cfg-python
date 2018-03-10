@@ -206,7 +206,7 @@ Go to [apps.twitter.com/](https://apps.twitter.com/) and log in
 
 ----
 
-On the Keys and Access Tokens tab, click the Generate Access Token button
+After creating the app, on the Keys and Access Tokens tab, click the Generate Access Token button
 
 ----
 The `tweepy` library is a quick way to use Twitter's API
