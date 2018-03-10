@@ -1,5 +1,7 @@
 STARTER
 
+Make sure you have a Twitter account
+
 ---
 
 # Code First: Girls
@@ -20,11 +22,82 @@ This session
 
 ----
 
-WRITE THIS
+**Dictionary:** Stores a colleciton of labelled items. Each item has a key and a value
+
+----
+
+``` python
+person = {
+    'name': 'Jessica',
+    'age': 23,
+    'height': 172
+}
+```
+
+----
+
+Values in a dictionary are accessed using their keys
+``` python
+person = {
+    'name': 'Jessica',
+    'age': 23,
+    'height': 172
+}
+
+print(person['name'])
+```
+
+----
+
+**Task:** Print the values of ``, `` and `` from the dictionary
+
+``` python
+person = {
+    'name': 'Jessica',
+    'age': 23,
+    'height': 172,
+    '': {
+
+    }
+}
+```
+
+**Extension:** Print the values of `` and `` from the inner dictionary
+
+----
+
+SOLUTION
+
+----
+
+Putting dictionaries inside a list is very common
+
+``` python
+peole = [
+    {'name': 'Jessica', 'age': 23},
+    {'name': 'Trisha':, 'age': 24},
+]
+
+for person in people:
+    print(person['name'])
+    print(person['age'])
+```
+
+----
+
+**Task:** Using a for loop, output the values `` of each dictionary in the list
+
+``` python
+fuits = [
+    {'name': 'apple', 'colour': 'red', 'price': 0.12},
+    {'name': 'banana', 'colour': 'yellow': 'price': 0.2},
+    {'name': 'pear', 'colour': 'green': 'price': 0.19},
+]
+```
 
 ---
 
-### APIs
+### APIs: Reading Stuff
 
 ----
 
@@ -114,3 +187,47 @@ print(pokemon['weight'])
 
 Note: get_pokemon_height.py
 
+---
+
+### APIs: Sending Stuff
+
+----
+
+
+Go to [apps.twitter.com/](https://apps.twitter.com/) and log in
+
+----
+
+![Create new app](/images/something.png)
+
+----
+
+![Twitter app settings](/images/twitter_app_settings.png)
+
+----
+
+On the Keys and Access Tokens tab, click the Generate Access Token button
+
+----
+
+``` command-line
+pip install tweepy
+```
+
+----
+
+``` python
+import tweepy
+
+consumer_key = 'XXXXX_XXXXX'
+consumer_secret = 'XXXXX_XXXXX'
+
+access_key = 'XXXXX_XXXXX'
+access_secret = 'XXXXX_XXXXX'
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_key, access_secret)
+
+api = tweepy.API(auth)
+api.update_status('This is a message sent from Python')
+```
