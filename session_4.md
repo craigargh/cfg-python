@@ -198,7 +198,7 @@ Go to [apps.twitter.com/](https://apps.twitter.com/) and log in
 
 ----
 
-![Create new app](/images/something.png)
+![Create new app](/images/twitter_api_new_app.png)
 
 ----
 
@@ -209,6 +209,7 @@ Go to [apps.twitter.com/](https://apps.twitter.com/) and log in
 On the Keys and Access Tokens tab, click the Generate Access Token button
 
 ----
+The `tweepy` library is a quick way to use Twitter's API
 
 ``` command-line
 pip install tweepy
@@ -219,11 +220,11 @@ pip install tweepy
 ``` python
 import tweepy
 
-consumer_key = 'XXXXX_XXXXX'
-consumer_secret = 'XXXXX_XXXXX'
+consumer_key = 'XXXX'
+consumer_secret = 'XXXX'
 
-access_key = 'XXXXX_XXXXX'
-access_secret = 'XXXXX_XXXXX'
+access_key = 'XXXX'
+access_secret = 'XXXX'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
@@ -231,3 +232,7 @@ auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
 api.update_status('This is a message sent from Python')
 ```
+
+----
+
+![Tweet](images/tweet.png)
