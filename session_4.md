@@ -49,15 +49,16 @@ print(person['name'])
 
 ----
 
-**Task:** Print the values of ``, `` and `` from the dictionary
+**Task:** Print the values of `name`, `post_code` and `street_number` from the dictionary
 
 ``` python
-person = {
-    'name': 'Jessica',
-    'age': 23,
-    'height': 172,
-    '': {
-
+place = {
+    'name': 'The Anchor',
+    'post_code',: 'E14 6HY'
+    'street_number': '54'
+    'location': {
+        'longitude': 127,
+        'latitude': 63,
     }
 }
 ```
@@ -66,7 +67,36 @@ person = {
 
 ----
 
-SOLUTION
+Solution
+
+``` python
+place = {
+    'name': 'The Anchor',
+    'post_code',: 'E14 6HY'
+    'street_number': '54'
+    'location': {
+        'longitude': 127,
+        'latitude': 63,
+    }
+}
+
+print(place['name'])
+print(place['post_code'])
+print(place['street_number'])
+```
+
+----
+
+``` python
+print(place['location']['longitude'])
+print(place['location']['latitude'])
+
+
+location = place['location']
+
+print(location['longitude'])
+print(location['latitude'])
+```
 
 ----
 
@@ -236,3 +266,24 @@ api.update_status('This is a message sent from Python')
 ----
 
 ![Tweet](images/tweet.png)
+
+
+---
+
+### Recap
+
+----
+
+This session
+1. Dictionary data type
+1. Web APIs
+1. Getting data with an API
+1. Posting data with an API
+
+---
+
+Homework
+
+Set up a Github account
+
+---
