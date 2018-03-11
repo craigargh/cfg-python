@@ -1,6 +1,6 @@
-STARTER
+**Task: ** [http://bit.ly/2HoY3HC](http://bit.ly/2HoY3HC)
 
-Make sure you have a Twitter account
+Also, make sure you have a Twitter account
 
 ----
 
