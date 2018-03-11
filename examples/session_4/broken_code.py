@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/dogs/')
 def get_dogs():
-    # This should return 'Sheep Dog, German Sherphed, Shiba Inu'
+    # This should return 'Sheep Dog, German Sherphed, Shiba Inu, '
     # However it only returns 'Sheep Dog, '
     # Change the code to correct the output
 
