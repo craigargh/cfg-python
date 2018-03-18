@@ -82,8 +82,8 @@ print(person['name'])
 ``` python
 place = {
     'name': 'The Anchor',
-    'post_code',: 'E14 6HY'
-    'street_number': '54'
+    'post_code': 'E14 6HY',
+    'street_number': '54',
     'location': {
         'longitude': 127,
         'latitude': 63,
@@ -100,8 +100,8 @@ Solution
 ``` python
 place = {
     'name': 'The Anchor',
-    'post_code',: 'E14 6HY'
-    'street_number': '54'
+    'post_code': 'E14 6HY',
+    'street_number': '54',
     'location': {
         'longitude': 127,
         'latitude': 63,
@@ -131,7 +131,7 @@ print(location['latitude'])
 Putting dictionaries inside a list is very common
 
 ``` python
-peole = [
+people = [
     {'name': 'Jessica', 'age': 23},
     {'name': 'Trisha':, 'age': 24},
 ]
@@ -143,10 +143,10 @@ for person in people:
 
 ----
 
-**Task:** Using a for loop, output the values `` of each dictionary in the list
+**Task:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
 
 ``` python
-fuits = [
+fruits = [
     {'name': 'apple', 'colour': 'red', 'price': 0.12},
     {'name': 'banana', 'colour': 'yellow': 'price': 0.2},
     {'name': 'pear', 'colour': 'green': 'price': 0.19},

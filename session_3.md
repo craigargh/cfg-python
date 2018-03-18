@@ -87,7 +87,7 @@ today = raw_input('What day is it? ')
 
 is_not_monday = today != 'Monday'
 
-print('Today is not Monday: {}'.format(is_monday))
+print('Today is not Monday: {}'.format(is_not_monday))
 ```
 
 ----
@@ -686,7 +686,43 @@ app.run(debug=True)
 
 ----
 
-The course guide has an example of using if statements, for loops and css inside Jinja templates
+You can use for loops to repeat blocks of HTML
+
+'''html
+<html>
+    <body>
+    <ul>
+    {% for fruit in fruits %}
+        <li>fruit</li>
+    {% endfor %}
+    </ul>
+    </body>
+</html>
+'''
+
+----
+
+``` python
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+
+@app.route('/size/<size>/')
+def show_fruits(size):
+    fruits = ['apple', 'banana', 'pear']
+
+    return render_template('fruit.html', fruits=fruits)
+
+
+app.run(debug=True)
+```
+
+----
+
+----
+
+The course guide has an example of using if statements and css inside Jinja templates
 
 ---
 
