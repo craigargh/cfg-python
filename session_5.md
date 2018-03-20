@@ -126,12 +126,7 @@ Git calls this a conflict
 
 ----
 
-WHAT A CONFLICT LOOKS LIKE
-
-
-----
-
-HOW TO FIX A CONFLICT IN PYCHARM
+![Git Conflict](gifs/git_conflict.gif)
 
 ----
 
