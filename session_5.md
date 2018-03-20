@@ -96,6 +96,16 @@ You can make changes to the code on your computer. You can then **commit** and *
 
 ----
 
+To avoid commiting certain files (e.g. PyCharm config), you add them to `.gitignore`
+
+Create a file called `.gitignore` in your project and add this:
+
+```
+.idea/
+venv/
+```
+----
+
 **Task:** Create a new text file called `<your_name>.txt`
 
 Commit and push it to the Git repository
