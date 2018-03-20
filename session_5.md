@@ -130,7 +130,7 @@ Git calls this a conflict
 
 ----
 
-Using Git with the command-line resources:
+Really good git resources:
 - https://try.github.io/
 - https://github.com/git-school/workshop-setup
 - https://www.youtube.com/watch?v=BCQHnlnPusY
