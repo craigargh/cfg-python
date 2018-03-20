@@ -88,7 +88,13 @@ Each commit has a commit message and a record of the code it changes.
 
 ----
 
-You can make changes to the code on your computer. You can then **commit** and **push** them from your computer to the central repository.
+You can make changes to the code on your computer. First you need to add a file to Git.
+
+You can then **commit** and **push** them from your computer to the central repository.
+
+----
+
+![Git Add](gifs/git_add.gif)
 
 ----
 
@@ -126,16 +132,11 @@ Git calls this a conflict
 
 ----
 
-WHAT A CONFLICT LOOKS LIKE
-
-
-----
-
-HOW TO FIX A CONFLICT IN PYCHARM
+![Git Conflict](gifs/git_conflict.gif)
 
 ----
 
-Using Git with the command-line resources:
+Really good git resources:
 - https://try.github.io/
 - https://github.com/git-school/workshop-setup
 - https://www.youtube.com/watch?v=BCQHnlnPusY
