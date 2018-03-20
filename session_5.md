@@ -106,14 +106,13 @@ When there are updates to the code you can **pull** these changes into the copy 
 
 ----
 
-STEPS TO PULL USING PYCHARM
+![git pull](gifs/git_pull.gif)
 
 ----
 
 Sometimes when two people work on the same file separately, there will be incompatible changes.
 
 Git calls this a conflict
-
 
 ----
 
@@ -129,6 +128,7 @@ HOW TO FIX A CONFLICT IN PYCHARM
 Using Git with the command-line resources:
 - https://try.github.io/
 - https://github.com/git-school/workshop-setup
+- https://www.youtube.com/watch?v=BCQHnlnPusY
 
 ---
 
