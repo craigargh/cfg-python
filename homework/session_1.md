@@ -2,17 +2,6 @@
 
 ## Question 1
 
-
-
-1. Run Python with files and shell
-1. Print
-1. Data types (Integers, Floats and Strings)
-1. Maths operations
-1. Variables
-1. User input
-
-## Question 2
-
 I have written the following Python program to work out how many pizza slices I need to buy for my friends.
 
 ```python
