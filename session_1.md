@@ -23,7 +23,7 @@ Course overview:
 
 ---
 
-Instructors
+Instructors 
 
 ---
 
@@ -33,6 +33,10 @@ This session
 1. Maths operations
 1. Variables
 1. User input
+
+---
+
+Slides are available at [https://github.com/craigargh/cfg-python](https://github.com/craigargh/cfg-python)
 
 ---
 
@@ -52,7 +56,6 @@ Python
 1. 3rd party libraries
  - Web
  - Data science
- - Astronomy
  - Machine learning
 1. Popular
 
@@ -110,17 +113,17 @@ The Python shell
 
 #### Task
 
-Type these lines into your **Python shell**
+Type these lines into your **Python shell** (don't type the `>>>`)
 
 ``` python
-5 - 6
-8 * 9
-6 / 2
-5 / 2
-5.0 / 2
-5 % 2
-2 * (10 + 3)
-2 ** 4
+>>> 5 - 6
+>>> 8 * 9
+>>> 6 / 2
+>>> 5 / 2
+>>> 5.0 / 2
+>>> 5 % 2
+>>> 2 * (10 + 3)
+>>> 2 ** 4
 ```
 
 What does each one do and what is its output?
