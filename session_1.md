@@ -1,6 +1,7 @@
-In pairs, discuss why you think programming is important
-
-*5 mins*
+PyCharm
+- Go to [www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/)
+- Download **Community** edition
+- Install with default options
 
 ---
 
@@ -37,17 +38,6 @@ This session
 ---
 
 Slides are available at [https://github.com/craigargh/cfg-python](https://github.com/craigargh/cfg-python)
-
----
-
-Session preparation
-
-----
-
-PyCharm
-- Go to [www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/)
-- Download **Community** edition
-- Install with default options
 
 ---
 
@@ -524,12 +514,4 @@ print(output)
 
 #### Homework
 
-Create a program that calculates the total number of seconds in a film.
-
-The output should look something like:
-
-``` command-line
-Fantastic 4 lasts 5940 seconds
-```
-
-Use `raw_input()` to enter the film's name and it's length in minutes.
+[https://github.com/craigargh/cfg-python/tree/master/homework/session_1.md](https://github.com/craigargh/cfg-python/tree/master/homework/session_1.md)
