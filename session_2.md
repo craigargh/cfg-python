@@ -105,9 +105,24 @@ poem('pancakes')
 
 ----
 
-**Task:** Change your poem function to use an argument to change its output
+**Task:** Modify your poem function to use an argument to set a single word in your poem.
 
-**Extension:** store the result of `raw_input()` in a variable and use that when you call your function
+**Extension:** Use the `raw_input()` with a variable. Use that variable for your function's argument.
+
+----
+
+```python
+
+```
+def poem(thing_that_i_love):
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love {}.'.format(thing_that_i_love))
+
+
+poem("Python")
+```
 
 ----
 
@@ -139,7 +154,7 @@ def poem(thing_that_i_love, author, title):
     print('by {}'.format(author))
 
 
-poem('hamburgers', 'Hamburgler', 'I love hamburgers')
+poem('hamburgers', 'Hamburgler', 'A Poem About Hamburgers')
 ```
 
 ----
