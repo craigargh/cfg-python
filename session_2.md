@@ -187,7 +187,7 @@ def circle_area():  # add the radius argument inside the brackets
     # return area here
 
 
-area =  # call the function with a number here
+area =  circle_area(10)
 
 print(area)
 
@@ -386,7 +386,16 @@ for number in range(10):
     print('o' * number)
 ```
 
-Extension
+Extension 1
+
+```python
+repeat = int(raw_input('How many repeats? '))
+
+for number in range(repeats):
+    print('o' * number)
+```
+
+Extension 2
 
 ``` python
 for number in reversed(range(10)):
