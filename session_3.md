@@ -688,7 +688,7 @@ app.run(debug=True)
 
 You can use for loops to repeat blocks of HTML
 
-'''html
+```html
 <html>
     <body>
     <ul>
@@ -698,7 +698,7 @@ You can use for loops to repeat blocks of HTML
     </ul>
     </body>
 </html>
-'''
+```
 
 ----
 
