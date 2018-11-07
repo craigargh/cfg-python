@@ -132,12 +132,12 @@ not | reverse the expression (`True` becomes `False` and vice-versa)
 
 ``` python
 today = raw_input('What day is it? ')
-raining = raw_input('Is it sunny? (y/n)')
+sunny = raw_input('Is it sunny? (y/n)')
 
 is_weekend = today == 'Saturday' or today == 'Sunday'
-is_raining = raining == 'y'
+is_sunny = sunny == 'y'
 
-is_beach_good_idea = is_weekend and not is_raining
+is_beach_good_idea = is_weekend and is_sunny
 
 print('You should go to the beach: {}'.format(is_beach_good_idea))
 ```
@@ -194,22 +194,17 @@ An `if` statement has the following:
 ----
 
 ``` python
+name = raw_input("What is your name? ")
+password = raw_input("What is your password? ")
 
-today = raw_input('What day is it? ')
-raining = raw_input('Is it sunny? (y/n)')
+is_admin = name == 'admin'
+is_password_correct = password == 'dinosaurs'
 
-is_weekend = today == 'Saturday' or today == 'Sunday'
-is_raining = raining == 'y'
+if is_admin and is_password_correct:
+    print('Welcome')
 
-is_beach_good_idea = is_weekend and not is_raining
-
-if is_beach_good_idea:
-    print('You should go to the beach today!')
-
-if not is_beach_good_idea:
-    print('Don't go to the beach today')
-
-
+if not is_admin or not is_password_correct:
+    print('Go away')
 ```
 
 ----
