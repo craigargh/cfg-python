@@ -1,4 +1,4 @@
-# Session 3 in More Depth
+# Logical Operators and If Statements in More Depth
 
 
 
@@ -283,6 +283,23 @@ Choose a comparator to decide how you want to compare my `friends_rating` to `th
 
 Make sure you output the result with a sentence.
 
+#### Checking Something is in a List
+
+Our final stop on our tour of comparators is a special one. It's the `in` comparator.
+
+This one is special in that it can check whether one value is in a list of other values. 
+
+```python
+
+```
+
+It can also check if one string is inside another string.
+
+
+```python
+
+```
+
 ### Comparing Multiple Things and Checking Opposites
 
 
@@ -404,6 +421,6 @@ Now all of my code is in a function it can be reused. It also makes the other pa
 ### Truthy and Falsey
 
 
-## Problem Solving
+## Problem Solving Exercises
 
 
