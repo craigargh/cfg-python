@@ -223,14 +223,179 @@ You'll also need to add output in this format `The omlette is safe to eat: True`
 
 #### Let's Cover Greater, Less and Their Variants at the Same Time
 
+Our tour of comparators is realy picking up pace. We're looping back on ourselves and covering the `greater than or equal to` operator and its close siblings.
+
+The `greater than or equal to` comparator has a twin. Their parents named it `less than or equal to` and it looks like `<=`. Like all other comparators it compares two values. In this case is checks whether the value on the left is smaller than or the same as the one on the right.
+
+I'm like average levels of tall. It's only a problem when I'm visiting really small houses and Hobbiton.
+
+Let's see if I can fit through a door:
+
+```python
+my_height = 182.1
+door_height = 190
+
+can_fit = my_height <= door_height
+
+print('I can walk through this door: {}'.format(can_fit))
+```
+
+The output is `I can walk through this door: True`. Nice. No bending over for me.
+
+Oh, wait, here comes another door!
+
+```python
+my_height = 182.1
+door_height = 182.0
+
+can_fit = my_height <= door_height
+
+print('I can walk through this door: {}'.format(can_fit))
+```
+
+This time the output is `I can walk through this door: False`. Ouch.
+
+There are another two comparators that you need to know about. The `less than` and `greater than` comparators. They're just like the `less than or equal to` and `greater than or equal to` comparators, but they won't return `True` if the compared values are the same.
+
+The `greater than` operator looks like this `>` and the `less than` operator looks like this `<`. You might get direction of these mixed up from time to time. I found it was helpful to image that the symbol is a shark's mouth and it wants to eat the larger number.
+
+The final thing to note about the four comparators (`>`, `<`, `>=` and `<=`) is that they work with number data types (integers and floats), but don't work with strings. It's easy for Python to know if `5` is greater than `6`, but not so much for Python to know if `"Air freshener"` is greater than `"Tomato"`. 
 
 
 ##### Exercise: How good was the party out of 5 stars
 
+I've spent months preparing for this dinner party. I've counted numerous eggs multiple times, poured my blood sweat and tears into chairs that are definitely safe to sit on (don't let anyone tell you otherwise), and invested in a new spoon.
+
+When the night is over I want to check that all my hard work paid off. That's right, I'm going to send my friends a survey.
+
+Like all good reviews my dinner party will be rated using 1 to 5 stars. After I've received the ratings I will be heart broken if I receive 3 or less stars.
+
+It's your job to write the program that will tell me that my friends rated my party more than 3 stars. Here you go. I've started it for you.
+
+```python
+friends_rating = 4
+three_stars = 3
+
+good_rating = 
+```
+
+Choose a comparator to decide how you want to compare my `friends_rating` to `three_stars`. Remember a score of `3` or lower is bad, whereas a score of more than `3` is good.
+
+Make sure you output the result with a sentence.
+
+### Comparing Multiple Things and Checking Opposites
 
 
-### Joining the Comparisons Together
 
+#### and
+
+
+
+Comparison | Result
+---|---
+`True and True` | `True`
+`True and False` | `False`
+`False and True` | `False`
+`False and False` | `False`
+
+#### or
+
+I imagine you're trying to enter an ice-cream shop to buy some delicious and well priced ice-cream. The shop has two doors. To get into the shop only one of the doors needs to be open. If either of the doors or both of the doors is open you can get in.
+
+```python
+door_1_open = True
+door_2_open = False
+
+is_ice_cream_shop_open = door_1_open or door_2_open
+
+print('I can have some ice-cream {}'.format(is_ice_cream_shop_open))
+```
+
+Because door 1 is open, I can get ice-cream. Even though the second door is locked, I can still get into the building for an icey treat.
+
+
+Comparison | Result
+---|---
+`True or True` | `True`
+`True or False` | `True`
+`False or True` | `True`
+`False or False` | `False`
+
+
+#### not
+
+
+
+### Putting It All Together
+
+Comparators and logical operators
+
+
+#### Keeping It Clean
+
+
+When using operators and comparators together you can actually do a lot in a single line:
+
+```python
+
+valid_qty =  flowers_ordered > 0 and flowers_ordered <= 100 and (flowers_ordered % 5 == 0 or flowers_ordered % 12 == 0)
+print('Valid qty of flowers {}'.format(valid_qty))
+```
+
+Any idea what the result of that is? No? Me neither. I just wrote that and it takes me quite a while to understand what's going on.
+
+This is bad.
+
+As you progress on your journey as a developer you'll find that being able to work quickly and without simple mistakes is linked to how readable the code is. 
+
+Breaking down complex statements like the one above into smaller parts is one way to make the code more descriptive and easier to understand:
+
+```python
+flowers_ordered = 12
+
+at_least_one_flower =  flowers_ordered > 0
+no_more_than_100_flowers = flowers_ordered <= 100
+
+in_multiples_of_five = flowers_ordered % 5 == 0
+in_multiples_of_twelve = flowers_ordered % 12 == 0
+
+not_too_many_or_few = at_least_one_flower and no_more_than_100_flowers
+correct_multiples = in_multiples_of_five or in_multiples_of_twelve
+
+valid_qty = not_too_many_or_few and correct_multiples
+
+print('Valid qty of flowers {}'.format(valid_qty))
+```
+
+Now each part has a named variable that clearly explains the purpose of each comparison before they're all joined into the final result. 
+
+I've managed to work out that I need to buy more than `0` flowers and `100` or less flowers. I also need to buy the flowers in multiples of `5` or `12`. 
+
+Although there are more lines, the purpose of each one is clearly explained by the name of the variable. Although it takes me slightly longer to read, it is much faster for me to understand what it is doing and why it is doing it.
+
+We can take this one step further by putting it all together in a function. 
+
+```python
+
+def valid_qty(flowers_ordered):
+    at_least_one_flower =  flowers_ordered > 0
+    no_more_than_100_flowers = flowers_ordered <= 100
+
+    in_multiples_of_five = flowers_ordered % 5 == 0
+    in_multiples_of_twelve = flowers_ordered % 12 == 0
+
+    not_too_many_or_few = at_least_one_flower and no_more_than_100_flowers
+    correct_multiples = in_multiples_of_five or in_multiples_of_twelve
+
+    return not_too_many_or_few and correct_multiples
+
+
+is_valid = valid_qty(12)
+
+print('Valid qty of flowers {}'.format(is_valid))
+```
+
+Now all of my code is in a function it can be reused. It also makes the other parts of my code cleaner as the function name explains what it does concisely. It also means the other parts of the code don't need to know how to do this calculation, so the complexity can be kept hidden away from the code that uses the function.
 
 
 ## If Statements
