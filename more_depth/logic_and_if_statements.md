@@ -1,10 +1,10 @@
-# Logical Operators and If Statements in More Depth
+# Logic and If Statements in More Depth
 
 
 
-## Logical Operators
+## Comparisons
 
-Logical operators are all about checking if something is `True` or `False`. This has many applications in programming. Is the password a user has just entered correct? Is there enough money in my account to buy a pair of socks? Can I fit another jelly bean in my mouth?
+Conmparisons are all about checking if something is `True` or `False`. This has many applications in programming. Is the password a user has just entered correct? Is there enough money in my account to buy a pair of socks? Can I fit another jelly bean in my mouth?
 
 Notice how all of the above examples are yes or no questions. In Python you can represent a yes as a `True` value and a no as a `False` value.
 
@@ -289,16 +289,48 @@ Our final stop on our tour of comparators is a special one. It's the `in` compar
 
 This one is special in that it can check whether one value is in a list of other values. 
 
-```python
-
-```
-
-It can also check if one string is inside another string.
-
+I have a bunch of things in my backpack. I need to check if I have a pen in there:
 
 ```python
+backpack = ['laptop', 'keys', 'pen', 'notebook']
 
+has_pen = 'pen' in backpack
+
+print('I have a pen: {}'.format(has_pen))
 ```
+
+There is a value `'pen'` in the `backpack` list, so the output is `I have a pen: True`
+
+The `in` comparator can also check if one string is inside another string. 
+
+I want to check if a name has the letter `'e'` in it:
+
+```python
+name = 'Francis Bacon'
+
+has_e = 'e' in name
+
+print('{} has an e in it: {}'.format(name, has_e))
+```
+
+The output for this is `Francis Bacon has an e in it: False`. There is no letter `'e'` in `'Francis Bacon`' so the result is `False `.
+
+##### Exercise: Guest List
+
+My dinner parties have become very popular. People line up around the block to eat my omlette and use one of my six forks.
+
+To restrict who comes into my dinner parties, I need to use a guest list.
+
+I've started writing a program to check the guest list:
+
+```python
+name = raw_input('Please enter name: ')
+
+guests = ['Sarah', 'Joan', 'James', 'Niamh']
+
+on_the_list = 
+```
+You need to finish the guest list program. Using the value in the `name` variable, check that it's in the `guests` list. Put the result in `on_the_list` variable and print the result.
 
 ### Comparing Multiple Things and Checking Opposites
 
