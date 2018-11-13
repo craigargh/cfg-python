@@ -60,7 +60,7 @@ place = {
 }
 ```
 
-**Extension:** Print the values of `` and `` from the inner dictionary
+**Extension:** Print the values of `longitude` and `latitude` from the inner dictionary
 
 ----
 
@@ -124,6 +124,28 @@ fruits = [
 
 ---
 
+### Python Pip
+
+----
+
+**pip:** A package manager used to install libraries that other people have written
+
+----
+
+pip is used via the terminal (command-line)
+
+![Opening the terminal](gifs/terminal.gif)
+
+----
+
+Install the `requests` library using pip
+
+``` command-line
+pip install requests
+```
+
+---
+
 ### APIs: Reading Stuff
 
 ----
@@ -146,13 +168,6 @@ You can retrieve information about different Pokemon from urls
 
 ----
 
-Install the `requests` library using pip
-
-``` command-line
-pip install requests
-```
-
-----
 
 Save this as `get_pokemon.py`
 
@@ -216,70 +231,16 @@ Note: get_pokemon_height.py
 
 ---
 
-### APIs: Sending Stuff
+### Flask: Routing
 
 ----
 
+**Flask:** A Python library for building programs that run on the web, including websites and APIs.
 
-Go to [apps.twitter.com/](https://apps.twitter.com/) and log in
-
-----
-
-![Create new app](/images/twitter_api_new_app.png)
+Flask manages things like routing and rendering templates so that you can focus on writing your application's code.
 
 ----
 
-![Twitter app settings](/images/twitter_app_settings.png)
-
-----
-
-After creating the app, on the Keys and Access Tokens tab, click the Generate Access Token button
-
-----
-The `tweepy` library is a quick way to use Twitter's API
-
-``` command-line
-pip install tweepy
-```
-
-----
-
-``` python
-import tweepy
-
-consumer_key = 'XXXX'
-consumer_secret = 'XXXX'
-
-access_key = 'XXXX'
-access_secret = 'XXXX'
-
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_key, access_secret)
-
-api = tweepy.API(auth)
-api.update_status('This is a message sent from Python')
-```
-
-----
-
-![Tweet](images/tweet.png)
-
-
----
-
-### Python Pip
-
-----
-
-**pip:** A package manager used to install libraries that other people have written
-
-----
-
-pip is used via the terminal (command-line)
-
-![Opening the terminal](gifs/terminal.gif)
-
-----
 
 We want to install Flask using pip using the Terminal
 
@@ -294,16 +255,6 @@ Flask is installed along with the packages it depends on
 ``` command-line
 Successfully installed Jinja2-2.10 MarkupSafe-1.0 Werkzeug-0.14.1 click-6.7 flask-0.12.2 itsdangerous-0.24
 ```
-
----
-
-### Flask: Routing
-
-----
-
-**Flask:** A Python library for building programs that run on the web, including websites and APIs.
-
-Flask manages things like routing and rendering templates so that you can focus on writing your application's code.
 
 ----
 
@@ -334,7 +285,9 @@ After running the Python program, you can view the website at [localhost:5000](h
 
 The `@app.route()` code is a **function decorator**.
 
-It tells Flask to run a function when someone goes to a specific url route
+It tells Flask to run a function when someone goes to a specific url
+
+The function should return a either `string` or a `response` (covered later)
 
 ----
 
@@ -643,13 +596,6 @@ Covered in the course guide "Getting user generated data from your webpage to Py
 
 ---
 
-### Recap
-
----
-
-Setup a Twitter account for next week
-
----
 
 
 ### Recap
@@ -660,8 +606,9 @@ This session
 1. Dictionary data type
 1. Web APIs
 1. Getting data with an API
-1. Posting data with an API
+1. Flask
+1. Jinja
 
 ---
 
-
+PROJECTS

@@ -30,9 +30,9 @@ NameError: name 'true' is not defined
 
 ### Checking Stuff is True or False
 
-A lot of the time you won't know if something is `True` or `False` until you check it. This is where logical operators come in. 
+A lot of the time you won't know if something is `True` or `False` until you check it. This is where comparators come in. 
 
-In their most basic form logical operators will compare one value with another, then will return `True` or `False` depending on the result.
+In their most basic form comparators will compare one value with another, then will return `True` or `False` depending on the result.
 
 Say I have five forks and six friends, and I want to know if I have enough forks to throw a dinner party. To do this I can check whether the number of forks I have is greater than my number of friends:
 
@@ -155,11 +155,11 @@ You'll need to check `chairs_made` is equal to `desired_chairs`. The result of t
 
 #### Checking Things Are Not the Same (!=)
 
-The `equal to` operator has an inverse version of itself, known as the `not equal to` operator. 
+The `equal to` comparator has an inverse version of itself, known as the `not equal to` comparator. 
 
 In short the `not equal to` will evaluate to `False` is the two values being compared are the same. It will be `True` when the two compared values are different. This is the opposite of the `equal to` comparator.
 
-The `equal to` and `not equal to` operators can be used to compare strings and number (integers and floats) data types.
+The `equal to` and `not equal to` comparators can be used to compare strings and number (integers and floats) data types.
 
 Here I'm checking that the film my friend wants to watch is not The Shape of Water (I can't watch it with other people, I cry too much at the end)
 
@@ -223,7 +223,7 @@ You'll also need to add output in this format `The omlette is safe to eat: True`
 
 #### Let's Cover Greater, Less and Their Variants at the Same Time
 
-Our tour of comparators is realy picking up pace. We're looping back on ourselves and covering the `greater than or equal to` operator and its close siblings.
+Our tour of comparators is realy picking up pace. We're looping back on ourselves and covering the `greater than or equal to` comparator and its close siblings.
 
 The `greater than or equal to` comparator has a twin. Their parents named it `less than or equal to` and it looks like `<=`. Like all other comparators it compares two values. In this case is checks whether the value on the left is smaller than or the same as the one on the right.
 
@@ -257,7 +257,7 @@ This time the output is `I can walk through this door: False`. Ouch.
 
 There are another two comparators that you need to know about. The `less than` and `greater than` comparators. They're just like the `less than or equal to` and `greater than or equal to` comparators, but they won't return `True` if the compared values are the same.
 
-The `greater than` operator looks like this `>` and the `less than` operator looks like this `<`. You might get direction of these mixed up from time to time. I found it was helpful to image that the symbol is a shark's mouth and it wants to eat the larger number.
+The `greater than` comparator looks like this `>` and the `less than` comparator looks like this `<`. You might get direction of these mixed up from time to time. I found it was helpful to image that the symbol is a shark's mouth and it wants to eat the larger number.
 
 The final thing to note about the four comparators (`>`, `<`, `>=` and `<=`) is that they work with number data types (integers and floats), but don't work with strings. It's easy for Python to know if `5` is greater than `6`, but not so much for Python to know if `"Air freshener"` is greater than `"Tomato"`. 
 
@@ -334,20 +334,80 @@ You need to finish the guest list program. Using the value in the `name` variabl
 
 ### Comparing Multiple Things and Checking Opposites
 
+Comparators compare two things. Is one thing greater than another? Are these two values the same?
 
+Quite often you'll want to combine multiple comparisons together. For example a friend asks me if I want to see a film at the cinema next Wednesday. I would want to check two things: Am I available on Wednesday; and have I already seen the film?
+
+Boolean operators in Python allow you to join multiple Boolean values together and return a single result. The `and` and `or` Boolean operators are used for this, which you will see in a moment.
+
+There is also a third Boolean operator, `not`, which behaves differently. It swaps `True` for `False` values and `False` for `True` values. You'll also see this in just a moment. 
 
 #### and
 
+The `and` operator is used to combine two Boolean values into a single result. 
 
+I'm about to board a plane flight for my holidays. To get on the flight I need two things: my ticket and my passport. 
 
-Comparison | Result
+```python
+has_ticket = True
+has_passport = True
+
+can_fly = has_ticket and has_passport
+
+print('Can fly: {}'.format(can_fly))
+```
+
+The `and` operator goes between two values. In the above example it goes between `has_ticket` and `has_passport`. The result of this depends on whether or not both values are `True`. 
+
+In this example both `has_ticket` and `has_passport` are `True` so the result will be `True`. If either or both of these values were `False` then the result would be `False`.
+
+For example if I forgot my passport then I wouldn't be allowed on my flight:
+
+```python
+has_ticket = True
+has_passport = False
+
+can_fly = has_ticket and has_passport
+
+print('Can fly: {}'.format(can_fly))
+```
+
+As the `has_passport` value is `False` the result is `Can fly: False`. Even though the `has_ticket` value is `True`, when it is combined with the `False` value of `has_passport`, the final result is `False`.
+
+You can see the different results when you combine different Boolean values with the `and` operator in the following table:
+
+Values | Result
 ---|---
 `True and True` | `True`
 `True and False` | `False`
 `False and True` | `False`
 `False and False` | `False`
 
+The comparators that you covered earlier all return a boolean value, which means they can be combined with Boolean operators.
+
+I want to ride a roller coaster while I'm on holiday. The roller coaster has a minimum height check and costs $2.50 per ride. I need to check I'm tall enough and have enough money.
+
+```python
+cost = 2.5
+min_height = 152
+
+my_money = 3.22
+my_height = 182
+
+can_ride = my_money >= cost and my_height >= min_height
+
+print('Can ride the roller coaster: {}'.format(can_ride))
+```
+When Python runs this line `can_ride = my_money >= cost and my_height >= min_height` it does it in several steps. First it runs `my_money >= cost`, which in this case has the values `3.22 >= 2.5`. The result is `True`.
+
+Next it checks `my_height >= min_height`. Substituting in the values you can see `182 >= 152` also results in `True`.
+
+Python then sees that there is an `and` operator and know check if both results are `True`. In this case both results are `True` so the final result is `True`, which is assigned to the `can_ride` variable.
+
+
 #### or
+
+The `or` Boolean operator combines two Boolean values into a single result. If at least one of the Boolean values is `True` then the final result will be `True`. The only time that the result will be `False` is if both values are `False`.
 
 I imagine you're trying to enter an ice-cream shop to buy some delicious and well priced ice-cream. The shop has two doors. To get into the shop only one of the doors needs to be open. If either of the doors or both of the doors is open you can get in.
 
@@ -360,24 +420,38 @@ is_ice_cream_shop_open = door_1_open or door_2_open
 print('I can have some ice-cream {}'.format(is_ice_cream_shop_open))
 ```
 
-Because door 1 is open, I can get ice-cream. Even though the second door is locked, I can still get into the building for an icey treat.
+Because door 1 is open, I can get ice-cream. Even though the second door is locked, I can still get into the building for an icy treat.
+
+You can see the result of the different combinations for Boolean values with the `or` operator in the following table:
 
 
-Comparison | Result
+Values | Result
 ---|---
 `True or True` | `True`
 `True or False` | `True`
 `False or True` | `True`
 `False or False` | `False`
 
+Just like with the `and` operator, the `or` operator can be used with comparators.
+
+To summarise, the `and` Boolean operator will result in `True` only if **all** values are `True`. The `or` operator will result in `True` if *any* values are `True`.
 
 #### not
 
 
 
+Values | Result
+---|---
+`not True` | `False`
+`not False` | `True`
+
+
+
 ### Putting It All Together
 
-Comparators and logical operators
+Comparators and Boolean operators
+
+Brackets
 
 
 #### Keeping It Clean
