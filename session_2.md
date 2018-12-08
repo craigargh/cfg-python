@@ -112,14 +112,11 @@ poem('pancakes')
 ----
 
 ```python
-
-```
 def poem(thing_that_i_love):
     print('Doubt thou the stars are fire;')
     print('Doubt that the sun doth move;')
     print('Doubt truth to be a liar;')
     print('But never doubt I love {}.'.format(thing_that_i_love))
-
 
 poem("Python")
 ```

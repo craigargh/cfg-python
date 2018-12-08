@@ -102,7 +102,7 @@ Putting dictionaries inside a list is very common
 ``` python
 people = [
     {'name': 'Jessica', 'age': 23},
-    {'name': 'Trisha':, 'age': 24},
+    {'name': 'Trisha', 'age': 24},
 ]
 
 for person in people:
