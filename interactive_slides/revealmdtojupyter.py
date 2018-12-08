@@ -161,7 +161,8 @@ def jupyter_metadata():
                 "version": "3.6.7"
             },
             "livereveal": {
-                "scroll": True
+                "scroll": True,
+                "footer": '<img src="images/logo.png" style="margin-left: 20px; margin-bottom: 20px;"/>'
             },
         },
         "nbformat": 4,
