@@ -9,3 +9,4 @@ To do:
 1. Add project template for Flask/Jinja
 1. Add project example API tutorials
 1. Style reveal-md to match RISE/Jupyter styling
+1. Standardise code output to be on the next slide and not shown in Jupyter/RISE
