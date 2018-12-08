@@ -170,9 +170,9 @@ def jupyter_metadata():
     }
 
 
-convert_file('../session_1.md')
-convert_file('../session_2.md')
-convert_file('../session_3.md')
-convert_file('../session_4.md')
-convert_file('../session_5.md')
-convert_file('../session_6.md')
+convert_file('session_1.md')
+convert_file('session_2.md')
+convert_file('session_3.md')
+convert_file('session_4.md')
+convert_file('session_5.md')
+convert_file('session_6.md')
