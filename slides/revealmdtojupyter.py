@@ -24,7 +24,7 @@ def convert_file(file_path):
 
     file_name = file_path.split('/')[-1].split('.')[0]
 
-    with open(f'{file_name}.ipynb', 'w') as jupyter_file:
+    with open(f'jupyter_{file_name}.ipynb', 'w') as jupyter_file:
         json.dump(jupyter_output, jupyter_file, indent=2)
 
 
