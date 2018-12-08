@@ -10,3 +10,7 @@ h1, h2, h3 {
 .text_cell {
     font-family: 'Questrial', sans-serif !important;
 }
+
+.chalkboard-button {
+    display: none !important;
+}

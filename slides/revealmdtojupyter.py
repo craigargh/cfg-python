@@ -164,6 +164,9 @@ def jupyter_metadata():
                 "scroll": True,
                 "footer": '<img src="images/logo.png" style="margin-left: 20px; margin-bottom: 20px;"/>'
             },
+            "rise": {
+                "enable_chalkboard": True
+            }
         },
         "nbformat": 4,
         "nbformat_minor": 2
