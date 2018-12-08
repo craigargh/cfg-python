@@ -25,7 +25,7 @@ def convert_file(file_path):
     file_name = file_path.split('/')[-1].split('.')[0]
 
     with open(f'{file_name}.ipynb', 'w') as jupyter_file:
-        json.dump(jupyter_output, jupyter_file)
+        json.dump(jupyter_output, jupyter_file, indent=2)
 
 
 def parse_reveal_md_file(file_content):
@@ -87,7 +87,7 @@ def categorise_lines(sub_slide):
         if '``` python' in line or '```python' in line:
             block_type = 'code'
             continue
-        elif '```' in line:
+        elif '```' in line and block_type == 'code':
             block_type = 'markdown'
             continue
         elif line[:5] == 'Note:':
@@ -159,7 +159,10 @@ def jupyter_metadata():
                 "nbconvert_exporter": "python",
                 "pygments_lexer": "ipython3",
                 "version": "3.6.7"
-            }
+            },
+            "livereveal": {
+                "scroll": True
+            },
         },
         "nbformat": 4,
         "nbformat_minor": 2

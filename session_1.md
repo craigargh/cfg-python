@@ -484,7 +484,7 @@ Note: cats_4.py
 
 Comments in Python start with a `#`
 
-```
+``` python
 # A program to calculate the cost of some oranges
 
 oranges = 12
