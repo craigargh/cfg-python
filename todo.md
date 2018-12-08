@@ -10,3 +10,5 @@ To do:
 1. Add project example API tutorials
 1. Style reveal-md to match RISE/Jupyter styling
 1. Standardise code output to be on the next slide and not shown in Jupyter/RISE
+1. Check animated gif size on slides
+1. Mention that instructors will set 5 mini-goals by the end of the first project session for each team
