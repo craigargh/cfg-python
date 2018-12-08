@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 
-h1, h2, h3 {
+.reveal h1, .reveal h2, .reveal h3 {
     color: #c6213f !important;
     font-family: 'Arimo', sans-serif !important;
     text-transform: uppercase !important;
 }
 
-.text_cell {
+.reveal .text_cell {
     font-family: 'Questrial', sans-serif !important;
 }
 
-.chalkboard-button {
+.reveal .chalkboard-button {
     display: none !important;
 }
