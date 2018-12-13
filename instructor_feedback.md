@@ -8,3 +8,16 @@ Things to change:
 - Reading/writing to files
 - Lists does not cover a lot of fundametal stuff (e.g. .append(), joining lists)
 - Dictionaries are never mentioned
+- Need more frequent and smaller exercises
+- Homework that reflects/reinforces what was learned in the session
+- Separate instructions to use command-line if they want to learn
+- Extension exercises when students make faster progress 
+- Guidance and useful resources (e.g. API tutorials) for projects
+- Data analysis
+- Windows, Mac and Linux
+
+Slides
+Homework
+Course Guide
+
+Write a proposal

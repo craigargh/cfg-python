@@ -14,3 +14,7 @@
 .reveal .chalkboard-button {
     display: none !important;
 }
+
+.reveal .progress span {
+	background: #c6213f !important;
+}

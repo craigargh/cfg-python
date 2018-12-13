@@ -162,6 +162,7 @@ def jupyter_metadata():
             },
             "livereveal": {
                 "scroll": True,
+                "progress": True,
                 "footer": '<img src="images/logo.png" style="margin-left: 20px; margin-bottom: 20px;"/>'
             },
             "rise": {
