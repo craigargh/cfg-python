@@ -107,7 +107,7 @@ poem('pancakes')
 
 **Task:** Modify your poem function to use an argument to set a single word in your poem.
 
-**Extension:** Use the `raw_input()` with a variable. Use that variable for your function's argument.
+**Extension:** Use the `input()` with a variable. Use that variable for your function's argument.
 
 ----
 
@@ -131,7 +131,7 @@ def poem(thing_that_i_love):
     print('But never doubt I love {}.'.format(thing_that_i_love))
 
 
-thing = raw_input('Enter something that you love: ')
+thing = input('Enter something that you love: ')
 poem(thing)
 ```
 
@@ -370,7 +370,7 @@ oooooooo
 ooooooooo
 ```
 
-**Extension 1:** Use `raw_input()` to set the number of lines output
+**Extension 1:** Use `input()` to set the number of lines output
 
 **Extension 2:** The `reversed()` function reverses a list. Can you use it to flip the pattern above?
 
@@ -386,7 +386,7 @@ for number in range(10):
 Extension 1
 
 ```python
-repeat = int(raw_input('How many repeats? '))
+repeat = int(input('How many repeats? '))
 
 for number in range(repeats):
     print('o' * number)

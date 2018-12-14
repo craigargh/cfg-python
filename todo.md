@@ -1,6 +1,5 @@
 To do:
 1. Write proposal for Code First: Girls
-1. Change code examples to Python 3
 1. Add setup instructions for students
 1. Update README for Jupyter/RISE slides
 1. Change slide structure to match new course guide

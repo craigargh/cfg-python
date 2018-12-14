@@ -56,7 +56,7 @@ This session:
 This code checks if the user has input `'Monday'` using the `==` operator
 
 ``` python
-today = raw_input('What day is it? ')
+today = input('What day is it? ')
 
 is_monday = today == 'Monday'
 
@@ -80,7 +80,7 @@ Less than or equal | `<=`
 
 This code checks if today is not Monday
 ``` python
-today = raw_input('What day is it? ')
+today = input('What day is it? ')
 
 is_not_monday = today != 'Monday'
 
@@ -91,7 +91,7 @@ print('Today is not Monday: {}'.format(is_not_monday))
 
 **Task:** You have a budget of £10 and want to write a program to decide which burger restaurant to go to.
 
-1. Input the `price` of a burger using `raw_input()`
+1. Input the `price` of a burger using `input()`
 1. Check whether the `price` is less than or equal (`<=`) `10.00`
 1. Print the result in the format below
 
@@ -107,7 +107,7 @@ Burger is within budget: True
 Answer
 
 ``` python
-price = raw_input('How much is a burger? ')
+price = input('How much is a burger? ')
 
 within_budget = float(price) <= 10.00
 
@@ -128,8 +128,8 @@ not | reverse the expression (`True` becomes `False` and vice-versa)
 ----
 
 ``` python
-today = raw_input('What day is it? ')
-sunny = raw_input('Is it sunny? (y/n)')
+today = input('What day is it? ')
+sunny = input('Is it sunny? (y/n)')
 
 is_weekend = today == 'Saturday' or today == 'Sunday'
 is_sunny = sunny == 'y'
@@ -151,8 +151,8 @@ Restaurant meets criteria: True
 ----
 
 ``` python
-price = raw_input('How much is a burger? ')
-vegetarian = raw_input('Is there a vegetarian option? (y/n) ')
+price = input('How much is a burger? ')
+vegetarian = input('Is there a vegetarian option? (y/n) ')
 
 within_budget = float(price) <= 10.00
 has_vegetarian = vegetarian == 'y'
@@ -173,7 +173,7 @@ print('Restaurant meets criteria: {}'.format(is_good_choice))
 ----
 
 ``` python
-password = raw_input('password: ')
+password = input('password: ')
 
 if password == 'jumanji':
     print('Success!')
@@ -191,8 +191,8 @@ An `if` statement has the following:
 ----
 
 ``` python
-name = raw_input("What is your name? ")
-password = raw_input("What is your password? ")
+name = input("What is your name? ")
+password = input("What is your password? ")
 
 is_admin = name == 'admin'
 is_password_correct = password == 'dinosaurs'
@@ -228,7 +228,7 @@ Probably not a good idea
 ----
 
 ``` python
-password = raw_input('password: ')
+password = input('password: ')
 
 if password == 'jumanji':
     print('Success!')
@@ -241,8 +241,8 @@ else:
 
 ``` python
 
-today = raw_input('What day is it? ')
-raining = raw_input('Is it sunny? (y/n)')
+today = input('What day is it? ')
+raining = input('Is it sunny? (y/n)')
 
 is_weekend = today == 'Saturday' or today == 'Sunday'
 is_raining = raining == 'y'

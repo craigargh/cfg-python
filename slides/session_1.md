@@ -416,7 +416,7 @@ Note: cats_3.py
 In a new file called `my_name.py`
 
 ``` python
-name = raw_input('What is you name? ')
+name = input('What is you name? ')
 print('Hello, {}'.format(name))
 ```
 
@@ -434,7 +434,7 @@ Hello, Anita
 Oranges with user input
 
 ``` python
-oranges_string = raw_input('How many oranges do you want? ')
+oranges_string = input('How many oranges do you want? ')
 
 oranges = int(oranges_string)
 cost_per_orange = 0.3
@@ -457,7 +457,7 @@ Note: oranges_3.py
 Answer:
 
 ``` python
-cats_string = raw_input('How many cats do you need to feed? ')
+cats_string = input('How many cats do you need to feed? ')
 
 cats = int(cats_string)
 cans = 2

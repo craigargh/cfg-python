@@ -222,7 +222,7 @@ Status Code | Name | Explanation
 
 **Task:** Get the *height* and *weight* of the Pokemon and print the output
 
-Add `raw_input()` to choose which Pokemon you want information about
+Add `input()` to choose which Pokemon you want information about
 
 ----
 
@@ -231,7 +231,7 @@ Solution
 ``` python
 import requests
 
-pokemon_number = raw_input("What is the Pokemon's ID? ")
+pokemon_number = input("What is the Pokemon's ID? ")
 
 url = 'https://pokeapi.co/api/v2/pokemon/{}/'.format(pokemon_number)
 
@@ -439,7 +439,7 @@ Note: flask_circle.py
 
 ----
 
-DO NOT USE `raw_input()` WITH FLASK
+DO NOT USE `input()` WITH FLASK
 
 
 ---
