@@ -1,16 +1,29 @@
 # Course Outline
 
+Pedagogy:
+- Problem solving
+- Scaffolding
+- Differenation
+
 For weeks 1-5, each session has:
 - Slides 
-- Exercise solutions
 - Course guide
   - More in-depth explanations
   - Common problems
+  - Extras not covered in sessions
 - Optional homework (session 1-4)
+- Exercise solutions
+
+Session 6-8:
+- Projects planning tips
+- Useful Python libraries and APIs
+- Further resources (e.g. blogs, podcasts, online courses, conferences with bursaries)
 
 ## Course Content 
 
 ### Session 1
+
+Introduces how to understand error messages
 
 1. Running Python with files and shell
 1. Data-types (Integers, Floats and Strings)
@@ -20,6 +33,8 @@ For weeks 1-5, each session has:
 1. User input
 
 ### Session 2
+
+Introduce problem solving - essential to introduce early on
 
 1. Importing other libraries
 1. Problem solving with Turtle

@@ -41,6 +41,7 @@ To do:
   - Session 7 
   - Session 8
 1. Update README for Jupyter/RISE slides
+1. Number all course guide exercises so they can be referenced in the slides
 1. Make sure each exercise in the course guide says whether to use the shell or a file
 1. Standardise code output to be on the next slide and not shown in Jupyter/RISE
 1. Check animated gif size on slides
