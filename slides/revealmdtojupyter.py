@@ -15,6 +15,7 @@ def convert_file(file_path):
     cells = [
         generate_cell(slide.source, slide.cell_type, slide.slide_type)
         for slide in parsed_file
+        if slide.source.strip() != ''
     ]
 
     jupyter_output = {
@@ -163,6 +164,7 @@ def jupyter_metadata():
             "livereveal": {
                 "scroll": True,
                 "progress": True,
+                "start_slideshow_at": "selected",
                 "footer": '<img src="images/logo.png" style="margin-left: 20px; margin-bottom: 20px;"/>'
             },
             "rise": {

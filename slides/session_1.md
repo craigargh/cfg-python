@@ -1,7 +1,6 @@
-PyCharm
-- Go to [www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/)
-- Download **Community** edition
-- Install with default options
+Make sure that you have installed:
+1. Python 3.7 (www.python.org/downloads/)
+1. PyCharm Community Edition (www.jetbrains.com/pycharm/download/)
 
 ---
 
@@ -9,7 +8,7 @@ PyCharm
 
 #### Python Session 1
 
----
+----
 
 Course overview:
 
@@ -22,32 +21,66 @@ Course overview:
 1. Group project
 1. Group presentations
 
----
+----
 
-Instructors 
+Instructor Introductions
 
----
+----
 
-This session
+This session:
 1. Run Python with files and shell
 1. Data types
 1. Maths operations
+1. Understanding Error Messages
 1. Variables
 1. User input
 
----
+----
+
+Put a coloured Post-It note on the back of your laptop monitor during exercises:
+- Red/pink: I need instructor support
+- Green: I do not need instructor support
+
+----
+
+PyCharm
+
+[EXPLAIN WHY WE'RE USING PYCHARM]
+
+----
 
 Slides are available at [https://github.com/craigargh/cfg-python](https://github.com/craigargh/cfg-python)
 
 ---
 
-Python
+### Why Python?
+
+----
+
+[WRITE DEFINITIONS]
+
+**Program:** 
+
+**Programming Language:**
+
+----
+
+[EXPAND EACH OF THESE INTO A SLIDE EACH]
+
+Python:
 1. Designed to be clean and readable
 1. 3rd party libraries
  - Web
  - Data science
  - Machine learning
 1. Popular
+1. Open Source
+
+----
+
+PyCon - Annual conferences held in different countries
+
+Scholarships for under-represented groups
 
 ---
 
@@ -55,41 +88,67 @@ Python
 
 ----
 
-Create a new project
+Create a new project called `cfg_python`
 
 ![create new PyCharm project](gifs/pycharm_new.gif)
 
 ----
 
-Create a new file
+Create a new Python file called `hello` (`.py` is added automatically)
 
 ![create new PyCharm file](gifs/pycharm_new_file.gif)
 
 ----
 
-Add this to `hello.py`
+Add this code to `hello.py`
 
-``` python
+```python
 print('Hello, World!')
 ```
 
-Note: hello.py
-
 ----
 
-Run the program:
+Run the program
 
 ![run the Python program](gifs/pycharm_run.gif)
 
+----
+
+🎉 Congratulations! 🎉 
+
+You've just run your first Python program
+
 ---
+
 
 ### Numbers and Operators in Python
 
 ----
 
-The Python shell
+**Integer:** a Python **data type** for **whole numbers**. For example `5`, `-99` and `1048` are all integers.
+
+**Float:** a Python **data type** for **decimal numbers**. For example `5.6`, `9.0` and `-67.1001` are all floats.
+
+----
+
+There are two main ways to write and run Python programs:
+1. With files 
+1. On the Python shell (also called console)
+
+----
+
+Python files:
+- `.py` file extension
+- Runs all lines from top-to-bottom
+- Only shows output when using `print()`
+- Can be re-run
+
+----
+
+The Python shell:
 
 - Each line starts with `>>>`
+- Runs one line at a time
 - Interactive
 - Immediate output
 - Exploration
@@ -101,24 +160,63 @@ The Python shell
 
 ----
 
-#### Task
+**Task:** Type these lines into your **Python shell**:
 
-Type these lines into your **Python shell** (don't type the `>>>`)
-
-``` python
->>> 5 - 6
->>> 8 * 9
->>> 6 / 2
->>> 5 / 2
->>> 5.0 / 2
->>> 5 % 2
->>> 2 * (10 + 3)
->>> 2 ** 4
+```python
+5 - 6
+8 * 9
+6 / 2
+5 / 2
+5.0 / 2
+5 % 2
+2 * (10 + 3)
+2 ** 4
 ```
 
 What does each one do and what is its output?
 
 Are there any outputs you didn't expect?
+
+----
+Subtraction:
+```python
+5 - 6
+```
+
+Multiplication:
+```python
+8 * 9
+```
+
+Division:
+```python
+6 / 2
+```
+
+Division (different behaviour in Python 2):
+```python
+5 / 2
+```
+
+Float division:
+```python
+5.0 / 2
+```
+
+Modulo (remainder):
+```python
+5 % 2
+```
+
+Brackets:
+```python
+2 * (10 + 3)
+```
+
+Exponent (x to the power of y)
+```python
+2 ** 4
+```
 
 ----
 
@@ -129,12 +227,6 @@ Operator types
 * `/`: division
 * `**`: exponent
 * `%`: modulo (remainder)
-
-----
-
-**Integer:** a Python **data type** for **whole numbers**. For example `5`, `-99` and `1048` are all integers.
-
-**Float:** a Python **data type** for **decimal numbers**. For example `5.6`, `9.0` and `-67.1001` are all floats.
 
 ---
 
@@ -153,16 +245,19 @@ Strings must be written between a pair of single or double speech marks
  `'...'` or `"..."`
 
 
-``` python
+```python
 "This is a string"
+```
+
+```python
 'This is also a string'
 ```
 
 ----
 Forgetting the speech marks
 
-``` python
->>> hello
+```python
+hello
 ```
 
 Will cause this exception
@@ -177,37 +272,69 @@ NameError: name 'hello' is not defined
 To fix it add speech marks
 
 
-``` python
->>> "hello"
-```
-
-Now outputs
-
-```
-'hello'
+```python
+"hello"
 ```
 
 ----
-#### Task
+
+The `*` and `+` operators work on strings as well as integers.
+
+Let's investigate what they do
+
+----
+**Task:**
 
 In your **Python shell** type each of these
 
-``` python
-print("Cat")
-print("Cat" + " videos")
+```python
+"Cat"
+"Cat" + " videos"
 
-print("Cat" * 3)
-print("Cat" + 3)
+"Cat" * 3
+"Cat" + 3
 
-print("Cat".upper())
-print("Cat".lower())
+"Cat".upper()
+"Cat".lower()
 
-print("the lord of the rings".title())
+"the lord of the rings".title()
 ```
 
 What is the output for each one and why?
 
 One of them causes an exception. Read the exception message. What do you think it means?
+
+----
+
+Results:
+
+```python
+"Cat"
+```
+
+```python
+"Cat" + " videos"
+```
+
+```python
+"Cat" * 3
+```
+
+```python
+"Cat" + 3
+```
+
+```python
+"Cat".upper()
+```
+
+```python
+"Cat".lower()
+```
+
+```python
+"the lord of the rings".title()
+```
 
 ----
 
@@ -221,7 +348,7 @@ One of them causes an exception. Read the exception message. What do you think i
 
 This exception is caused when trying to join a string value with an integer value
 
-``` python
+```python
 >>> print("Cat" + 3)
 
 Traceback (most recent call last):
@@ -233,7 +360,7 @@ TypeError: cannot concatenate 'str' and 'int' objects
 
 Putting a number in `str()` converts it to a string
 
-``` python
+```python
 >>> print("Cat" + str(3))
 Cat3
 ```
@@ -253,45 +380,43 @@ Creating (assigning) a variable has three parts:
 1. An equals sign `=`
 1. The data value it references
 
-``` python
+```python
 username = 'l33t_cat'
 age = 23
 ```
 
 ----
 
+Values and variables are interchangeable
+
 A variable can be put anywhere that a data value can be used
 
-``` python
-username = 'l33t_cat'
+```python
+print('spaghetti')
+```
 
-print(username)
+
+```python
+food = 'spaghetti'
+print(food)
 
 ```
 
 ----
 
-Variables can be reused
+Variables can be reused. This program calculates the cost of 12 oranges. 
 
-``` python
+```python
 oranges = 12
-cost_per_orange = 0.3
+cost_per_orange = 0.5
 
 total_cost = oranges * cost_per_orange
 
 print(str(oranges) + " oranges")
 print("costs " + str(total_cost))
-
 ```
 
-Outputs
-
-```
-12 oranges
-costs 3.6
-```
-
-Note: oranges_1.py
+The `oranges` variable is used twice in the program
 
 ----
 
@@ -307,7 +432,7 @@ Your will need:
 
 An example answer:
 
-``` python
+```python
 cats = 10
 cans = 2
 
@@ -315,17 +440,13 @@ total_cans = cats * cans
 
 output = str(cats) + " cats eat " + str(total_cans) + " cans"
 print(output)
-
-
 ```
-
-Note: cats_1.py
 
 ----
 
 Extension answer:
 
-``` python
+```python
 cats = 10
 cans = 2
 days = 7
@@ -334,11 +455,7 @@ total_cans = cats * cans * days
 
 msg = str(cats) + " cats eat " + str(total_cans) + " cans in " + str(days) + " days"
 print(msg)
-
-
 ```
-
-Note: cats_1_extension.py
 
 ---
 
@@ -348,9 +465,9 @@ Note: cats_1_extension.py
 
 Python strings have a method (`.format()`) that substitutes placeholders `{}` for values
 
-``` python
+```python
 oranges = 12
-cost_per_orange = 0.3
+cost_per_orange = 0.5
 
 total_cost = oranges * cost_per_orange
 
@@ -359,14 +476,13 @@ output = "{} oranges costs £{}".format(oranges, total_cost)
 print(output)
 ```
 
-Note: oranges_2.py
-
 ----
 
-This could have been written as
-``` python
+This could have been written as:
+
+```python
 oranges = 12
-cost_per_orange = 0.3
+cost_per_orange = 0.5
 
 total_cost = oranges * cost_per_orange
 
@@ -377,8 +493,7 @@ print(output)
 
 ----
 
-#### Task:
-Rewrite `cat_food.py` to use string formatting instead of joining strings with `+`.
+**Task:** Rewrite `cat_food.py` to use string formatting instead of joining strings with `+`.
 
 An example of string formatting:
 ```
@@ -393,7 +508,7 @@ print(output)
 
 Answer:
 
-``` python
+```python
 cats = 10
 cans = 2
 
@@ -401,11 +516,7 @@ total_cans = cats * cans
 
 output = "{} cats eat {} cans".format(cats, total_cans)
 print(output)
-
-
 ```
-
-Note: cats_3.py
 
 ---
 
@@ -413,31 +524,31 @@ Note: cats_3.py
 
 ----
 
-In a new file called `my_name.py`
+The `input()` function allows you to input data after the program has started running
 
-``` python
-name = input('What is you name? ')
-print('Hello, {}'.format(name))
-```
-
-Note: my_name.py
 
 ----
 
-``` command-line
-What is your name? Anita
-Hello, Anita
+[GIF OF USING input()]
+
+----
+
+In a new file called `my_name.py`
+
+```python
+name = input('What is you name? ')
+print('Hello, {}'.format(name))
 ```
 
 ----
 
 Oranges with user input
 
-``` python
+```python
 oranges_string = input('How many oranges do you want? ')
 
 oranges = int(oranges_string)
-cost_per_orange = 0.3
+cost_per_orange = 0.5
 
 total_cost = oranges * cost_per_orange
 
@@ -445,8 +556,6 @@ output = "{} oranges costs £{}".format(oranges, total_cost)
 
 print(output)
 ```
-
-Note: oranges_3.py
 
 ----
 
@@ -456,7 +565,7 @@ Note: oranges_3.py
 
 Answer:
 
-``` python
+```python
 cats_string = input('How many cats do you need to feed? ')
 
 cats = int(cats_string)
@@ -466,10 +575,7 @@ total_cans = cats * cans
 
 output = "{} cats eat {} cans".format(cats, total_cans)
 print(output)
-
 ```
-
-Note: cats_4.py
 
 ---
 
@@ -484,11 +590,11 @@ Note: cats_4.py
 
 Comments in Python start with a `#`
 
-``` python
+```python
 # A program to calculate the cost of some oranges
 
 oranges = 12
-cost_per_orange = 0.3
+cost_per_orange = 0.5
 
 total_cost = oranges * cost_per_orange
 
@@ -512,6 +618,6 @@ print(output)
 
 ---
 
-#### Homework
+**Homework:**
 
 [https://github.com/craigargh/cfg-python/tree/master/homework/session_1.md](https://github.com/craigargh/cfg-python/tree/master/homework/session_1.md)

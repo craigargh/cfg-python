@@ -12,7 +12,7 @@ For weeks 1-5, each session has:
 
 ### Session 1
 
-1. Running Python with field and shell
+1. Running Python with files and shell
 1. Data-types (Integers, Floats and Strings)
 1. Maths operations
 1. Understanding error messages

@@ -1,273 +1,247 @@
-**Task:** Discuss your solution to the homework task with someone that you didn't work with last week
+**Starter:** Discuss your homework with the person sitting next to you
 
 ---
 
-# Code First: Girls
+![Code First: Girls](images/logo_large.png)
 
 #### Python Session 2
 
----
+----
 
-Homework
-
----
-
-This session
-1. Functions
+This session:
+1. Importing libraries
+1. Problem solving with Turtle
+1. For Loops
 1. Lists
-1. For loops
 
 ---
 
-### Functions
+### Python  Libraries
 
 ----
 
-**Function:** A reusable block of code
+**Library:** Structured code that someone else has written that you can reuse in your programs
 
 ----
 
-``` python
-def poem():
-    print('Doubt thou the stars are fire;')
-    print('Doubt that the sun doth move;')
-    print('Doubt truth to be a liar;')
-    print('But never doubt I love cats.')
-
-
-```
-
-----
-
-All functions have
-1. a `def` operator
-1. a name
-1. brackets
-1. a colon
-1. body (indented 4 spaces)
-
-----
-
-We call a function to use it
-
-``` python
-def poem():
-    print('Doubt thou the stars are fire;')
-    print('Doubt that the sun doth move;')
-    print('Doubt truth to be a liar;')
-    print('But never doubt I love cats.')
-
-
-poem()
-```
-----
-
-Functions can be called many times
-
-``` python
-def poem():
-    print('Doubt thou the stars are fire;')
-    print('Doubt that the sun doth move;')
-    print('Doubt truth to be a liar;')
-    print('But never doubt I love cats.')
-
-
-poem()
-poem()
-poem()
-poem()
-
-```
-----
-
-**Task:** Using a function, write a poem (or copy one from the internet)
-
-Call the function three times to output the poem three times.
-
-----
-
-**Argument:** A parameter used to change the behaviour of a function
-
-----
-
-Arguments go inside the brackets and are treated like variables
-
-``` python
-def poem(thing_that_i_love):
-    print('Doubt thou the stars are fire;')
-    print('Doubt that the sun doth move;')
-    print('Doubt truth to be a liar;')
-    print('But never doubt I love {}.'.format(thing_that_i_love))
-
-
-poem('pancakes')
-```
-
-----
-
-**Task:** Modify your poem function to use an argument to set a single word in your poem.
-
-**Extension:** Use the `input()` with a variable. Use that variable for your function's argument.
-
-----
+Libraries are imported into your Python programs:
 
 ```python
-def poem(thing_that_i_love):
-    print('Doubt thou the stars are fire;')
-    print('Doubt that the sun doth move;')
-    print('Doubt truth to be a liar;')
-    print('But never doubt I love {}.'.format(thing_that_i_love))
+import turtle
+```
 
-poem("Python")
+Turtle is library for creating basic drawings.
+
+----
+
+After importing a library you can use the library's functions:
+
+```python
+import turtle
+
+turtle.forward(100)
+turtle.right(130)
+turtle.forward(100)
+
+turtle.done()
 ```
 
 ----
 
-``` python
-def poem(thing_that_i_love):
-    print('Doubt thou the stars are fire;')
-    print('Doubt that the sun doth move;')
-    print('Doubt truth to be a liar;')
-    print('But never doubt I love {}.'.format(thing_that_i_love))
+`turtle.forward(100)` moves the turtle forward by a number of pixels
 
+`turtle.right(130)` rotates the turtle by a number of degrees
 
-thing = input('Enter something that you love: ')
-poem(thing)
-```
+`turtle.done()` tells the turtle that you've finished giving it commands. Without this it will wait for new commands (if run from the shell) or disappear (if run from file).
 
 ----
 
-Functions can have multiple arguments seperated by commas
-
-``` python
-def poem(thing_that_i_love, author, title):
-    print(title)
-    print('')
-    print('Doubt thou the stars are fire;')
-    print('Doubt that the sun doth move;')
-    print('Doubt truth to be a liar;')
-    print('But never doubt I love {}.'.format(thing_that_i_love))
-    print('')
-    print('by {}'.format(author))
-
-
-poem('hamburgers', 'Hamburgler', 'A Poem About Hamburgers')
-```
-
-----
-
-Values can be returned from functions using the `return` operator
-
-``` python
-def add(num_1, num_2):
-    return num_1 + num_2
-
-my_height = 182
-friend_height = 160
-
-total_height = add(my_height, friend_height)
-
-print(total_height)
-```
-
-----
-
-**Task:** Complete the function to return the area of a circle
-
-
-
-Use the comments to help you
-
-``` python
-def circle_area():  # add the radius argument inside the brackets
-    area = 3.14 * (radius ** 2)
-    # return area here
-
-
-area =  circle_area(10)
-
-print(area)
-
-```
-
-----
-
-Answer
-
-``` python
-def circle_area(radius):
-    area = 3.14 * (radius ** 2)
-    return area
-
-area = circle_area(9)
-
-print(area)
-```
+The turtle's speed can be set with `turtle.speed(1)` for slow
 
 ---
 
-### Lists
+### Problem Solving (with Turtles)
 
 ----
 
-**List:** an ordered collection of values
+Let's make square together (file name `square.py`)
 
-----
+A square has **four** sides and an angle of **ninety** degrees:
 
-List are written inside square brackets and separated by commas
+```python
+import turtle
 
+turtle.forward(100)
+turtle.right(90)
 
-``` python
-lottery_numbers = [4, 8, 15, 16, 23, 42]
-```
+turtle.forward(100)
+turtle.right(90)
 
-``` python
-student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
-```
+turtle.forward(100)
+turtle.right(90)
 
-----
+turtle.forward(100)
+turtle.right(90)
 
-Lists can be made up of values of one or more data types
-
-``` python
-orchid_row = ['Magnoliopsida', 12, 3, 8, 9, 'white']
-```
-
-----
-List values can be accessed using their **index** in square brackets
-
-``` python
-student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
-
-print(student_names[2])
-```
-
-Outputs:
-
-``` command-line
-Helena
+turtle.done()
 ```
 
 ----
 
-List indexes start counting from 0
+Variables can be used to set the angles and size of your shapes:
 
-``` python
-student_names = [
-    'Diedre',    # index 0
-    'Hank',      # index 1
-    'Helena',    # index 2
-    'Salome'   # index 3
-]
+```python
+import turtle
 
-print(student_names[0])
+side_length = 200
+angle = 90
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.done()
 ```
 
-Outputs:
+Change `square.py` to use variables
 
-``` command-line
-Diedre
+----
+
+You can play around with filling the shape and colors:
+
+```python
+import turtle
+
+side_length = 200
+angle = 90
+
+turtle.fillcolor('red')
+turtle.begin_fill()
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.end_fill()
+
+turtle.done()
 ```
+
+----
+
+**Task:** Using `turtle` draw a triangle
+
+A triangle has **three** sides and an angle of **120** degrees
+
+**Extension:** Make the triangle blue
+
+----
+
+Answer:
+
+```python
+import turtle
+
+side_length = 100
+angle = 120
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.done()
+```
+
+----
+
+Extension Answer:
+
+```python
+import turtle
+
+side_length = 100
+angle = 120
+
+turtle.fillcolor('blue')
+turtle.begin_fill()
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+
+turtle.end_fill()
+
+turtle.done()
+```
+
+----
+
+**Task:** On the next three slides there are different shapes and drawings.
+
+Choose **some** of the drawings and try to recreate them with `turtle`.
+
+The drawings are grouped by difficulty. Try the level one if you need more support or the level three if you're ready for a challenge.
+
+----
+
+**Level One**
+
+Pentagon: **five** sides, angle of **one-hundred and eight**
+
+Octagon: **eight** sides, angle of **one-hundred and thirty five**
+
+Rectangle: **two** with length **two-hundred**, **two** sides with length **one-hundred**, angle of **ninety**
+
+----
+
+**Level Two**
+
+Right-angled triangle
+
+A parallelagram
+
+Three different sized Squares with different colours
+
+----
+
+**Level Three**
+
+A circle
+
+A star
+
+A cat
+
+----
+
+Solutions for each drawing can be found at [URL FOR SOLUTIONS]()
 
 ---
 
@@ -275,139 +249,21 @@ Diedre
 
 ----
 
-Lists ♥ `for` loops
-
-----
-
-**`for` loop:** allows you to repeat a block of code for every item in a list
-
-----
-
-``` python
-student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
-
-for student_name in student_names:
-    print(student_name)
-```
-
-Output
-
-
-``` command-line
-Diedre
-Hank
-Helena
-Salome
-```
-----
-
-A `for` loop has
-- A `for` operator
-- A variable name that stores each list value one at a time
-- An `in` operator
-- A list of values
-- A body (indented four spaces)
-
-----
-
-**Task:** I have a load of cats and need you to feed them when I'm on holiday
-
-Here is a list of all my cats
-
-``` python
-cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
-```
-
-To feed all my cats write a for loop that contains this code
-``` python
-print('I am feeding {}'.format(cat))
-print('{} says meow'.format(cat))
-```
-
-----
-
-``` python
-cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
-
-for cat in cats:
-    print('I am feeding {}'.format(cat))
-    print('{} says meow'.format(cat))
-
-```
-
-----
-
-The pre-written `range()` function returns a list of numbers
-
-``` python
-for number in range(5):
-    print(number)
-```
-
-Outputs
-
-``` command-line
-0
-1
-2
-3
-4
-```
-
-----
-
-**Task:** Using a `for` loop, the `range()` function and the multiply operator, print this output:
-
-``` command-line
-o
-oo
-ooo
-oooo
-ooooo
-oooooo
-ooooooo
-oooooooo
-ooooooooo
-```
-
-**Extension 1:** Use `input()` to set the number of lines output
-
-**Extension 2:** The `reversed()` function reverses a list. Can you use it to flip the pattern above?
-
-----
-
-Solution
-
-``` python
-for number in range(10):
-    print('o' * number)
-```
-
-Extension 1
-
-```python
-repeat = int(input('How many repeats? '))
-
-for number in range(repeats):
-    print('o' * number)
-```
-
-Extension 2
-
-``` python
-for number in reversed(range(10)):
-    print('o' * number)
-```
 ---
+
+### Lists
+
+----
+
+---
+
 
 ### Recap
 
 ----
 
-1. Functions
+This session:
+1. Importing libraries
+1. Problem solving with Turtle
+1. For Loops
 1. Lists
-1. For loops
-
----
-
-**Homework:**
