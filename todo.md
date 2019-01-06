@@ -6,6 +6,7 @@ To do:
   - Session 3 (Update boolean comparators section to resemble in-depth notes)
   - Session 4
   - Session 5
+  - Session 6
     - Mention that instructors will set 5 mini-goals by the end of the first project session for each team
 1. Write course guide
   - Course overview
