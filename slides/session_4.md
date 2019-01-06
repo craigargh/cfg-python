@@ -7,136 +7,9 @@
 ---
 
 This session
-1. Dictionary data type
-1. Web APIs
-1. Getting data with an API
-1. Flask
-1. Jinja
-
----
-
-### Dictionary Data Type
-
-----
-
-**Dictionary:** Stores a colleciton of labelled items. Each item has a key and a value
-
-----
-
-``` python
-person = {
-    'name': 'Jessica',
-    'age': 23,
-    'height': 172
-}
-```
-
-----
-
-Values in a dictionary are accessed using their keys
-``` python
-person = {
-    'name': 'Jessica',
-    'age': 23,
-    'height': 172
-}
-
-print(person['name'])
-```
-
-----
-
-**Task:** Print the values of `name`, `post_code` and `street_number` from the dictionary
-
-``` python
-place = {
-    'name': 'The Anchor',
-    'post_code': 'E14 6HY',
-    'street_number': '54',
-    'location': {
-        'longitude': 127,
-        'latitude': 63,
-    }
-}
-```
-
-**Extension:** Print the values of `longitude` and `latitude` from the inner dictionary
-
-----
-
-Solution
-
-``` python
-place = {
-    'name': 'The Anchor',
-    'post_code': 'E14 6HY',
-    'street_number': '54',
-    'location': {
-        'longitude': 127,
-        'latitude': 63,
-    }
-}
-
-print(place['name'])
-print(place['post_code'])
-print(place['street_number'])
-```
-
-----
-
-``` python
-print(place['location']['longitude'])
-print(place['location']['latitude'])
-
-
-location = place['location']
-
-print(location['longitude'])
-print(location['latitude'])
-```
-
-----
-
-Putting dictionaries inside a list is very common
-
-``` python
-people = [
-    {'name': 'Jessica', 'age': 23},
-    {'name': 'Trisha', 'age': 24},
-]
-
-for person in people:
-    print(person['name'])
-    print(person['age'])
-```
-
-----
-
-**Task:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
-
-``` python
-fruits = [
-    {'name': 'apple', 'colour': 'red', 'price': 0.12},
-    {'name': 'banana', 'colour': 'yellow', 'price': 0.2},
-    {'name': 'pear', 'colour': 'green', 'price': 0.19},
-]
-```
-
-----
-
-``` python
-fruits = [
-    {'name': 'apple', 'colour': 'red', 'price': 0.12},
-    {'name': 'banana', 'colour': 'yellow', 'price': 0.2},
-    {'name': 'pear', 'colour': 'green', 'price': 0.19},
-]
-
-for fruit in fruits:
-    print(fruit['name'])
-    print(fruit['colour'])
-    print(fruit['price'])
-```
-
+1. Pip package manager
+1. APIs
+1. Flask and Jinja
 
 ---
 
@@ -619,11 +492,9 @@ Covered in the course guide "Getting user generated data from your webpage to Py
 ----
 
 This session
-1. Dictionary data type
-1. Web APIs
+1. Pip package manager
 1. Getting data with an API
-1. Flask
-1. Jinja
+1. Flask and Jinja
 
 ---
 

@@ -1,28 +1,4 @@
-**Task:** Go to this url
-
-[http://bit.ly/2D4YuEx](http://bit.ly/2D4YuEx)
-
-Copy and fix the code with a partner
-
-----
-
-Solution
-``` python
-my_routine = ['wake up', 'shower', 'get the train', 'work', 'go home', 'eat', 'sleep']
-
-days = ['mon', 'tues', 'wed', 'thurs', 'fri']
-
-for day in days:
-    print('Today is {}'.format(day))
-    print('I need to')
-
-    for item in my_routine:
-        print(item)
-
-    print('')
-```
-
-
+**Starter:** ???
 
 ---
 
@@ -30,18 +6,14 @@ for day in days:
 
 #### Python Session 3
 
----
+----
 
-Session 4 in the course guide
-
-Course guide content will be covered in Session 5
-
----
 
 This session:
 1. Logical Operators
 1. If Statements
-1. Importing Python libraries
+1. Functions
+1. Dictionaries
 
 ---
 
@@ -259,94 +231,314 @@ else:
 
 ---
 
-### Python Libraries
+
+### Functions
+
+---- 
+
+**Function:** A reusable block of code
 
 ----
-
-**Library/Module:** A collection of reusable code that someone else has written
-
-Python has lots of useful built-in libraries and can be extended with third-party libraries.
-----
-
-
-The built-in turtle module is based on Logo and can be used to draw basic images
 
 ``` python
-import turtle
+def poem():
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love cats.')
 
-turtle.forward(100)
-turtle.right(90)
-
-turtle.done()
-```
-
-**Tip:** Do not save this file as `turtle.py`
-
-Note: drawing_with_turtle.py
-
-----
-
-![Basic turtle example](images/turtle.png)
-
-----
-
-Imported libraries can be mixed with other Python expressions
-
-``` python
-
-import turtle
-
-for index in range(4):
-    turtle.forward(100)
-    turtle.right(90)
-
-turtle.done()
 
 ```
 
-Note: square_turtle.py
+----
+
+All functions have
+1. a `def` operator
+1. a name
+1. brackets
+1. a colon
+1. body (indented 4 spaces)
 
 ----
 
-![A square drawn by a turtle](images/turtle_square.png)
-
-----
-
-The built-in random module is used to generate random numbers
+We call a function to use it
 
 ``` python
-from random import randint
+def poem():
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love cats.')
 
-number = randint(1, 10)
 
-print(number)
+poem()
+```
+----
+
+Functions can be called many times
+
+``` python
+def poem():
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love cats.')
+
+
+poem()
+poem()
+poem()
+poem()
+
+```
+----
+
+**Task:** Using a function, write a poem (or copy one from the internet)
+
+Call the function three times to output the poem three times.
+
+----
+
+**Argument:** A parameter used to change the behaviour of a function
+
+----
+
+Arguments go inside the brackets and are treated like variables
+
+``` python
+def poem(thing_that_i_love):
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love {}.'.format(thing_that_i_love))
+
+
+poem('pancakes')
 ```
 
-Tip: **Do not** save this program as `random.py`
+----
 
-Note: random_example.py
+**Task:** Modify your poem function to use an argument to set a single word in your poem.
+
+**Extension:** Use the `input()` with a variable. Use that variable for your function's argument.
 
 ----
 
-**Task:** Using the **turtle** and **random** modules, draw a spiral with a random angle
+```python
+def poem(thing_that_i_love):
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love {}.'.format(thing_that_i_love))
 
-![Random spiral](images/random_turtle.png)
+poem("Python")
+```
 
 ----
-
-Solution:
 
 ``` python
-import turtle
-from random import randint
+def poem(thing_that_i_love):
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love {}.'.format(thing_that_i_love))
 
-angle = randint(45, 90)
 
-for length in range(200):
-    turtle.forward(length)
-    turtle.right(angle)
+thing = input('Enter something that you love: ')
+poem(thing)
+```
 
-turtle.done()
+----
+
+Functions can have multiple arguments seperated by commas
+
+``` python
+def poem(thing_that_i_love, author, title):
+    print(title)
+    print('')
+    print('Doubt thou the stars are fire;')
+    print('Doubt that the sun doth move;')
+    print('Doubt truth to be a liar;')
+    print('But never doubt I love {}.'.format(thing_that_i_love))
+    print('')
+    print('by {}'.format(author))
+
+
+poem('hamburgers', 'Hamburgler', 'A Poem About Hamburgers')
+```
+
+----
+
+Values can be returned from functions using the `return` operator
+
+``` python
+def add(num_1, num_2):
+    return num_1 + num_2
+
+my_height = 182
+friend_height = 160
+
+total_height = add(my_height, friend_height)
+
+print(total_height)
+```
+
+----
+
+**Task:** Complete the function to return the area of a circle
+
+
+
+Use the comments to help you
+
+``` python
+def circle_area():  # add the radius argument inside the brackets
+    area = 3.14 * (radius ** 2)
+    # return area here
+
+
+area =  circle_area(10)
+
+print(area)
+
+```
+
+----
+
+Answer
+
+``` python
+def circle_area(radius):
+    area = 3.14 * (radius ** 2)
+    return area
+
+area = circle_area(9)
+
+print(area)
 ```
 ---
 
+### Dictionaries
+
+----
+
+**Dictionary:** Stores a colleciton of labelled items. Each item has a key and a value
+
+----
+
+``` python
+person = {
+    'name': 'Jessica',
+    'age': 23,
+    'height': 172
+}
+```
+
+----
+
+Values in a dictionary are accessed using their keys
+``` python
+person = {
+    'name': 'Jessica',
+    'age': 23,
+    'height': 172
+}
+
+print(person['name'])
+```
+
+----
+
+**Task:** Print the values of `name`, `post_code` and `street_number` from the dictionary
+
+``` python
+place = {
+    'name': 'The Anchor',
+    'post_code': 'E14 6HY',
+    'street_number': '54',
+    'location': {
+        'longitude': 127,
+        'latitude': 63,
+    }
+}
+```
+
+**Extension:** Print the values of `longitude` and `latitude` from the inner dictionary
+
+----
+
+Solution
+
+``` python
+place = {
+    'name': 'The Anchor',
+    'post_code': 'E14 6HY',
+    'street_number': '54',
+    'location': {
+        'longitude': 127,
+        'latitude': 63,
+    }
+}
+
+print(place['name'])
+print(place['post_code'])
+print(place['street_number'])
+```
+
+----
+
+``` python
+print(place['location']['longitude'])
+print(place['location']['latitude'])
+
+
+location = place['location']
+
+print(location['longitude'])
+print(location['latitude'])
+```
+
+----
+
+Putting dictionaries inside a list is very common
+
+``` python
+people = [
+    {'name': 'Jessica', 'age': 23},
+    {'name': 'Trisha', 'age': 24},
+]
+
+for person in people:
+    print(person['name'])
+    print(person['age'])
+```
+
+----
+
+**Task:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
+
+``` python
+fruits = [
+    {'name': 'apple', 'colour': 'red', 'price': 0.12},
+    {'name': 'banana', 'colour': 'yellow', 'price': 0.2},
+    {'name': 'pear', 'colour': 'green', 'price': 0.19},
+]
+```
+
+----
+
+``` python
+fruits = [
+    {'name': 'apple', 'colour': 'red', 'price': 0.12},
+    {'name': 'banana', 'colour': 'yellow', 'price': 0.2},
+    {'name': 'pear', 'colour': 'green', 'price': 0.19},
+]
+
+for fruit in fruits:
+    print(fruit['name'])
+    print(fruit['colour'])
+    print(fruit['price'])
+```
+
+
+---

@@ -1,11 +1,5 @@
 To do:
 1. Write proposal for Code First: Girls
-1. Change slide structure to match new course guide
-  - Session 1 (✓)
-  - Session 2 (~)
-  - Session 3 
-  - Session 4
-  - Session 5
 1. Rewrite session slides:
   - Session 1 (✓)
   - Session 2 (~)

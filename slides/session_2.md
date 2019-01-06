@@ -249,7 +249,125 @@ Solutions for each drawing can be found at [URL FOR SOLUTIONS]()
 
 ----
 
-range()
+**`for` loop:** allows you to repeat a block of code for every item in a list
+
+----
+
+``` python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+
+for student_name in student_names:
+    print(student_name)
+```
+
+Output
+
+
+``` command-line
+Diedre
+Hank
+Helena
+Salome
+```
+----
+
+A `for` loop has
+- A `for` operator
+- A variable name that stores each list value one at a time
+- An `in` operator
+- A list of values
+- A body (indented four spaces)
+
+----
+
+**Task:** I have a load of cats and need you to feed them when I'm on holiday
+
+Here is a list of all my cats
+
+``` python
+cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+```
+
+To feed all my cats write a for loop that contains this code
+``` python
+print('I am feeding {}'.format(cat))
+print('{} says meow'.format(cat))
+```
+
+----
+
+``` python
+cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+
+for cat in cats:
+    print('I am feeding {}'.format(cat))
+    print('{} says meow'.format(cat))
+
+```
+
+----
+
+The pre-written `range()` function returns a list of numbers
+
+``` python
+for number in range(5):
+    print(number)
+```
+
+Outputs
+
+``` command-line
+0
+1
+2
+3
+4
+```
+
+----
+
+**Task:** Using a `for` loop, the `range()` function and the multiply operator, print this output:
+
+``` command-line
+o
+oo
+ooo
+oooo
+ooooo
+oooooo
+ooooooo
+oooooooo
+ooooooooo
+```
+
+**Extension 1:** Use `input()` to set the number of lines output
+
+**Extension 2:** The `reversed()` function reverses a list. Can you use it to flip the pattern above?
+
+----
+
+Solution
+
+``` python
+for number in range(10):
+    print('o' * number)
+```
+
+Extension 1
+
+```python
+repeat = int(input('How many repeats? '))
+
+for number in range(repeats):
+    print('o' * number)
+```
+
+Extension 2
+
+``` python
+for number in reversed(range(10)):
+    print('o' * number)
+```
 
 ----
 
@@ -262,6 +380,71 @@ Level 3 Challenge: Sprial
 ---
 
 ### Lists
+
+----
+
+**List:** an ordered collection of values
+
+----
+
+List are written inside square brackets and separated by commas
+
+
+``` python
+lottery_numbers = [4, 8, 15, 16, 23, 42]
+```
+
+``` python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+```
+
+----
+
+Lists can be made up of values of one or more data types
+
+``` python
+orchid_row = ['Magnoliopsida', 12, 3, 8, 9, 'white']
+```
+
+----
+List values can be accessed using their **index** in square brackets
+
+``` python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+
+print(student_names[2])
+```
+
+Outputs:
+
+``` command-line
+Helena
+```
+
+----
+
+List indexes start counting from 0
+
+``` python
+student_names = [
+    'Diedre',    # index 0
+    'Hank',      # index 1
+    'Helena',    # index 2
+    'Salome'   # index 3
+]
+
+print(student_names[0])
+```
+
+Outputs:
+
+``` command-line
+Diedre
+```
+
+---
+
+### For Loops ♥ Lists
 
 ----
 
