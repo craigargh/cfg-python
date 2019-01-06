@@ -1,17 +1,49 @@
 To do:
-1. Change slide structure to match new course guide
-1. Write course guide for session 1
 1. Write proposal for Code First: Girls
-1. Add setup instructions for students
+1. Change slide structure to match new course guide
+  - Session 1 (✓)
+  - Session 2 (~)
+  - Session 3 
+  - Session 4
+  - Session 5
+1. Rewrite session slides:
+  - Session 1 (✓)
+  - Session 2 (~)
+  - Session 3 (Update boolean comparators section to resemble in-depth notes)
+  - Session 4
+  - Session 5
+    - Mention that instructors will set 5 mini-goals by the end of the first project session for each team
+1. Write course guide
+  - Course overview
+  - Setup instructions
+  - Session 1 (~)
+  - Session 2
+  - Session 3 (~)
+  - Session 4
+  - Session 5
+  - Session 6
+    - Planning projects
+    - Useful libraries
+    - Heroku
+    - Add project template for Flask/Jinja/Heroku
+  - Session 8 
+    - Mention podcasts, websites and other online resources
+  - Using the command-line
+1. Instructor handbook (purpose/objectives of the session, common problems, and timings for explanation/exercises)
+  - Overview and pedagogy of the course (problem solving, scaffolding, differentation)
+  - Setup
+  - Session 1
+  - Session 2
+  - Session 3
+  - Session 4
+  - Session 5
+  - Session 6
+  - Session 7 
+  - Session 8
 1. Update README for Jupyter/RISE slides
-1. Add content to new sections
 1. Make sure each exercise in the course guide says whether to use the shell or a file
-1. Update boolean comparators section to resemble in-depth notes
-1. Add project template for Flask/Jinja
-1. Add project example API tutorials
-1. Style reveal-md to match RISE/Jupyter styling
 1. Standardise code output to be on the next slide and not shown in Jupyter/RISE
 1. Check animated gif size on slides
-1. Mention that instructors will set 5 mini-goals by the end of the first project session for each team
-1. Reshoot gifs with larger font size
-1. Write guide to use the command-line
+1. Reshoot gifs with larger font size and slower
+1. Check formatting (titles, exercises, lists) is consistent
+1. Style reveal-md to match RISE/Jupyter styling

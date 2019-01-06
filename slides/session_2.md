@@ -249,11 +249,23 @@ Solutions for each drawing can be found at [URL FOR SOLUTIONS]()
 
 ----
 
+range()
+
+----
+
+Level 1 Challenge: Pentagon
+
+Level 2 Challenge: Circle
+
+Level 3 Challenge: Sprial
+
 ---
 
 ### Lists
 
 ----
+
+Using lists and for loops together
 
 ---
 

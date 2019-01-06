@@ -2,7 +2,7 @@
 
 For weeks 1-5, each session has:
 - Slides 
-- Exercise book and solutions
+- Exercise solutions
 - Course guide
   - More in-depth explanations
   - Common problems
