@@ -29,6 +29,11 @@ To do:
   - Session 8 
     - Mention podcasts, websites and other online resources
   - Using the command-line
+1. Homework
+  - Session 1 (~)
+  - Session 2 
+  - Session 3 
+  - Session 4
 1. Instructor handbook (purpose/objectives of the session, common problems, and timings for explanation/exercises)
   - Overview and pedagogy of the course (problem solving, scaffolding, differentation)
   - Setup
