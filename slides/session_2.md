@@ -251,24 +251,7 @@ Solutions for each drawing can be found at [URL FOR SOLUTIONS]()
 
 **`for` loop:** allows you to repeat a block of code for every item in a list
 
-----
 
-``` python
-student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
-
-for student_name in student_names:
-    print(student_name)
-```
-
-Output
-
-
-``` command-line
-Diedre
-Hank
-Helena
-Salome
-```
 ----
 
 A `for` loop has
@@ -278,32 +261,6 @@ A `for` loop has
 - A list of values
 - A body (indented four spaces)
 
-----
-
-**Task:** I have a load of cats and need you to feed them when I'm on holiday
-
-Here is a list of all my cats
-
-``` python
-cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
-```
-
-To feed all my cats write a for loop that contains this code
-``` python
-print('I am feeding {}'.format(cat))
-print('{} says meow'.format(cat))
-```
-
-----
-
-``` python
-cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
-
-for cat in cats:
-    print('I am feeding {}'.format(cat))
-    print('{} says meow'.format(cat))
-
-```
 
 ----
 
@@ -312,16 +269,6 @@ The pre-written `range()` function returns a list of numbers
 ``` python
 for number in range(5):
     print(number)
-```
-
-Outputs
-
-``` command-line
-0
-1
-2
-3
-4
 ```
 
 ----
@@ -353,6 +300,8 @@ for number in range(10):
     print('o' * number)
 ```
 
+----
+
 Extension 1
 
 ```python
@@ -361,6 +310,8 @@ repeat = int(input('How many repeats? '))
 for number in range(repeats):
     print('o' * number)
 ```
+
+----
 
 Extension 2
 
@@ -415,12 +366,6 @@ student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
 print(student_names[2])
 ```
 
-Outputs:
-
-``` command-line
-Helena
-```
-
 ----
 
 List indexes start counting from 0
@@ -436,12 +381,6 @@ student_names = [
 print(student_names[0])
 ```
 
-Outputs:
-
-``` command-line
-Diedre
-```
-
 ---
 
 ### For Loops ♥ Lists
@@ -449,6 +388,46 @@ Diedre
 ----
 
 Using lists and for loops together
+
+----
+
+
+
+``` python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+
+for student_name in student_names:
+    print(student_name)
+```
+
+----
+
+**Task:** I have a load of cats and need you to feed them when I'm on holiday
+
+Here is a list of all my cats
+
+``` python
+cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+```
+
+To feed all my cats write a for loop that contains this code
+``` python
+print('I am feeding {}'.format(cat))
+print('{} says meow'.format(cat))
+```
+
+----
+
+Solution:
+
+``` python
+cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+
+for cat in cats:
+    print('I am feeding {}'.format(cat))
+    print('{} says meow'.format(cat))
+
+```
 
 ---
 
