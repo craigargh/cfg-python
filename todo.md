@@ -8,9 +8,9 @@ To do:
   - Session 5
   - Session 6
     - Mention that instructors will set 5 mini-goals by the end of the first project session for each team
-1. Write course guide
-  - Course overview
-  - Setup instructions
+1. Write course handbook
+  - Introduction
+    - Setup instructions
   - Session 1 (~)
   - Session 2
   - Session 3 (~)

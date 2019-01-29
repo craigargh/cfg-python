@@ -7,7 +7,7 @@ Python
 
 This course teaches the fundamentals, while drawing on the wider Python ecosystem, to give learners a good basic foundation in programming.
 
-The number of topics introduced in this course is amibitous, yet achievable. Priority is given to learning through applied, practical problem solving, instead of a more lecture type approach.
+Priority is given to learning through applied, practical problem solving, instead of a more lecture type approach.
 
 By the end of this course students will be able to: 
 - Understand core programming concepts
