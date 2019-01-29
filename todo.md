@@ -2,6 +2,7 @@ To do:
 1. Write proposal for Code First: Girls
 1. Rewrite session slides:
   - Session 1 (✓)
+    - Move mention of Python shell
   - Session 2 (~)
   - Session 3 (Update boolean comparators section to resemble in-depth notes)
   - Session 4
@@ -9,8 +10,10 @@ To do:
   - Session 6
     - Mention that instructors will set 5 mini-goals by the end of the first project session for each team
 1. Write course handbook
-  - Introduction
-    - Setup instructions
+  - Introduction (~)
+    - Welcome to the course (✓)
+    - Setup instructions (~)
+    - Sesison overview (~)
   - Session 1 (~)
   - Session 2
   - Session 3 (~)
