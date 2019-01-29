@@ -59,3 +59,9 @@ To do:
 1. Check formatting (titles, exercises, lists) is consistent
 1. Style reveal-md to match RISE/Jupyter styling
 1. Delete unused files
+
+
+Key:
+- In Progress (~)
+- Written (✓)
+- Reviewed (✓✓✓)
