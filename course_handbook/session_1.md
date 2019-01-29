@@ -107,7 +107,7 @@ Look at the output for each line. What do you think each operator does? Are ther
 
 ## Strings
 
-[INTRODUCE THE PYTHON SHELL]
+
 
 ## Variables
 
