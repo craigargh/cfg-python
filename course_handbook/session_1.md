@@ -99,7 +99,7 @@ In your Python Console type the following lines of code one at a time:
 2 ** 4
 ```
 
-Look at the output. What do you think each operator does? Are there any outputs that you didn't expect?
+Look at the output for each line. What do you think each operator does? Are there any outputs that you didn't expect?
 
 ----
 
