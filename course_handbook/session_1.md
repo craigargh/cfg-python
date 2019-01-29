@@ -52,7 +52,7 @@ In your program there are two main bits:
 1. The `print()` bit
 1. The `'Hello, World!'` bit that's inside of the `print()` bit.
 
-The `print()` bit is an example of a *function*. A function does a specific task. The task of the `print()` function is to display some data value to you, the programmer.
+The `print()` bit is an example of a *function*. A function does a specific task. The task of the `print()` function is to display some data value to you, the programmer. If you removed the `print()` your program would still run OK, it just wouldn't display the output to you.
 
 > **Function:** a pre-written set of instructions to complete a certain task
 
@@ -61,7 +61,7 @@ In this case the data value that is being displayed is `'Hello, World!'`. This i
 By changing the text in the string, you change the value that is output. For example I've changed the value of the string to output a description of my favourite socks:
 
 ```python
-print('My favourite socks have yellow spots')
+print('My favourite socks have blue diamonds')
 ```
 
 Try changing the value to whatever you want!
@@ -72,33 +72,42 @@ Try changing the value to whatever you want!
 When writing programs you'll often want to work with numbers and do calculations on those numbers. That's what this section is all about. I'll introduce you to two (yes, two!) types of numbers and a bunch of different operators.
 
 
+Addition operator (`+`) 
 
 **Operator:** 
 
 ----
 
-### **Task 1.1** Getting to know your operators
+### **Task 1.1** Operators in the Python Console
 
-In a new Python file called `operators.py` add the following lines of code:
+Python has two main ways to run code: files and the console. You've already used files, let's take a look at the console.
+
+To view the Python Console, go to the top menu and click `View › Tool Window › Python Console`.
+
+[EXPLAIN MAIN DIFFERENCES BETWEEN PYTHON CONSOLE AND FILES]
+
+In your Python Console type the following lines of code one at a time:
 
 ```python
-python(5 - 6)
-python(8 * 9)
-python(6 / 2)
-python(5 / 2)
-python(5.0 / 2)
-python(5 % 2)
-python(2 * (10 + 3))
-python(2 ** 4)
+5 - 6
+8 * 9
+6 / 2
+5 / 2
+5.0 / 2
+5 % 2
+2 * (10 + 3)
+2 ** 4
 ```
 
-Each line contains two numbers and an operator. Python will run the program from top-to-bottom, one line at a time.
-
-Your task is to find explain what each operator does. Are there any outputs that you didn't expect?
+Look at the output. What do you think each operator does? Are there any outputs that you didn't expect?
 
 ----
 
+
+
 ## Strings
+
+[INTRODUCE THE PYTHON SHELL]
 
 ## Variables
 
@@ -107,6 +116,10 @@ Labels
 Variables work with all data-types
 
 ## String Formatting
+
+There a few different ways to do string formatting in Python
+
+[F-STRINGS]
 
 ## User Input
 
