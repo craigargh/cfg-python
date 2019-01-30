@@ -130,7 +130,7 @@ For example if I enter `9 + 3` on the Python Console it would look like this:
 >>>
 ```
 
-As the Python Console console immediatly shows results it is useful if you want to run code once to explore how it works. Files on the other hand are useful when you want to run the same code multiple times.
+As the Python Console console immediatly shows results it is useful for quickly exploring how new bits of code work. Files on the other hand are useful when you want to run the same code multiple times.
 
 Let's use the Python Console to explore how different Maths Operators work.
 
@@ -150,8 +150,6 @@ In your Python Console type the following lines of code one at a time:
 Look at the output for each line. What do you think each operator does? Are there any outputs that you didn't expect?
 
 ----
-
-
 
 ## Strings
 
