@@ -151,6 +151,8 @@ Look at the output for each line. What do you think each operator does? Are ther
 
 ----
 
+[EXPLAIN EACH OF THE OPERATORS USED IN THE EXERCISE]
+
 ## Strings
 
 
