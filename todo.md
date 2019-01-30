@@ -50,6 +50,7 @@ To do:
   - Session 6
   - Session 7 
   - Session 8
+1. Try generating PDFs with https://github.com/alanshaw/markdown-pdf
 1. Update README for Jupyter/RISE slides
 1. Number all course guide exercises so they can be referenced in the slides
 1. Make sure each exercise in the course guide says whether to use the shell or a file
