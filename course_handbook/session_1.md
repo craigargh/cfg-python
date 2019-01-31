@@ -76,9 +76,9 @@ So far you've seen three data types: strings, integers, and floats. You'll cover
 
 > **Data Type**: The kind of data that determines what values it can be and what operations can be performed with it
 
-> **Integer:** a Python **data type** for **whole numbers**
+> **Integer:** a Python data type for whole numbers
 
-> **Float:** a Python **data type** for **decimal numbers**
+> **Float:** a Python data type for decimal numbers
 
 Now that you've seen the two types of number data, let's take a look at *maths operators*. 
 
@@ -104,7 +104,7 @@ There are a handful of maths operators in Python. Let's do an exercise to find o
 
 ----
 
-### **Exercise 1.1:** Operators in the Python Console
+### Exercise 1.1: Operators in the Python Console
 
 In this task you will use different maths operators to discover their purpose. You'll also learn about a different way to run Python code using the Python console.
 

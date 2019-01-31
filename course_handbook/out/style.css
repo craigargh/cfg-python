@@ -25,7 +25,7 @@ body {
 }
 
 blockquote {
-  background-color: #E4F3F7;
+  background-color: #eaf7f9;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 15px;
@@ -36,4 +36,5 @@ blockquote {
   padding-bottom: 5px;
   page-break-inside: avoid;
   page-break-after: avoid;
+  border-radius: 5px;
 }
