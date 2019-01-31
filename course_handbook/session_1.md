@@ -1,6 +1,6 @@
-# Session 1
+# Session 1.
 
-
+## Getting Started with Python
 
 In this session:
 
@@ -24,21 +24,15 @@ To write and run your first Python program follow each of the four steps below. 
 
 Right click on the `cfg_python` folder on the Project Tool Window and select `New > Python File`.
 
-![Creating a new file](new_file_image.png)
-
 **Step Two:** In the window enter `hello` as the name and click `OK`. PyCharm will automatically add the `.py` for you.
 
-![Call the file `hello`](name_your_file.png)
-
-**Step Three:** Now that you've create your file, let's add some Python code.
-
-In the file type the following:
+**Step Three:** Now that you've create your file, let's add some Python code. In the file type the following:
 
 ```python
 print('Hello, World!')
 ```
 
-> Make sure that `print` has no capital letters. There should also be two speech marks (one either side of the `Hello, World` text) and an opening and closing bracket.
+Make sure that `print` has no capital letters. There should also be two speech marks (one either side of the `Hello, World` text) and an opening and closing bracket.
 
 **Step Four:** Now that you've written your Python code, it's time to run it!
 

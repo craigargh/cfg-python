@@ -31,7 +31,7 @@ def save_html(html):
 def save_pdf(html):
     output = '\n'.join(['<body>',  html, '</body>'])
 
-    margin = '1.3in'
+    margin = '1.4in'
     options = {
         'page-size': 'A4',
         'margin-top': margin,
