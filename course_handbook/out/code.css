@@ -13,6 +13,8 @@ p code {
   padding-right: 30px;
   color: #A9B7C6;
   margin-bottom: 40px;
+  page-break-inside: avoid;
+  page-break-after: avoid;
 }
 
 .codehilite .k {
