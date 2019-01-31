@@ -68,7 +68,7 @@ Now the output of the program is `You have enough forks: True`
 
 The value of `forks` is now `6`, which is equal to the value of the `friends` variable. So when the `forks >= friends` comparison is made, the value of `enough_forks` is set to `True`.
 
-##### Exercise: Do I have enough eggs to make a really big omlette?
+### Exercise: Do I have enough eggs to make a really big omlette?
 
 My dinner party is going to be a huge success. My friends will all love how they don't have to share cutlery. I just need to decide what to cook.
 
@@ -133,7 +133,7 @@ Notice how the `equal to` comparator is two equals signs `==`. This looks simila
 
 Always remember to use a single equals sign `=` when assigning a value to a variable and a double equals sign `==` when comparing two values.
 
-##### Exercise: I'm on chair building spree
+### Exercise: I'm on chair building spree
 
 I'm really into building chairs now. If I don't find a way to stop myself I'll have too many chairs for my friends to sit on. They won't know what to do.
 
@@ -201,7 +201,7 @@ print('You will not cry at this film: {}'.format(no_crying))
 The output is back to what I expected `You will not cry at this film: False`. That's that sorted. Now I can focus on crying at an artful story of fish-man romance.
 
 
-##### Exercise: Is the omlette safe to eat?
+### Exercise: Is the omlette safe to eat?
 
 So that I don't give my friends food poisoning I need to check that the omlette is safe to eat. How am I going to do that? Well, like all of my other problems, with a Python program!
 
@@ -262,7 +262,7 @@ The `greater than` comparator looks like this `>` and the `less than` comparator
 The final thing to note about the four comparators (`>`, `<`, `>=` and `<=`) is that they work with number data types (integers and floats), but don't work with strings. It's easy for Python to know if `5` is greater than `6`, but not so much for Python to know if `"Air freshener"` is greater than `"Tomato"`. 
 
 
-##### Exercise: How good was the party out of 5 stars
+### Exercise: How good was the party out of 5 stars
 
 I've spent months preparing for this dinner party. I've counted numerous eggs multiple times, poured my blood sweat and tears into chairs that are definitely safe to sit on (don't let anyone tell you otherwise), and invested in a new spoon.
 
@@ -315,7 +315,7 @@ print('{} has an e in it: {}'.format(name, has_e))
 
 The output for this is `Francis Bacon has an e in it: False`. There is no letter `'e'` in `'Francis Bacon`' so the result is `False `.
 
-##### Exercise: Guest List
+### Exercise: Guest List
 
 My dinner parties have become very popular. People line up around the block to eat my omlette and use one of my six forks.
 

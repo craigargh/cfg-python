@@ -160,7 +160,7 @@ The Python shell:
 
 ----
 
-**Task:** Type these lines into your **Python shell**:
+**Exercise 1.1:** Type these lines into your **Python shell**:
 
 ```python
 5 - 6
@@ -283,7 +283,7 @@ The `*` and `+` operators work on strings as well as integers.
 Let's investigate what they do
 
 ----
-**Task:**
+**Exercise:**
 
 In your **Python shell** type each of these
 
@@ -420,7 +420,7 @@ The `oranges` variable is used twice in the program
 
 ----
 
-**Task**: In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
+**Exercise**: In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
 
 Your will need:
 1. A **variable** for the number of **cats**
@@ -493,7 +493,7 @@ print(output)
 
 ----
 
-**Task:** Rewrite `cat_food.py` to use string formatting instead of joining strings with `+`.
+**Exercise:** Rewrite `cat_food.py` to use string formatting instead of joining strings with `+`.
 
 An example of string formatting:
 ```
@@ -559,7 +559,7 @@ print(output)
 
 ----
 
-**Task:** Change `cat_food.py` so that the number of cats can be input when the program is run
+**Exercise:** Change `cat_food.py` so that the number of cats can be input when the program is run
 
 ----
 

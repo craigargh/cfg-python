@@ -49,6 +49,7 @@ Congratulations! You've just run your first Python program.
 That's cool and everything, but what's going on?
 
 In your program there are two main bits: 
+
 1. The `print()` bit
 1. The `'Hello, World!'` bit that's inside of the `print()` bit.
 
@@ -105,11 +106,11 @@ print(8.3 + 10.12)
 
 The value `18.42` should be displayed when this program is ran.
 
-There are a handful of maths operators in Python. Let's do a task to find out how they behave.
+There are a handful of maths operators in Python. Let's do an exercise to find out how they behave.
 
 ----
 
-### **Task 1.1** Operators in the Python Console
+### **Exercise 1.1:** Operators in the Python Console
 
 In this task you will use different maths operators to discover their purpose. You'll also learn about a different way to run Python code using the Python console.
 
