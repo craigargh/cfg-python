@@ -22,7 +22,7 @@ To write and run your first Python program follow each of the four steps below. 
 
 **Step One:** First let's create a new Python file in Pycharm. 
 
-Right click on the `cfg_python` folder on the Project Tool Window and select `New › Python File`.
+Right click on the `cfg_python` folder on the Project Tool Window and select `New > Python File`.
 
 ![Creating a new file](new_file_image.png)
 
@@ -120,7 +120,7 @@ When a Python file is run it will start at the top of the file and run each line
 
 The Python Console is different to files. It immediately shows the result of a line of code without needing to use the `print()` function.
 
-To view the Python Console, go to the top menu and click `View › Tool Window › Python Console`. Each line in the Python Console begins with `>>>`. You can type Python code in and press enter to run it. The Python Console will immediately show the result. 
+To view the Python Console, go to the top menu and click `View > Tool Window > Python Console`. Each line in the Python Console begins with `>>>`. You can type Python code in and press enter to run it. The Python Console will immediately show the result. 
 
 For example if I enter `9 + 3` on the Python Console it would look like this:
 

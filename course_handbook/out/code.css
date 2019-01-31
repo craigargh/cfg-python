@@ -1,10 +1,17 @@
+p code {
+  color: #2B2B2B;
+  background-color: #EEE;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .codehilite {
-	background-color: #2B2B2B;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-left: 30px;
-	padding-right: 30px;
-	color: #A9B7C6;
+  background-color: #2B2B2B;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #A9B7C6;
 }
 
 .codehilite .k {
@@ -139,3 +146,6 @@
 .codehilite .ss {
   color: #6a8759;
 }
+
+
+
