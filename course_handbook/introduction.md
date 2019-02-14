@@ -14,27 +14,7 @@ There's also optional homework, which is designed to reinforce what you've learn
 
 The final four sessions are all dedicated to your team projects. You'll work in groups of two or three people to create simple applications. Focussing on a project is a great way to develop your programming skills. In the final week you'll get the opportunity to present your projects to the other teams and maybe win a prize.
 
-This part of the course handbook includes a basic introduction to what programming is and explains how to set up your computer ready for the first session. There's also a brief overview of what you'll learn in each session.
-
-## Why Python?
-
-There are lots of really great programming languages out there. You may have hear of ones like Java, Ruby, JavaScript (weirdly unrelated to Java), and C. They're all languages (just like human languages such as English and French), but instead of being used to communicate from one person to another, they're used to communicate instructions to a computer.
-
-All languages have a set of rules that specify how you write them. Each language has different rules, but there are some core concepts that are shared between them. 
-
-> **Programming Language:** A language with a set of rules that communicates instructions to a computer
-
-So what's so special about Python? 
-
-Python has a lot going for it. Firstly, Python is designed to be readable. The people who design the Python language have put a lot of care and effort this (so say thanks if you ever see them). One of the benefits of this is that there is a gentler learning curve for beginners compared to some other languages.
-
-Secondly, Python has a large number of third-party libraries. "What's a library?" I hear you ask. In basic terms, a library is a collection of code that other people have written that you can reuse. This saves you a lot of time as you don't have to write that bit of the code yourself. 
-
-In Python there are libraries that are designed to build websites, analyse large amounts of data, draw pictures, hack into computers, make a velociraptor appear, and many more.
-
-> **Library:** Reusable collection of code that someone else has written which you can use
-
-Finally, Python is a very popular language. It's used in a diverse areas like science, machine learning, finance, motion pictures and many more. The skills that you learn as a beginner are a fundamental part of any career that uses Python. 
+This part of the course handbook explains how to set up your computer ready for the first session. There's also a brief overview of what you'll learn in each session.
 
 
 ## Setup
@@ -65,3 +45,62 @@ PyCharm is an editor that is designed specifically for Python. It comes with lot
 
 ## Sessions
 
+
+## Course Content 
+
+### Session 1
+
+The first session is a gentle introduction to the basics of Python. Through short exercises you will become familiar with variables, data-types, and the PyCharm IDE. You are also taught how to read error messages, which will help you fix your programs when they aren't working.
+
+1. Running Python with files and the console
+1. Data-types (Integers, Floats and Strings)
+1. Maths operations
+1. Understanding error messages
+1. Variables
+1. User input
+
+### Session 2
+
+The second session focuses on building problem solving skills through drawing. The Turtle library is used to create basic drawings with Python. Using this library you will be introduced to lists, loops, and functions.
+
+1. Importing other libraries
+1. Problem solving with Turtle
+1. Lists
+1. For Loops
+1. Functions
+
+### Session 3
+
+In the third session you will learn about logic and dictionaries. By using logical comparators and if statements, you can automate basic decision making in your programs. 
+
+1. Logical comparators
+1. If statements
+1. Dictionaries
+
+### Session 4
+
+The fourth session is the last session that focuses only on Python. You will have covered the core concepts of programming in the first three sessions. In this session you are introduced to working with third-party libraries and APIs.
+
+1. Pip package manager
+1. APIs
+1. Flask and Jinja
+
+### Session 5
+
+Session five is about for your group projects. In the first half of the session you will be given an introduction to the most essential parts of git. In the second half you will form a group and start planning you projects and set achievable goals.
+
+1. Git
+1. Planning your project
+
+### Session 6-7
+
+In sessions six and seven you will work as part of your team to build your project.
+
+1. Project
+
+### Session 8
+
+In the final session you'll have a short amount of time to make final changes to your team projects. In the second half your team will present your project to the other students.
+
+1. Project
+1. Presentations

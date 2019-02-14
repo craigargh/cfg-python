@@ -28,7 +28,7 @@ Instructor Introductions
 ----
 
 This session:
-1. Run Python with files and shell
+1. Run Python with files and console
 1. Data types
 1. Maths operations
 1. Understanding Error Messages
@@ -45,8 +45,6 @@ Put a coloured Post-It note on the back of your laptop monitor during exercises:
 
 PyCharm
 
-[EXPLAIN WHY WE'RE USING PYCHARM]
-
 ----
 
 Slides are available at [https://github.com/craigargh/cfg-python](https://github.com/craigargh/cfg-python)
@@ -57,17 +55,14 @@ Slides are available at [https://github.com/craigargh/cfg-python](https://github
 
 ----
 
-[WRITE DEFINITIONS]
+> **Programming Language:** A language with a set of rules that communicates instructions to a computer
 
-**Program:** 
-
-**Programming Language:**
+> **Program:** A set of instructions that are run by a computer
 
 ----
 
-[EXPAND EACH OF THESE INTO A SLIDE EACH]
-
 Python:
+
 1. Designed to be clean and readable
 1. 3rd party libraries
  - Web
@@ -133,7 +128,7 @@ You've just run your first Python program
 
 There are two main ways to write and run Python programs:
 1. With files 
-1. On the Python shell (also called console)
+1. On the Python console (also called the shell)
 
 ----
 
@@ -145,7 +140,7 @@ Python files:
 
 ----
 
-The Python shell:
+The Python console:
 
 - Each line starts with `>>>`
 - Runs one line at a time
@@ -156,17 +151,17 @@ The Python shell:
 
 ----
 
-![open Python shell](gifs/pycharm_python_shell.gif)
+![open Python console](gifs/pycharm_python_shell.gif)
 
 ----
 
-**Exercise 1.1:** Type these lines into your **Python shell**:
+**Exercise 1.1:** Type these lines into your **Python console**:
 
 ```python
 5 - 6
 8 * 9
 6 / 2
-5 / 2
+5 / 0
 5.0 / 2
 5 % 2
 2 * (10 + 3)
@@ -193,9 +188,9 @@ Division:
 6 / 2
 ```
 
-Division (different behaviour in Python 2):
+Division by zero:
 ```python
-5 / 2
+5 / 0
 ```
 
 Float division:
@@ -285,7 +280,7 @@ Let's investigate what they do
 ----
 **Exercise:**
 
-In your **Python shell** type each of these
+In your **Python console** type each of these
 
 ```python
 "Cat"
@@ -349,8 +344,10 @@ Results:
 This exception is caused when trying to join a string value with an integer value
 
 ```python
->>> print("Cat" + 3)
+print("Cat" + 3)
+```
 
+```bash
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: cannot concatenate 'str' and 'int' objects
@@ -361,8 +358,7 @@ TypeError: cannot concatenate 'str' and 'int' objects
 Putting a number in `str()` converts it to a string
 
 ```python
->>> print("Cat" + str(3))
-Cat3
+print("Cat" + str(3))
 ```
 
 ---
@@ -381,7 +377,7 @@ Creating (assigning) a variable has three parts:
 1. The data value it references
 
 ```python
-username = 'l33t_cat'
+username = 'sarah_1987'
 age = 23
 ```
 
@@ -416,7 +412,7 @@ print(str(oranges) + " oranges")
 print("costs " + str(total_cost))
 ```
 
-The `oranges` variable is used twice in the program
+The `oranges` variable is reused twice in the program
 
 ----
 
@@ -497,7 +493,7 @@ print(output)
 
 An example of string formatting:
 ```
-user_name = 'l33t_cat'
+user_name = 'sarah_1987'
 age = 23
 
 output = '{} is {} years old'.format(user_name, age)
@@ -609,7 +605,7 @@ print(output)
 
 ----
 
-1. Run Python with files and shell
+1. Run Python with files and console
 1. Data types (Integers, Floats and Strings)
 1. Maths operations
 1. Variables

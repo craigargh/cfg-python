@@ -2,7 +2,6 @@ To do:
 1. Write proposal for Code First: Girls
 1. Rewrite session slides:
   - Session 1 (✓)
-    - Rename Python Shell to Python Console
   - Session 2 (~)
   - Session 3 (Update boolean comparators section to resemble in-depth notes)
   - Session 4
@@ -13,11 +12,12 @@ To do:
   - Introduction (~)
     - Welcome to the course (✓)
     - Setup instructions (~)
-    - Sesison overview (~)
+    - Sesison overview (✓)
   - Session 1 (~)
     - Intro (~)
+    - Why python (✓)
     - First program (✓)
-    - Numbers and operators (~)
+    - Numbers and operators (✓)
     - Strings 
     - Variables
     - String formatting

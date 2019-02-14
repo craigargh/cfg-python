@@ -13,6 +13,26 @@ In this session:
 
 Before you start Session 1, make sure that you've followed the setup instructions in the Introduction.
 
+## Why Python?
+
+There are lots of really great programming languages out there. You may have hear of ones like Java, Ruby, JavaScript (weirdly unrelated to Java), and C. They're all languages (just like human languages such as English and French), but instead of being used to communicate from one person to another, they're used to communicate instructions to a computer.
+
+All languages have a set of rules that specify how you write them. Each language has different rules, but there are some core concepts that are shared between them. 
+
+> **Programming Language:** A language with a set of rules that communicates instructions to a computer
+
+So what's so special about Python? 
+
+Python has a lot going for it. Firstly, Python is designed to be readable. The people who design the Python language have put a lot of care and effort this (so say thanks if you ever see them). One of the benefits of this is that there is a gentler learning curve for beginners compared to some other languages.
+
+Secondly, Python has a large number of third-party libraries. "What's a library?" I hear you ask. In basic terms, a library is a collection of code that other people have written that you can reuse. This saves you a lot of time as you don't have to write that bit of the code yourself. 
+
+In Python there are libraries that are designed to build websites, analyse large amounts of data, draw pictures, hack into computers, make a velociraptor appear, and many more.
+
+> **Library:** Reusable collection of code that someone else has written which you can use
+
+Finally, Python is a very popular language. It's used in a diverse areas like science, machine learning, finance, motion pictures and many more. The skills that you learn as a beginner are a fundamental part of any career that uses Python. 
+
 ## Your First Python Program
 
 Time to write your first Python program! 
@@ -135,7 +155,7 @@ In your Python Console type the following lines of code one at a time:
 5 - 6
 8 * 9
 6 / 2
-5 / 2
+5 / 0
 5.0 / 2
 5 % 2
 2 * (10 + 3)
@@ -146,7 +166,39 @@ Look at the output for each line. What do you think each operator does? Are ther
 
 ----
 
-[EXPLAIN EACH OF THE OPERATORS USED IN THE EXERCISE]
+Now that you've tried out the operators, here's a bit more detail about them.
+
+The subtraction operator (`-`) minuses one number from another. For example, the result of `8 - 3` would be `5`.
+
+The multiplication operator (`*`) times two numbers together. The result of `7 * 5` is `35`
+
+To divide one number by another, the division operator (`/`) is used. For example `8 / 4` is `2` and `5 / 2` is `2.5`. Note that you will get an error if you divide by zero that looks like this `ZeroDivisionError: division by zero
+`.
+
+The modulo (`%`) operator is similar to division. Instead of saying how many times one number divides by another it works out how many times the first number can be divided prefectly by the second and returns the difference. For example `4` divides perfectly by `2` twice with no remainder so the result is `0`, while `5` divides by `2` twice with a remainder or `1`, so the result is `1`.
+
+The exponent (`**`) operator calculates the power of one number by another. For example `2 ** 3` is `8`, which is equivalent of `2 * 2 * 2`.
+
+By default Python will evaluate operators in the following order:
+1. Brackets
+1. Exponent
+1. Multiplication
+1. Division
+1. Modulo
+1. Addition
+1. Subtraction
+
+Brackets can be used to change the order that calculations are done. For example the result of this calculation will be `23`:
+
+```python
+2 * 10 + 3
+```
+
+By adding brackets around `(10 + 3)` the addition is now calculated first, changing the result to `26`:
+
+```python
+2 * (10 + 3)
+```
 
 ## Strings
 
