@@ -202,6 +202,107 @@ By adding brackets around `(10 + 3)` the addition is now calculated first, chang
 
 ## Strings
 
+Remember back to a short while ago when you wrote you first Python program. The program looked like this:
+
+```python
+print('Hello, World!')
+``` 
+
+The `'Hello, World!'` part of the program is a data-type is called a *string*. The string data-type in Python is used to represent letters, numbers, symbols and other characters. 
+
+**String:** a Python data type for **text** and **characters**.
+
+All strings begin and end with either single (`''`) or double (`""`) speech marks. 
+
+For example, this is a string...
+
+```python
+'Clap clap clap'
+```
+
+...and so it this...
+
+```python
+"20 cheese cakes"
+```
+
+When writing strings you may sometimes forget to include the speech marks entirely. Depending on what's in your string, you will see different errors. Here I haven't included any speech marks for a single word:
+
+```python
+Clap
+```
+
+I get this error:
+
+```bash
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Clap' is not defined
+```
+
+The type of error is stated on the last line and is a `NameError`. Python thinks that my string is actually a variable (which you'll learn about in a short while). If you see this error message when using a string, you might have forgotten the speech marks. To fix it, just add the speech marks:
+
+```python
+'Clap'
+```
+
+Here's another example with multiple words where I've forgotten the speech marks:
+
+```python
+Clap clap clap
+```
+
+When I run the code in the Python console I get this error:
+
+```bash
+  File "<stdin>", line 1
+    Clap clap clap
+            ^
+SyntaxError: invalid syntax
+```
+
+This time I get a `SyntaxError`. A `SyntaxError` means that I am not following Python's rules for how to arrange commands. Notice how on the fourth line the error message points to the part of the code that confused Python. Remember to look for this when you see this error message as it can help identify what you need to fix. In this case again the fix is just to put speech around the words:
+
+```python
+'Clap clap clap'
+```
+
+In the previous exercise you learned about different Python operators and how they behave with number data-types. Some of these operators can be used with strings. In the next exercise you will explore how different operators work with string as well as try some special string commands called methods.
+
+
+----
+
+### Exercise 1.2: String Operators and Methods
+
+In your **Python console** type each of these commands:
+
+```python
+"Cat"
+"Cat" + " videos"
+
+"Cat" * 3
+"Cat" + 3
+
+"Cat".upper()
+"Cat".lower()
+
+"the lord of the rings".title()
+```
+
+What is the output for each one and why?
+
+One of them causes an exception. Read the exception message. What do you think it means?
+
+
+----
+
+> **Concatentation:**
+
+> **Method:** 
+
+> **Dot Notation:**
+
+`str()`
 
 
 ## Variables

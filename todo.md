@@ -18,7 +18,7 @@ To do:
     - Why python (✓)
     - First program (✓)
     - Numbers and operators (✓)
-    - Strings 
+    - Strings (~)
     - Variables
     - String formatting
     - User input

@@ -24,7 +24,7 @@ def save_html(html):
 
     output = '\n'.join([stylesheets, '<body>',  html, '</body>'])
 
-    with open(f'{OUTPUT_DIR}/session_1.html', 'w+') as html_file:
+    with open(f'{OUTPUT_DIR}/course_handbook.html', 'w+') as html_file:
         html_file.write(output)
 
 
@@ -43,7 +43,7 @@ def save_pdf(html):
 
 
     css = [f'{OUTPUT_DIR}/code.css', f'{OUTPUT_DIR}/style.css']
-    pdfkit.from_string(html, f'{OUTPUT_DIR}/session_1.pdf', css=css, options=options)
+    pdfkit.from_string(html, f'{OUTPUT_DIR}/course_handbook.pdf', css=css, options=options)
 
 
 def run(format):
