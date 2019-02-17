@@ -1,5 +1,5 @@
 To do:
-1. Write proposal for Code First: Girls
+1. Write proposal for Code First: Girls (✓)
 1. Rewrite session slides:
   - Session 1 (✓)
   - Session 2 (~)

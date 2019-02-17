@@ -55,6 +55,7 @@ def run(format):
     )
 
     all_files.insert(0, 'introduction.md')
+    all_files.insert(1, 'setup.md')
 
     parsed = '\n'.join(
         parse_md(file_name)
@@ -72,7 +73,7 @@ def run(format):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--format', choices=['pdf', 'html', 'all'], default='html')
+    parser.add_argument('--format', choices=['pdf', 'html', 'all'], default='pdf')
 
     args = parser.parse_args()
     run(args.format)

@@ -1,4 +1,4 @@
-# 0. Introduction
+# Introduction
 
 Welcome to the first session of the Code First: Girls Python course! I'm really gald that you can be here.
 
@@ -14,34 +14,10 @@ There's also optional homework, which is designed to reinforce what you've learn
 
 The final four sessions are all dedicated to your team projects. You'll work in groups of two or three people to create simple applications. Focussing on a project is a great way to develop your programming skills. In the final week you'll get the opportunity to present your projects to the other teams and maybe win a prize.
 
-This part of the course handbook explains how to set up your computer ready for the first session. There's also a brief overview of what you'll learn in each session.
+You can see a brief overview of what you'll learn in each session below. 
 
+In the next part of the handook you'll see how to set up your computer ready for the first session.  
 
-## Setup
-
-This part of the guide will explain how to install the software required for the course. It will show you how to install:
-
-- Python 3
-- PyCharm Community Edition
-- Git
-
-I'll also show you how to create a new PyCharm project and test that everything is installed OK.
-
-### Python 3
-
-### PyCharm
-
-When writing Python programs there are a lot of programs you can use. Some developers like to use text editors like Sublime Text or Atom, others prefer powerful (yet complicated) editors like Vim or Emacs. For this course you will be writing and running your Python programs with PyCharm.
-
-PyCharm is an editor that is designed specifically for Python. It comes with lots of built-in tools that help you work with Python (for example it can highlight typos in your code).
-
-[INSTALLATION INSTRUCTIONS]
-
-[EXPLAIN THE OTHER CHOICES INCLUDING THE COMMAND-LINE CAN BE FOUND IN A SEPARATE GUIDE]
-
-### Git
-
-## Creating a PyCharm Project
 
 ## Sessions
 
