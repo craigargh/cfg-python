@@ -289,12 +289,14 @@ In your **Python console** type each of these commands:
 "the lord of the rings".title()
 ```
 
-What is the output for each one and why?
+What is the output for each line and why?
 
-One of them causes an exception. Read the exception message. What do you think it means?
+One of the lines causes an exception. Read the exception message. What do you think it means?
 
 
 ----
+
+
 
 > **Concatentation:**
 

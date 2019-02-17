@@ -11,8 +11,8 @@ To do:
 1. Write course handbook
   - Introduction (~)
     - Welcome to the course (✓)
-    - Setup instructions (~)
     - Sesison overview (✓)
+  - Setup Instructions (✓)
   - Session 1 (~)
     - Intro (~)
     - Why python (✓)
