@@ -19,9 +19,6 @@ You can see a brief overview of what you'll learn in each session below.
 In the next part of the handook you'll see how to set up your computer ready for the first session.  
 
 
-## Sessions
-
-
 ## Course Content 
 
 ### Session 1
