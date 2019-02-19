@@ -309,9 +309,114 @@ One of the lines causes an exception. Read the exception message. What do you th
 
 ## Variables
 
-Labels
+You're about to be introduced to a very important concept called a *variable*. Are you ready?
 
-Variables work with all data-types
+**Variable:** A reusable label for a piece of data
+
+A variable is a reusable label for a piece of data. A variable helps Python programs remember pieces of data so that you can reuse them multiple times in your programs.
+
+Look at this line of Python code:
+
+```python
+oranges = 12
+```
+
+When creating a variable you need three things:
+1. A name for the variable
+1. An equals sign
+1. A value
+
+The name of the variable is `oranges`. The value of the variable is `12`. In between the name and the value there is an equals sign (`=`), which tells Python that you are assigning a value to the variable name. 
+
+In the above example I created a variable with an integer value. You can use any data type with variables. Here's a variable called `name` that has a string value of `"Jonesy"`:
+
+```python
+name = 'Jonesy'
+```
+
+Once you create a variable it can be used like any other value. Variables and values are interchangable. Wherever you can use a data value you can use a variable.
+
+Let's say that I have 12 oranges and I want to output that. Here I've written a program to do that:
+
+```python
+oranges = 12
+print(oranges)
+```
+
+See how I've put the variable name `oranges` inside the `print()` function's bracket? This is the same as writing `print(12)`. Either way the output will be `12`. The benefit of using a variable is that it can be reused and updated.
+
+I now want to calculate the cost of purchasing oranges. Each orange costs `0.5`. I want to output the total cost and say how many oranges the cost is for. Here's the code:
+
+```python
+oranges = 12
+cost_per_orange = 0.5
+
+total_cost = oranges * cost_per_orange
+
+print(str(oranges) + ' oranges') 
+print('costs ' + str(total_cost))
+```
+
+The output will look something like this:
+
+```
+12 oranges
+costs 6.0
+```
+
+Notice how I've created the `oranges` variable on line 1 and reused it on lines 4 and 6. This means that if I change the value of the `oranges` variable, the value will update everywhere else that it is used. 
+
+Here I've changed the value of `oranges` to 20:
+
+```python
+oranges = 20
+cost_per_orange = 0.5
+
+total_cost = oranges * cost_per_orange
+
+print(str(oranges) + ' oranges') 
+print('costs ' + str(total_cost))
+```
+
+The rest of the code stays the same, but the output is different:
+
+```
+20 oranges
+costs 10.0
+```
+To understand why reusing variables is important here's the code rewritten without the `oranges` variable:
+
+```python
+cost_per_orange = 0.5
+
+total_cost = 12 * cost_per_orange
+
+print(str(12) + ' oranges') 
+print('costs ' + str(total_cost))
+```
+
+I've used the value `12` on lines 3 and 5 instead of the `oranges` variable. If I want to update the number of oranges I now have to update the code in two places instead of one. 
+
+This may seem trivial for such a short program, but when you're working with larger and more complex programs you may forget to update a value and cause the program to behave incorrectly.
+
+Another this you may have noticed is that variables are useful for explaining the purpose of values. In the example without the `oranges` variable, you don't know what the value `12` means without additional explanation. By using a variable the name gives the value context. With a name like `oranges` you can probably tell that the `12` value means the number of oranges.
+
+To recap, variables are labels for pieces of data. Varialbes have a name and a value and can be used wherever you can use a data value. Variables allow you to reuse pieces of data and are useful for indicating the purpose of a value to other people.
+
+----
+
+### Exercise 1.3: Cat Food
+
+In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
+
+Your will need:
+1. A **variable** for the number of **cats**
+1. A **variable** for the number of **cans** each cat eats in a day
+1. A `print()` function to output the result
+
+**Extension:** change the calculation to work out the amount needed for 7 days
+
+----
 
 ## String Formatting
 
