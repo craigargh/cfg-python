@@ -47,12 +47,14 @@ def save_pdf(html):
 
 
 def run(format):
-    all_files = sorted(
-        f 
-        for f in os.listdir('.') 
-        if os.path.isfile(f)
-        if 'session' in f
-    )
+    # all_files = sorted(
+    #     f 
+    #     for f in os.listdir('.') 
+    #     if os.path.isfile(f)
+    #     if 'session' in f
+    # )
+
+    all_files = ['session_1.md']
 
     all_files.insert(0, 'introduction.md')
     all_files.insert(1, 'setup.md')

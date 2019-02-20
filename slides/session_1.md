@@ -1,3 +1,6 @@
+Updated course handbook:
+1. https://bit.ly/2T13uWJ
+
 Make sure that you have installed:
 1. Python 3.7 (www.python.org/downloads/)
 1. PyCharm Community Edition (www.jetbrains.com/pycharm/download/)
