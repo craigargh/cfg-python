@@ -50,11 +50,11 @@ To do:
   - Session 6
   - Session 7 
   - Session 8
-1. Generate pdf script (~)
-1. PDF styling
-1. Add info (?>) and warning (!>) boxes to markdown and generate.py
+1. Generate pdf script (✓)
+1. PDF styling (✓)
+1. Add relative paths to course handbook images instead of hardcoded to personal computer
 1. Update README for Jupyter/RISE slides
-1. Number all course guide exercises so they can be referenced in the slides
+1. Number all course guide exercises so they can be referenced in the slides and number all exercises in the slides
 1. Make sure each exercise in the course guide says whether to use the shell or a file
 1. Standardise code output to be on the next slide and not shown in Jupyter/RISE
 1. Check animated gif size on slides
