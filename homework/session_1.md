@@ -57,7 +57,7 @@ Your program should:
 1. Add the values of `current_pineapples` and `new_pineapples` together and put the result in a new variable called `total_pineapples`
 1. Output the result in the following format `'Seriously. Who needs 32kg of pineapples?'`
 
-*Hint:* The `raw_input()` function returns the user's input as a string. You can conver a string into an integer with the `int()` function e.g.
+*Hint:* The `raw_input()` function returns the user's input as a string. You can convert a string into an integer with the `int()` function e.g.
 
 ```python
 raw_turtles = raw_input('How many turtles? ')
