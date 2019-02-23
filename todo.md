@@ -18,8 +18,8 @@ To do:
     - Why python (✓)
     - First program (✓)
     - Numbers and operators (✓)
-    - Strings (~)
-    - Variables
+    - Strings (✓)
+    - Variables (✓)
     - String formatting
     - User input
   - Session 2

@@ -281,7 +281,7 @@ The `*` and `+` operators work on strings as well as integers.
 Let's investigate what they do
 
 ----
-**Exercise:**
+**Exercise 1.2:**
 
 In your **Python console** type each of these
 
@@ -419,7 +419,7 @@ The `oranges` variable is reused twice in the program
 
 ----
 
-**Exercise**: In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
+**Exercise 1.3:**: In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
 
 Your will need:
 1. A **variable** for the number of **cats**
@@ -492,7 +492,7 @@ print(output)
 
 ----
 
-**Exercise:** Rewrite `cat_food.py` to use string formatting instead of joining strings with `+`.
+**Exercise 1.4:** Rewrite `cat_food.py` to use string formatting instead of joining strings with `+`.
 
 An example of string formatting:
 ```
@@ -558,7 +558,7 @@ print(output)
 
 ----
 
-**Exercise:** Change `cat_food.py` so that the number of cats can be input when the program is run
+**Exercise 1.5:** Change `cat_food.py` so that the number of cats can be input when the program is run
 
 ----
 

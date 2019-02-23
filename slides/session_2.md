@@ -9,10 +9,12 @@
 ----
 
 This session:
+
 1. Importing libraries
 1. Problem solving with Turtle
 1. For Loops
 1. Lists
+1. Functions
 
 ---
 
@@ -123,7 +125,7 @@ import turtle
 side_length = 200
 angle = 90
 
-turtle.fillcolor('red')
+turtle.color('red', 'pink')
 turtle.begin_fill()
 
 turtle.forward(side_length)
@@ -145,7 +147,7 @@ turtle.done()
 
 ----
 
-**Task:** Using `turtle` draw a triangle
+**Exercise 1.1:** Create a new file called `triangle.py`. Using `turtle` draw a triangle.
 
 A triangle has **three** sides and an angle of **120** degrees
 
@@ -183,7 +185,7 @@ import turtle
 side_length = 100
 angle = 120
 
-turtle.fillcolor('blue')
+turtle.color('blue', 'blue')
 turtle.begin_fill()
 
 turtle.forward(side_length)
@@ -201,49 +203,8 @@ turtle.end_fill()
 turtle.done()
 ```
 
-----
-
-**Task:** On the next three slides there are different shapes and drawings.
-
-Choose **some** of the drawings and try to recreate them with `turtle`.
-
-The drawings are grouped by difficulty. Try the level one if you need more support or the level three if you're ready for a challenge.
-
-----
-
-**Level One**
-
-Pentagon: **five** sides, angle of **one-hundred and eight**
-
-Octagon: **eight** sides, angle of **one-hundred and thirty five**
-
-Rectangle: **two** with length **two-hundred**, **two** sides with length **one-hundred**, angle of **ninety**
-
-----
-
-**Level Two**
-
-Right-angled triangle
-
-A parallelagram
-
-Three different sized Squares with different colours
-
-----
-
-**Level Three**
-
-A circle
-
-A star
-
-A cat
-
-----
-
-Solutions for each drawing can be found at [URL FOR SOLUTIONS]()
-
 ---
+
 
 ### For Loops
 
@@ -266,67 +227,118 @@ A `for` loop has
 
 The pre-written `range()` function returns a list of numbers
 
-``` python
+```python
 for number in range(5):
     print(number)
 ```
 
 ----
 
-**Task:** Using a `for` loop, the `range()` function and the multiply operator, print this output:
-
-``` command-line
-o
-oo
-ooo
-oooo
-ooooo
-oooooo
-ooooooo
-oooooooo
-ooooooooo
-```
-
-**Extension 1:** Use `input()` to set the number of lines output
-
-**Extension 2:** The `reversed()` function reverses a list. Can you use it to flip the pattern above?
-
-----
-
-Solution
-
-``` python
-for number in range(10):
-    print('o' * number)
-```
-
-----
-
-Extension 1
+For loops are really useful for repeating code. Notice in the original code for the square that you repeat the same bit of code four times:
 
 ```python
-repeat = int(input('How many repeats? '))
+import turtle
 
-for number in range(repeats):
-    print('o' * number)
+side_length = 200
+angle = 90
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.done()
 ```
 
 ----
 
-Extension 2
+Using a for loop you can simplify the program:
 
-``` python
-for number in reversed(range(10)):
-    print('o' * number)
+```python
+import turtle
+
+side_length = 200
+angle = 90
+
+for side in range(4):
+    turtle.forward(side_length)
+    turtle.right(angle)
+
+turtle.done()
+```
+
+
+----
+
+**Exercise 1.2: Choose your sides**
+
+In this exercise you'll create a program that can draw shapes with any number of sides.
+
+When you run the program it will ask you to input the number of sides that the shape should have. The program will then calculate the correct angle for the shape and draw it for you.
+
+I've started the program for you:
+
+```python
+import turtle
+
+sides = int(input('Number of sides: ')) 
+
+angle = 360 / sides
+side_length = 60
+
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.done()
+```
+
+**Extension:** Create a new file called `spiral.py` and adapt your solution to create a 100 sided spiral.
+
+----
+
+Solution:
+
+
+```python
+import turtle
+
+sides = int(input('Number of sides: ')) 
+
+angle = 360 / sides
+side_length = 60
+
+for side in range(sides):
+    turtle.forward(side_length)
+    turtle.right(angle)
+
+turtle.done()
 ```
 
 ----
 
-Level 1 Challenge: Pentagon
+Extension Solution:
 
-Level 2 Challenge: Circle
+```python
+import turtle
 
-Level 3 Challenge: Sprial
+sides = 100 
+
+angle = 360 / sides
+
+for side in range(sides):
+    turtle.forward(side)
+    turtle.right(angle)
+
+turtle.done()
+```
 
 ---
 
@@ -341,11 +353,11 @@ Level 3 Challenge: Sprial
 List are written inside square brackets and separated by commas
 
 
-``` python
+```python
 lottery_numbers = [4, 8, 15, 16, 23, 42]
 ```
 
-``` python
+```python
 student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
 ```
 
@@ -353,14 +365,14 @@ student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
 
 Lists can be made up of values of one or more data types
 
-``` python
+```python
 orchid_row = ['Magnoliopsida', 12, 3, 8, 9, 'white']
 ```
 
 ----
 List values can be accessed using their **index** in square brackets
 
-``` python
+```python
 student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
 
 print(student_names[2])
@@ -370,7 +382,7 @@ print(student_names[2])
 
 List indexes start counting from 0
 
-``` python
+```python
 student_names = [
     'Diedre',    # index 0
     'Hank',      # index 1
@@ -393,7 +405,7 @@ Using lists and for loops together
 
 
 
-``` python
+```python
 student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
 
 for student_name in student_names:
@@ -402,33 +414,297 @@ for student_name in student_names:
 
 ----
 
-**Task:** I have a load of cats and need you to feed them when I'm on holiday
+**Exercise 1.3:** I have a load of cats and I want you to create a piece of art with all of their names on it.
 
-Here is a list of all my cats
+You need to use the turtle library to write the cats' names on each corner of a square.
 
-``` python
-cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
-```
+The `turtle.write()` function will write a string using turtle. I've started the code for you, you need to add the for loop:
 
-To feed all my cats write a for loop that contains this code
-``` python
-print('I am feeding {}'.format(cat))
-print('{} says meow'.format(cat))
+
+```python
+import turtle
+
+cat_names = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+
+# Add for loop here
+
+turtle.write(cat_name)
+turtle.forward(100)
+turtle.right(90)
+
+turtle.done()
+
 ```
 
 ----
 
 Solution:
 
-``` python
-cats = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+```python
+import turtle
 
-for cat in cats:
-    print('I am feeding {}'.format(cat))
-    print('{} says meow'.format(cat))
+cat_names = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+
+for cat_name in cat_names:
+    turtle.write(cat_name)
+    turtle.forward(100)
+    turtle.right(90)
+
+turtle.done()
 
 ```
 
+---
+
+### Functions
+
+----
+
+**Function:** A reusable block of code
+
+----
+
+```python
+import turtle
+
+
+def square():
+    side_length = 100
+    angle = 90
+
+    for side in range(4):
+        turtle.forward(side_length)
+        turtle.right(angle)
+```
+
+----
+
+All functions have
+1. a `def` operator
+1. a name
+1. brackets
+1. a colon
+1. body (indented 4 spaces)
+
+----
+
+We call a function to use it
+
+```python
+import turtle
+
+
+def square():
+    side_length = 100
+    angle = 90
+
+    for side in range(4):
+        turtle.forward(side_length)
+        turtle.right(angle)
+
+
+square()
+```
+----
+
+Functions can be called many times
+
+```python
+import turtle
+
+
+def square():
+    side_length = 100
+    angle = 90
+
+    for side in range(4):
+        turtle.forward(side_length)
+        turtle.right(angle)
+
+
+square()
+turtle.forward(150)
+square()
+```
+
+----
+
+**Exercise 1.4:** Create a function that draws a triangle using turtle.
+
+----
+
+Solution:
+
+```python
+import turtle
+
+
+def triangle():
+    side_length = 100
+    angle = 120
+
+    for side in range(3):
+        turtle.forward(side_length)
+        turtle.right(angle)
+
+
+triangle()
+```
+
+
+
+----
+
+**Argument:** A parameter used to change the behaviour of a function
+
+----
+
+Arguments go inside the brackets and behave like variables
+
+```python
+import turtle
+
+
+def square(side_length):
+    angle = 90
+
+    for side in range(4):
+        turtle.forward(side_length)
+        turtle.right(angle)
+
+square(60)
+square(100)
+```
+
+----
+
+**Exercise 1.5:** Modify your triangle function so that you can set the **side length** using an argument
+
+**Extension:** Use a second argument to set the **colour** of the triangle
+
+----
+
+Solution:
+
+```python
+import turtle
+
+
+def triangle(side_length):
+    angle = 120
+
+    for side in range(3):
+        turtle.forward(side_length)
+        turtle.right(angle)
+
+
+triangle(400)
+triangle(300)
+triangle(200)
+triangle(100)
+```
+----
+
+Extension:
+
+```python
+import turtle
+
+
+def triangle(side_length, colour):
+    angle = 120
+    
+    turtle.color(colour, colour)
+    turtle.begin_fill()
+
+    for side in range(3):
+        turtle.forward(side_length)
+        turtle.right(angle)
+
+    turtle.end_fill()
+
+
+triangle(400, 'red')
+triangle(300, 'pink')
+triangle(200, 'blue')
+triangle(100, 'yellow')
+```
+
+----
+
+Functions can have multiple arguments seperated by commas
+
+```python
+import turtle
+
+
+def square(side_length, colour):
+    angle = 90
+
+    turtle.color(colour, colour)
+    turtle.begin_fill()
+
+    for side in range(4):
+        turtle.forward(side_length)
+        turtle.right(angle)
+
+    turtle.end_fill()
+
+square(400, 'red')
+square(300, 'pink')
+square(200, 'blue')
+square(100, 'yellow')
+```
+
+----
+
+Values can be returned from functions using the `return` operator
+
+```python
+def add(num_1, num_2):
+    return num_1 + num_2
+
+my_height = 182
+friend_height = 160
+
+total_height = add(my_height, friend_height)
+
+print(total_height)
+```
+
+----
+
+**Exercise 1.6:** Complete the function to return the area of a circle
+
+
+
+Use the comments to help you
+
+```python
+def circle_area():  # add the radius argument inside the brackets
+    area = 3.14 * (radius ** 2)
+    # return area here
+
+
+area =  circle_area(10)
+
+print(area)
+
+```
+
+----
+
+Answer
+
+```python
+def circle_area(radius):
+    area = 3.14 * (radius ** 2)
+    return area
+
+area = circle_area(9)
+
+print(area)
+```
 ---
 
 
@@ -437,7 +713,9 @@ for cat in cats:
 ----
 
 This session:
+
 1. Importing libraries
 1. Problem solving with Turtle
 1. For Loops
 1. Lists
+1. Functions
