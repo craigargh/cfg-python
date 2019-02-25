@@ -47,17 +47,13 @@ def save_pdf(html):
 
 
 def run(format):
-    # all_files = sorted(
-    #     f 
-    #     for f in os.listdir('.') 
-    #     if os.path.isfile(f)
-    #     if 'session' in f
-    # )
-
-    all_files = ['session_1.md']
-
-    all_files.insert(0, 'introduction.md')
-    all_files.insert(1, 'setup.md')
+    all_files = [
+        'introduction.md',
+        'setup.md',
+        'session_1.md',
+        'session_2.md',
+        'solutions.md',
+    ]
 
     parsed = '\n'.join(
         parse_md(file_name)
@@ -66,8 +62,10 @@ def run(format):
 
     if format == 'pdf':
         save_pdf(parsed)
+
     elif format =='html':
         save_html(parsed)
+
     elif format == 'all':
         save_pdf(parsed)
         save_html(parsed)

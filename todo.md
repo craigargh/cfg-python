@@ -1,8 +1,7 @@
 To do:
-1. Write proposal for Code First: Girls (✓)
 1. Rewrite session slides:
   - Session 1 (✓)
-  - Session 2 (~)
+  - Session 2 (✓)
   - Session 3 (Update boolean comparators section to resemble in-depth notes)
   - Session 4
   - Session 5
@@ -23,6 +22,11 @@ To do:
     - String formatting
     - User input
   - Session 2
+    - libraries (✓)
+    - for loops
+    - lists
+    - for loops <3 lists
+    - functions
   - Session 3 (~)
   - Session 4
   - Session 5
@@ -50,6 +54,7 @@ To do:
   - Session 6
   - Session 7 
   - Session 8
+1. Write proposal for Code First: Girls (✓)
 1. Generate pdf script (✓)
 1. PDF styling (✓)
 1. Add relative paths to course handbook images instead of hardcoded to personal computer

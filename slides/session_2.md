@@ -293,14 +293,14 @@ sides = int(input('Number of sides: '))
 angle = 360 / sides
 side_length = 60
 
-
+# Add the for loop here
 turtle.forward(side_length)
 turtle.right(angle)
 
 turtle.done()
 ```
 
-**Extension:** Create a new file called `spiral.py` and adapt your solution to create a 100 sided spiral.
+**Extension:** Create a new file called `spiral.py` and write a program to create a 100 sided spiral with an angle of 90 degrees
 
 ----
 

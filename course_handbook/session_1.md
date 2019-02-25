@@ -420,6 +420,8 @@ Your will need:
 
 ## String Formatting
 
+
+
 There a few different ways to do string formatting in Python
 
 [F-STRINGS]
