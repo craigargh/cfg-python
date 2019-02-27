@@ -73,7 +73,7 @@ turtle.done()
 
 ## Problem Solving (with Turtles)
 
-In this part of the session I'll show you how to use the turtle to draw a square with Python. This may not seem impressive, but it's a good stepping stone for learning so really powerful stuff in Python.
+In this part of the session I'll show you how to use the turtle to draw a square with Python. This may not seem impressive, but it's a good stepping stone for learning some really powerful stuff in Python.
 
 
 Copy this code into a new Python file in PyCharm (you might want to save it in a file named `square.py`):
@@ -204,7 +204,7 @@ The `number` part of the for loop works like a variable. The value of the variab
 
 The first time the loop runs the value of `number` is set to `0`. The body of the loop is then run. In this case the body is `print(number)`, which will print the value of the `number` variable (`0`). After the body has completed running the loop starts again. 
 
-The second time the loop runs the value of `number` is set to `1`. The body then runs, once again printing the value of `number`. The loops repeats three more times in total, setting the value value of `number` to `2`, `3`, and `4` in the third, fourth, fifth repeats respectively.
+The second time the loop runs the value of `number` is set to `1`. The body then runs, once again printing the value of `number`. The loops repeats three more times in total, setting the value of `number` to `2`, `3`, and `4` in the third, fourth and fifth repeats respectively.
 
 After the fifth loop has finished the `range()` function doesn't return any more numbers so the loop stops. 
 
@@ -246,7 +246,7 @@ for side in range(4):
 turtle.done()
 ```
 
-This code will draw an identical square. The benefit here is the code is more concide. If the shape became more complex, for example if it had 360 sides instead of 4, the code would look almost the same:
+This code will draw an identical square. The benefit here is the code is more concise. If the shape became more complex, for example if it had 360 sides instead of 4, the code would look almost the same:
 
 ```python
 import turtle
@@ -261,7 +261,7 @@ for side in range(360):
 turtle.done()
 ```
 
-All that's change here are the values of `side_length`, `angle`, and the number inside the `range()` function. Now imagine instead that I wanted to write this same program without the for loop. It would be over 700 lines long, making it hard to change and hard to spot errors. 
+All that's changed here are the values of `side_length`, `angle`, and the number inside the `range()` function. Now imagine instead that I wanted to write this same program without the for loop. It would be over 700 lines long, making it hard to change and hard to spot errors. 
 
 ----
 
