@@ -8,7 +8,7 @@ I have written the following Python program to work out how many pizza slices I 
 people = '15'
 pizza_slices = 4
 
-total_pizza_slices = people * pizza_slcies
+total_pizza_slices = people * pizza_slices
 
 message = 'I need to buy {} pizza slices'.format(total_pizza_slices)
 
