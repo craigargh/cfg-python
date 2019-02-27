@@ -26,7 +26,7 @@ Is my program calculating the total number of slices correctly? What is the prob
 A friend is new to Python and has written this Python program:
 
 ```python
-raw_input('What is your favourite Pokemon? ')
+input('What is your favourite Pokemon? ')
 
 message = 'Cool! I also like {}'.format(pokemon)
 print(message)
@@ -60,7 +60,7 @@ Your program should:
 *Hint:* The `raw_input()` function returns the user's input as a string. You can convert a string into an integer with the `int()` function e.g.
 
 ```python
-raw_turtles = raw_input('How many turtles? ')
+raw_turtles = input('How many turtles? ')
 turtles = int(raw_turtles) 
 ```
 
