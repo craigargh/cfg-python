@@ -18,7 +18,7 @@ This session:
 
 ---
 
-### Python  Libraries
+### Python Libraries
 
 ----
 

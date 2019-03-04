@@ -21,13 +21,15 @@ This session:
 
 ----
 
+**Bolean:** A data-type that is either `True` or `False`
+
 **Logical Operators:** used to check if an expression is `True` or `False`
 
 ----
 
 This code checks if the user has input `'Monday'` using the `==` operator
 
-``` python
+```python
 today = input('What day is it? ')
 
 is_monday = today == 'Monday'
@@ -51,7 +53,7 @@ Less than or equal | `<=`
 ----
 
 This code checks if today is not Monday
-``` python
+```python
 today = input('What day is it? ')
 
 is_not_monday = today != 'Monday'
@@ -61,13 +63,13 @@ print('Today is not Monday: {}'.format(is_not_monday))
 
 ----
 
-**Task:** You have a budget of £10 and want to write a program to decide which burger restaurant to go to.
+**Exercise:** You have a budget of £10 and want to write a program to decide which burger restaurant to go to.
 
 1. Input the `price` of a burger using `input()`
 1. Check whether the `price` is less than or equal (`<=`) `10.00`
 1. Print the result in the format below
 
-``` command-line
+```bash
 Burger is within budget: True
 ```
 
@@ -78,13 +80,12 @@ Burger is within budget: True
 
 Answer
 
-``` python
+```python
 price = input('How much is a burger? ')
 
 within_budget = float(price) <= 10.00
 
 print('Burger is within budget: {}'.format(within_budget))
-
 ```
 
 ----
@@ -99,30 +100,31 @@ not | reverse the expression (`True` becomes `False` and vice-versa)
 
 ----
 
-``` python
-today = input('What day is it? ')
-sunny = input('Is it sunny? (y/n)')
+This program will work out if you should buy a hat:
 
-is_weekend = today == 'Saturday' or today == 'Sunday'
-is_sunny = sunny == 'y'
+```python
+enough_money = True
+hat_looks_good = True
 
-is_beach_good_idea = is_weekend and is_sunny
+should_buy_hat = enough_money and hat_looks_good
 
-print('You should go to the beach: {}'.format(is_beach_good_idea))
+print('You should buy the hat: {}'.format(should_buy_hat))
 ```
 ----
 
-**Task:** Add code to your burger program to input whether the restaurant has a vegetarian option
+**Exercise:** Add code to your burger program to input whether the restaurant has a vegetarian option
 
 The output should say whether the cost is within budget **AND** has a vegetarian option
 
-``` command-line
+```bash
 Restaurant meets criteria: True
 ```
 
 ----
 
-``` python
+Solution:
+
+```python
 price = input('How much is a burger? ')
 vegetarian = input('Is there a vegetarian option? (y/n) ')
 
@@ -144,7 +146,7 @@ print('Restaurant meets criteria: {}'.format(is_good_choice))
 
 ----
 
-``` python
+```python
 password = input('password: ')
 
 if password == 'jumanji':
@@ -162,7 +164,9 @@ An `if` statement has the following:
 
 ----
 
-``` python
+This program checks whether you are an admin and you have entered the right password:
+
+```python
 name = input("What is your name? ")
 password = input("What is your password? ")
 
@@ -178,17 +182,17 @@ if not is_admin or not is_password_correct:
 
 ----
 
-**Task:** Rewrite the output of your burger program to use if statements
+**Exercise:** Rewrite the output of your burger program to use if statements
 
-For example:
+Depending on the input the output should be:
 
-``` command-line
+```bash
 This restaurant is a great choice!
 ```
 
-OR
+Otherwise it should be:
 
-``` command-line
+```bash
 Probably not a good idea
 ```
 
@@ -199,7 +203,7 @@ Probably not a good idea
 
 ----
 
-``` python
+```python
 password = input('password: ')
 
 if password == 'jumanji':
@@ -211,22 +215,16 @@ else:
 
 ----
 
-``` python
+Here's the program that helps you decide whether to buy a hat using `if` and `else`:
 
-today = input('What day is it? ')
-raining = input('Is it sunny? (y/n)')
+```python
+enough_money = True
+hat_looks_good = True
 
-is_weekend = today == 'Saturday' or today == 'Sunday'
-is_raining = raining == 'y'
-
-is_beach_good_idea = is_weekend and not is_raining
-
-if is_beach_good_idea:
-    print('You should go to the beach today!')
+if enough_money and hat_looks_good:
+    print('Go for it!')
 else:
-    print('Don't go to the beach today')
-
-
+    print('Probably not a good idea')
 ```
 
 ---
@@ -240,7 +238,7 @@ else:
 
 ----
 
-``` python
+```python
 person = {
     'name': 'Jessica',
     'age': 23,
@@ -251,7 +249,7 @@ person = {
 ----
 
 Values in a dictionary are accessed using their keys
-``` python
+```python
 person = {
     'name': 'Jessica',
     'age': 23,
@@ -263,9 +261,9 @@ print(person['name'])
 
 ----
 
-**Task:** Print the values of `name`, `post_code` and `street_number` from the dictionary
+**Exercise:** Print the values of `name`, `post_code` and `street_number` from the dictionary
 
-``` python
+```python
 place = {
     'name': 'The Anchor',
     'post_code': 'E14 6HY',
@@ -281,9 +279,9 @@ place = {
 
 ----
 
-Solution
+Solution:
 
-``` python
+```python
 place = {
     'name': 'The Anchor',
     'post_code': 'E14 6HY',
@@ -301,7 +299,9 @@ print(place['street_number'])
 
 ----
 
-``` python
+Extension:
+
+```python
 print(place['location']['longitude'])
 print(place['location']['latitude'])
 
@@ -316,7 +316,7 @@ print(location['latitude'])
 
 Putting dictionaries inside a list is very common
 
-``` python
+```python
 people = [
     {'name': 'Jessica', 'age': 23},
     {'name': 'Trisha', 'age': 24},
@@ -329,9 +329,9 @@ for person in people:
 
 ----
 
-**Task:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
+**Exercise:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
 
-``` python
+```python
 fruits = [
     {'name': 'apple', 'colour': 'red', 'price': 0.12},
     {'name': 'banana', 'colour': 'yellow', 'price': 0.2},
@@ -341,7 +341,9 @@ fruits = [
 
 ----
 
-``` python
+Solution
+
+```python
 fruits = [
     {'name': 'apple', 'colour': 'red', 'price': 0.12},
     {'name': 'banana', 'colour': 'yellow', 'price': 0.2},
@@ -356,3 +358,13 @@ for fruit in fruits:
 
 
 ---
+
+### Recap
+
+----
+
+This session:
+1. Logical Operators
+1. If Statements
+1. Functions
+1. Dictionaries

@@ -18,3 +18,7 @@
 .reveal .progress span {
 	background: #c6213f !important;
 }
+
+.rendered_html table {
+    font-size: 24px;
+}
