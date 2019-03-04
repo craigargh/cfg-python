@@ -43,7 +43,3 @@ None
 ```
 
 Your boss expects the program to output the value `120`. What is wrong? How do you fix it?
-
-
-## Question 3
-
