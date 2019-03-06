@@ -1,6 +1,6 @@
-# Code First: Girls
+![Code First: Girls](images/logo_large.png)
 
-#### Python Session 6
+#### Python Session 1
 
 ---
 
