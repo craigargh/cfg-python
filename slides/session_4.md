@@ -50,6 +50,8 @@ Pokéapi is an API to get data about Pokémon
 
 ----
 
+Each Pokemon has a number that identifies it
+
 You can retrieve information about different Pokemon from urls
 
 [https://pokeapi.co/api/v2/pokemon/6/](https://pokeapi.co/api/v2/pokemon/6/)
@@ -59,8 +61,9 @@ You can retrieve information about different Pokemon from urls
 
 Save this as `get_pokemon.py`
 
-``` python
+```python
 import requests
+from pprint import pprint
 
 url = 'https://pokeapi.co/api/v2/pokemon/151/'
 
@@ -68,16 +71,8 @@ response = requests.get(url)
 print(response)
 
 pokemon = response.json()
-print(pokemon['name'])
+pprint(pokemon)
 ```
-
-Outputs
-``` command-line
-<Response [200]>
-mew
-```
-
-Note: get_pokemon.py
 
 ----
 
@@ -100,7 +95,7 @@ Add `input()` to choose which Pokemon you want information about
 
 Solution
 
-``` python
+```python
 import requests
 
 pokemon_number = input("What is the Pokemon's ID? ")
@@ -146,7 +141,7 @@ Successfully installed Jinja2-2.10 MarkupSafe-1.0 Werkzeug-0.14.1 click-6.7 flas
 
 ----
 
-``` python
+```python
 from flask import Flask
 app = Flask(__name__)
 
@@ -181,7 +176,7 @@ The function should return a either `string` or a `response` (covered later)
 
 This adds [localhost:5000/about/](http://localhost:5000/about/)
 
-``` python
+```python
 from flask import Flask
 app = Flask(__name__)
 
@@ -207,32 +202,24 @@ Note: flask_about.py
 
 ----
 
-**Task:** Add each of these routes and make them return the following values
-
-Route | Return
---- | ---
-/hello/ | `"Hello"`
-/add/2/2/ | 2 + 2
+**Task:** Add an app route that returns your name when you go to `localhost:5000/hello/` in your browser
 
 ----
 
 Solution
 
-``` python
+```python
+from flask import Flask
+app = Flask(__name__)
+
 
 @app.route('/hello/')
 def hello():
-    return 'Hello'
+    return 'James'
 
 
-@app.route('/add/2/2/')
-def add():
-    return str(2 + 2)
-
+app.run(debug=True)
 ```
-
-Note: flask_hello_and_add.py
-
 ---
 
 ### Flask: Dynamic Routes
@@ -248,7 +235,7 @@ Flask can also handle dynamic routing
 
 Change your code for the `'/hello/'` route
 
-``` python
+```python
 @app.route('/hello/<name>/')
 def hello(name):
     return 'Hello {}'.format(name)
@@ -265,26 +252,9 @@ Note: flask_dynamic_routing
 
 ----
 
-``` python
-@app.route('/add/<num_1>/<num_2>/')
-def add(num_1, num_2):
-    result = int(num_1) + int(num_2)
-    return str(result)
-
-```
-
-- [http://localhost:5000/add/1/2/](http://localhost:5000/add/1/2/)
-- [http://localhost:5000/add/5/7/](http://localhost:5000/add/5/7/)
-- [http://localhost:5000/add/98659/865/](http://localhost:5000/add/98659/865/)
-
-
-Note: flask_dynamic_routing.py
-
-----
-
 **Task:** I want to calculate the area of a circle using my Flask app. Use the following code as a starting point
 
-``` python
+```python
 def circle_area(radius):
     area = 3.14 * (radius ** 2)
     return area
@@ -297,7 +267,7 @@ For a circle with radius 5, the url should look like this [http://localhost:5000
 
 Solution
 
-``` python
+```python
 @app.route('/circle/<radius>/')
 def circle_area(radius):
     radius = int(radius)
@@ -305,8 +275,6 @@ def circle_area(radius):
 
     return str(area)
 ```
-
-Note: flask_circle.py
 
 
 ----
@@ -340,7 +308,7 @@ Flask looks for Jinja templates in the `templates` folder
 
 `colours_html.py`
 
-``` python
+```python
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -358,7 +326,7 @@ app.run(debug=True)
 
 `colour.html`
 
-``` html
+```html
 <html>
     <body>
         <div style="color: red">
@@ -377,7 +345,7 @@ app.run(debug=True)
 
 Similar to string formatting, Jinja templates have arguments
 
-``` html
+```html
 <html>
     <body>
         <div style="color: {{colour}}">
@@ -389,7 +357,7 @@ Similar to string formatting, Jinja templates have arguments
 
 ----
 
-``` python
+```python
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -407,7 +375,7 @@ app.run(debug=True)
 
 **Task:** Create a new html file called `size.html`. When I go to `localhost:5000/size/12/` it should show some text in that font size
 
-``` html
+```html
 <html>
     <body>
         <div style="font-size: {{size}}pt">
@@ -420,7 +388,7 @@ app.run(debug=True)
 ----
 
 Solution
-``` python
+```python
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -452,7 +420,7 @@ You can use for loops to repeat blocks of HTML
 
 ----
 
-``` python
+```python
 from flask import Flask, render_template
 
 app = Flask(__name__)
