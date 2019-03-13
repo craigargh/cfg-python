@@ -57,6 +57,9 @@ To do:
 1. Write proposal for Code First: Girls (✓)
 1. Generate pdf script (✓)
 1. PDF styling (✓)
+1. Change session 3 examples: 
+  - Change "What day is it?" to "Is the temperature freezing?"
+  - Change "Should I buy a hat?" to an example that uses input() 
 1. Add relative paths to course handbook images instead of hardcoded to personal computer
 1. Update README for Jupyter/RISE slides
 1. Number all course guide exercises so they can be referenced in the slides and number all exercises in the slides
