@@ -3,7 +3,7 @@
 Create a program that tells you whether or not you need an umbrella when you leave the house.
 
 The program should:
-1. Ask you if it is raining using `raw_input()`
+1. Ask you if it is raining using `input()`
 1. If the input is 'y', it should output 'Take an umbrella'
 1. If the input is 'n', it should output 'You don't need an umbrella
 
