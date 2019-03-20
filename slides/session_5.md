@@ -1,7 +1,3 @@
-Install Git
-
----
-
 ![Code First: Girls](images/logo_large.png)
 
 #### Python Session 5
@@ -9,8 +5,71 @@ Install Git
 ---
 
 This session
-1. Git/Source Control
-1. Project planning
+1. Planning your project
+1. Doing your project
+1. git (optional)
+
+---
+
+### Planning Requirements
+
+----
+
+When you start a new project you may have lots of ideas on what it could do.
+
+In this session we'll cover a technique called MoSCoW to prioritise your ideas.
+
+----
+
+**Task:** If you have an idea, give a brief description to the rest of the students
+
+Get together in groups of 2-3 people
+
+----
+
+**Task:** Get together with your group. As a single sentence write a very brief summary of what the project will do.
+
+For example: 
+
+> A website where you can search for books
+
+----
+
+**Task:** Next, write down all of things that you think your project could do. 
+
+Don't worry if an idea sounds stupid or too difficult at this stage. Just get as many ideas as possible.
+
+----
+
+For example:
+- Users should be able to enter the book's name in a search box
+- The price of the book should be shown on the search results
+- The user should be able to order the book from Amazon
+- The author of the book should be shown in the search results
+- The book's front cover should be shown in the search results
+
+----
+
+MoSCoW is a technique for prioritising requirements. 
+
+You put your requirements into four groups:
+- Must
+- Should
+- Could
+- Won't
+
+----
+
+**Task:** Group your ideas using MoSCoW
+
+The instructors will review these with you and help you prioritise 5 things that you should aim to complete by the next session
+
+----
+
+**Task:** Look for APIs that you might be able to use for your projects. Some common APIs will have beginner friendly tutorials
+
+> You can find tutorials by searching for something like `Spotify API Python beginner tutorial`
+
 
 ---
 
@@ -30,134 +89,5 @@ A Git repository stores the versions of your application's code in a single loca
 
 ----
 
-One person on your team will need to create the repository using their GitHub account
+Follow the free git tutorial at Codecademy [www.codecademy.com/learn/learn-git](https://www.codecademy.com/learn/learn-git)
 
-----
-
-Go to [github.com](http://www.github.com) and log in
-
-----
-
-Click on the `Start a Project` button
-
-OR
-
-Click on the `+` icon on the right of the navbar, `New repository`
-
-----
-
-Choose a name for your project and click `Create repository`
-
-----
-
-So that other team members can contribute, you need to add them as Collaborotors
-
-On the project's repository
-1. Go to the `Settings` tab
-1. Click `Collaborators` on the menu at the left hand side
-1. Enter their username/email address and click `Add collaborator`
-
----
-
-### Git: Commits and Pulling Code
-----
-
-Before doing anything else, we need to connect our GitHub account with PyCharm
-
-----
-
-![Github Account](gifs/github_account.gif)
-
-----
-
-You can copy the code from the central respository. This is called **cloning** the repository.
-
-----
-
-![Git Clone](gifs/git_clone.gif)
-
-----
-
-The repository keeps track of changes to the code. Each group of changes is called a **commit**.
-
-Each commit has a commit message and a record of the code it changes.
-
-----
-
-[An example Commit](https://github.com/craigargh/cfg-python/commit/57ae352f7211b9584369a4caf154d0bc903a70f9)
-
-----
-
-You can make changes to the code on your computer. First you need to add a file to Git.
-
-You can then **commit** and **push** them from your computer to the central repository.
-
-----
-
-![Git Add](gifs/git_add.gif)
-
-----
-
-![Git Commit and Push](gifs/git_commit_push.gif)
-
-----
-
-To avoid commiting certain files (e.g. PyCharm config), you add them to `.gitignore`
-
-Create a file called `.gitignore` in your project and add this:
-
-```
-.idea/
-venv/
-```
-----
-
-**Task:** Create a new text file called `<your_name>.txt`
-
-Commit and push it to the Git repository
-
-----
-
-When there are updates to the code you can **pull** these changes into the copy on your computer.
-
-----
-
-![git pull](gifs/git_pull.gif)
-
-----
-
-Sometimes when two people work on the same file separately, there will be incompatible changes.
-
-Git calls this a conflict
-
-----
-
-![Git Conflict](gifs/git_conflict.gif)
-
-----
-
-Really good git resources:
-- https://try.github.io/
-- https://github.com/git-school/workshop-setup
-- https://www.youtube.com/watch?v=BCQHnlnPusY
-
----
-
-### Projects!!!
-
-----
-
-- Groups of 2-3 people
-- Presentations in second half of Session 8
-- Should use Flask
-- APIs/Python libraries
-
-----
-
-How to plan a project:
-- Explain the purpose of your application
-- Make a list of requirements
-- Prioritise your requirements (Must, Should, Could, Won't)
-- Minimum Viable Product (MVP)
-
----
