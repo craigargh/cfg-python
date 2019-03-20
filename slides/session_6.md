@@ -28,7 +28,9 @@ For example:
 
 ----
 
-Next, write down all of things that you think your project could do. Don't worry if an idea sounds stupid or too difficult at this stage. Just get as many ideas as possible.
+**Task:** Next, write down all of things that you think your project could do. 
+
+Don't worry if an idea sounds stupid or too difficult at this stage. Just get as many ideas as possible.
 
 ----
 
@@ -52,5 +54,7 @@ You put your requirements into four groups:
 ----
 
 **Task:** Group your ideas using MoSCoW
+
+----
 
 
