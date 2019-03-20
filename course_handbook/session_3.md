@@ -4,7 +4,7 @@
 
 ## Comparisons
 
-Conmparisons are all about checking if something is `True` or `False`. This has many applications in programming. Is the password a user has just entered correct? Is there enough money in my account to buy a pair of socks? Can I fit another jelly bean in my mouth?
+Comparisons are all about checking if something is `True` or `False`. This has many applications in programming. Is the password a user has just entered correct? Is there enough money in my account to buy a pair of socks? Can I fit another jelly bean in my mouth?
 
 Notice how all of the above examples are yes or no questions. In Python you can represent a yes as a `True` value and a no as a `False` value.
 
