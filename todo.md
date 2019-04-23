@@ -1,5 +1,6 @@
 To do:
-1. Rewrite session slides:
+
+Rewrite session slides:
   - Session 1 (✓)
   - Session 2 (✓)
   - Session 3 (Update boolean comparators section to resemble in-depth notes)
@@ -7,7 +8,8 @@ To do:
   - Session 5
   - Session 6
     - Mention that instructors will set 5 mini-goals by the end of the first project session for each team
-1. Write course handbook
+
+Write course handbook
   - Introduction (~)
     - Welcome to the course (✓)
     - Sesison overview (✓)
@@ -38,12 +40,14 @@ To do:
   - Session 8 
     - Mention podcasts, websites and other online resources
   - Using the command-line
-1. Homework
+
+Homework
   - Session 1 (~)
   - Session 2 
   - Session 3 
   - Session 4
-1. Instructor handbook (purpose/objectives of the session, common problems, and timings for explanation/exercises)
+
+Instructor handbook (purpose/objectives of the session, common problems, and timings for explanation/exercises)
   - Overview and pedagogy of the course (problem solving, scaffolding, differentation)
   - Setup
   - Session 1
@@ -54,6 +58,8 @@ To do:
   - Session 6
   - Session 7 
   - Session 8
+
+Other stuff:
 1. Write proposal for Code First: Girls (✓)
 1. Generate pdf script (✓)
 1. PDF styling (✓)
@@ -71,7 +77,19 @@ To do:
 1. Style reveal-md to match RISE/Jupyter styling
 1. Delete unused files
 
-
+Issues:
+- Project learning curve
+  - Remove project; or
+  - More supporting resources for project (example APIs)
+  - Template repository or Cookie Cutter
+- Not much depth on Flask
+  - More sessions on Flask
+  - More supporting resources
+- APIs for project
+  - More supporting resources
+  - Restrict APIs that they can use
+- Projects are hard with only a couple of instructors
+  
 Key:
 - In Progress (~)
 - Written (✓)
