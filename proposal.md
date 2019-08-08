@@ -27,14 +27,15 @@ Session 2:
 - Importing libraries
 - Problem solving with Turtle
 - For Loops
+- Functions
 
 Session 3
 - Logical Operators
 - If Statements
-- Functions
 
 Session 4
 - Lists
+- Lists and for loops
 - Dictionaries
 
 Session 5

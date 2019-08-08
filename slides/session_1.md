@@ -36,7 +36,6 @@ This session:
 1. Maths operations
 1. Understanding Error Messages
 1. Variables
-1. User input
 
 ----
 
@@ -356,6 +355,12 @@ Traceback (most recent call last):
 TypeError: cannot concatenate 'str' and 'int' objects
 ```
 
+```bash
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: must be str, not int
+```
+
 ----
 
 Putting a number in `str()` converts it to a string
@@ -519,64 +524,6 @@ print(output)
 
 ---
 
-### User Input
-
-----
-
-The `input()` function allows you to input data after the program has started running
-
-
-----
-
-[GIF OF USING input()]
-
-----
-
-In a new file called `my_name.py`
-
-```python
-name = input('What is you name? ')
-print('Hello, {}'.format(name))
-```
-
-----
-
-Oranges with user input
-
-```python
-oranges_string = input('How many oranges do you want? ')
-
-oranges = int(oranges_string)
-cost_per_orange = 0.5
-
-total_cost = oranges * cost_per_orange
-
-output = "{} oranges costs £{}".format(oranges, total_cost)
-
-print(output)
-```
-
-----
-
-**Exercise 1.5:** Change `cat_food.py` so that the number of cats can be input when the program is run
-
-----
-
-Answer:
-
-```python
-cats_string = input('How many cats do you need to feed? ')
-
-cats = int(cats_string)
-cans = 2
-
-total_cans = cats * cans
-
-output = "{} cats eat {} cans".format(cats, total_cans)
-print(output)
-```
-
----
 
 ### Comments
 
@@ -612,7 +559,6 @@ print(output)
 1. Data types (Integers, Floats and Strings)
 1. Maths operations
 1. Variables
-1. User input
 
 
 ---

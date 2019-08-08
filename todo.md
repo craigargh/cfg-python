@@ -1,63 +1,6 @@
 To do:
 
-Rewrite session slides:
-  - Session 1 (✓)
-  - Session 2 (✓)
-  - Session 3 (Update boolean comparators section to resemble in-depth notes)
-  - Session 4
-  - Session 5
-  - Session 6
-    - Mention that instructors will set 5 mini-goals by the end of the first project session for each team
-
-Write course handbook
-  - Introduction (~)
-    - Welcome to the course (✓)
-    - Sesison overview (✓)
-  - Setup Instructions (✓)
-  - Session 1 (~)
-    - Intro (~)
-    - Why python (✓)
-    - First program (✓)
-    - Numbers and operators (✓)
-    - Strings (✓)
-    - Variables (✓)
-    - String formatting
-    - User input
-  - Session 2
-    - libraries (✓)
-    - for loops
-    - lists
-    - for loops <3 lists
-    - functions
-  - Session 3 (~)
-  - Session 4
-  - Session 5
-  - Session 6
-    - Planning projects
-    - Useful libraries
-    - Heroku
-    - Add project template for Flask/Jinja/Heroku
-  - Session 8 
-    - Mention podcasts, websites and other online resources
-  - Using the command-line
-
-Homework
-  - Session 1 (~)
-  - Session 2 
-  - Session 3 
-  - Session 4
-
-Instructor handbook (purpose/objectives of the session, common problems, and timings for explanation/exercises)
-  - Overview and pedagogy of the course (problem solving, scaffolding, differentation)
-  - Setup
-  - Session 1
-  - Session 2
-  - Session 3
-  - Session 4
-  - Session 5
-  - Session 6
-  - Session 7 
-  - Session 8
+- 
 
 Other stuff:
 1. Write proposal for Code First: Girls (✓)

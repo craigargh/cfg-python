@@ -1,468 +1,113 @@
+### Lists
 
-![Code First: Girls](images/logo_large.png)
+----
 
-#### Python Session 4
+**List:** an ordered collection of values
+
+----
+
+List are written inside square brackets and separated by commas
+
+
+```python
+lottery_numbers = [4, 8, 15, 16, 23, 42]
+```
+
+```python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+```
+
+----
+
+Lists can be made up of values of one or more data types
+
+```python
+orchid_row = ['Magnoliopsida', 12, 3, 8, 9, 'white']
+```
+
+----
+List values can be accessed using their **index** in square brackets
+
+```python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+
+print(student_names[2])
+```
+
+----
+
+List indexes start counting from 0
+
+```python
+student_names = [
+    'Diedre',    # index 0
+    'Hank',      # index 1
+    'Helena',    # index 2
+    'Salome'   # index 3
+]
+
+print(student_names[0])
+```
 
 ---
 
-This session
-1. Pip package manager
-1. APIs
-1. Flask and Jinja
+### For Loops ♥ Lists
+
+----
+
+Using lists and for loops together
+
+----
+
+
+
+```python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+
+for student_name in student_names:
+    print(student_name)
+```
+
+----
+
+**Exercise 1.3:** I have a load of cats and I want you to create a piece of art with all of their names on it.
+
+You need to use the turtle library to write the cats' names on each corner of a square.
+
+The `turtle.write()` function will write a string using turtle. I've started the code for you, you need to add the for loop:
+
+
+```python
+import turtle
+
+cat_names = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+
+# Add for loop here
+
+turtle.write(cat_name)
+turtle.forward(100)
+turtle.right(90)
+
+turtle.done()
+
+```
+
+----
+
+Solution:
+
+```python
+import turtle
+
+cat_names = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+
+for cat_name in cat_names:
+    turtle.write(cat_name)
+    turtle.forward(100)
+    turtle.right(90)
+
+turtle.done()
+
+```
 
 ---
-
-### Python Pip
-
-----
-
-**pip:** A package manager used to install libraries that other people have written
-
-----
-
-pip is used via the terminal (command-line)
-
-![Opening the terminal](gifs/terminal.gif)
-
-----
-
-Install the `requests` library using pip
-
-``` command-line
-pip install requests
-```
-
----
-
-### APIs: Reading Stuff
-
-----
-
-**Application Programming Interface (API):** A way to interact with another application from your code through requests.
-
-Web APIs allow you to do this over the internet.
-
-----
-
-Pokéapi is an API to get data about Pokémon
-
-[pokeapi.co/](https://pokeapi.co/)
-
-----
-
-Each Pokemon has a number that identifies it
-
-You can retrieve information about different Pokemon from urls
-
-[https://pokeapi.co/api/v2/pokemon/6/](https://pokeapi.co/api/v2/pokemon/6/)
-
-----
-
-
-Save this as `get_pokemon.py`
-
-```python
-import requests
-from pprint import pprint
-
-url = 'https://pokeapi.co/api/v2/pokemon/151/'
-
-response = requests.get(url)
-print(response)
-
-pokemon = response.json()
-pprint(pokemon)
-```
-
-----
-
-Reponse status codes:
-
-Status Code | Name | Explanation
---- | --- | ---
-200 | OK | The request worked
-404 | Not found | Couldn't find the url you requested
-400 | Bad request | The request you made isn't understood
-
-
-----
-
-**Task:** Get the *height* and *weight* of the Pokemon and print the output
-
-Add `input()` to choose which Pokemon you want information about
-
-----
-
-Solution
-
-```python
-import requests
-
-pokemon_number = input("What is the Pokemon's ID? ")
-
-url = 'https://pokeapi.co/api/v2/pokemon/{}/'.format(pokemon_number)
-
-response = requests.get(url)
-pokemon = response.json()
-
-print(pokemon['name'])
-print(pokemon['height'])
-print(pokemon['weight'])
-```
-
-Note: get_pokemon_height.py
-
----
-
-### Flask: Routing
-
-----
-
-**Flask:** A Python library for building programs that run on the web, including websites and APIs.
-
-Flask manages things like routing and rendering templates so that you can focus on writing your application's code.
-
-----
-
-
-We want to install Flask using pip using the Terminal
-
-``` command-line
-pip install flask
-```
-
-----
-
-Flask is installed along with the packages it depends on
-
-``` command-line
-Successfully installed Jinja2-2.10 MarkupSafe-1.0 Werkzeug-0.14.1 click-6.7 flask-0.12.2 itsdangerous-0.24
-```
-
-----
-
-```python
-from flask import Flask
-app = Flask(__name__)
-
-
-@app.route('/')
-def home():
-    return 'I am home'
-
-
-app.run(debug=True)
-```
-
-Note: flask_home.py
-
-----
-
-After running the Python program, you can view the website at [localhost:5000](http://localhost:5000)
-
-----
-
-![A basic Flask website shown in the browser](images/flask_home.png)
-
-----
-
-The `@app.route()` code is a **function decorator**.
-
-It tells Flask to run a function when someone goes to a specific url
-
-The function should return a either `string` or a `response` (covered later)
-
-----
-
-This adds [localhost:5000/about/](http://localhost:5000/about/)
-
-```python
-from flask import Flask
-app = Flask(__name__)
-
-
-@app.route('/')
-def home():
-    return 'I am home'
-
-
-@app.route('/about/')
-def about():
-    return 'This is a Flask website'
-
-
-app.run(debug=True)
-```
-
-
-
-**Tip:** Remember to include the second forward slash after `'about'`
-
-Note: flask_about.py
-
-----
-
-**Task:** Add an app route that returns your name when you go to `localhost:5000/hello/` in your browser
-
-----
-
-Solution
-
-```python
-from flask import Flask
-app = Flask(__name__)
-
-
-@app.route('/hello/')
-def hello():
-    return 'James'
-
-
-app.run(debug=True)
-```
----
-
-### Flask: Dynamic Routes
-
-----
-
-So far our Flask app only has fixed routes
-
-Flask can also handle dynamic routing
-
-
-----
-
-Change your code for the `'/hello/'` route
-
-```python
-@app.route('/hello/<name>/')
-def hello(name):
-    return 'Hello {}'.format(name)
-
-```
-
-In the web browser go to
-
-- [http://localhost:5000/hello/kitty/](http://localhost:5000/hello/kitty/)
-- [http://localhost:5000/hello/sailor/](http://localhost:5000/hello/sailor/)
-- [http://localhost:5000/hello/friend/](http://localhost:5000/hello/friend/)
-
-Note: flask_dynamic_routing
-
-----
-
-**Task:** I want to calculate the area of a circle using my Flask app. Use the following code as a starting point
-
-```python
-def circle_area(radius):
-    area = 3.14 * (radius ** 2)
-    return area
-```
-
-For a circle with radius 5, the url should look like this [http://localhost:5000/circle/5/](http://localhost:5000/circle/5/)
-
-
-----
-
-Solution
-
-```python
-@app.route('/circle/<radius>/')
-def circle_area(radius):
-    radius = int(radius)
-    area = 3.14 * (radius ** 2)
-
-    return str(area)
-```
-
-
-----
-
-DO NOT USE `input()` WITH FLASK
-
-
----
-
-### Flask: HTML with Jinja
-
-----
-
-Jinja is a template format for using HTML with Python
-
-Flask looks for Jinja templates in the `templates` folder
-
-----
-
-1. Create a Python file called `colours_html.py`
-
-1. Next to the file create a `templates` folder
-
-1. In the `templates` folder create a file called `colour.html`
-
-----
-
-![](images/flask_templates.png)
-
-----
-
-`colours_html.py`
-
-```python
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-
-@app.route('/colour/')
-def show_colour():
-    return render_template('colour.html')
-
-
-app.run(debug=True)
-```
-
-----
-
-`colour.html`
-
-```html
-<html>
-    <body>
-        <div style="color: red">
-            This text is red
-        </div>
-    </body>
-</html>
-```
-
-----
-
-![](images/red_html.png)
-
-
-----
-
-Similar to string formatting, Jinja templates have arguments
-
-```html
-<html>
-    <body>
-        <div style="color: {{colour}}">
-            This text is {{colour}}
-        </div>
-    </body>
-</html>
-```
-
-----
-
-```python
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-
-@app.route('/colour/<colour>/')
-def show_colour(colour):
-    return render_template('colour.html', colour=colour)
-
-
-app.run(debug=True)
-```
-
-----
-
-**Task:** Create a new html file called `size.html`. When I go to `localhost:5000/size/12/` it should show some text in that font size
-
-```html
-<html>
-    <body>
-        <div style="font-size: {{size}}pt">
-            This text is {{size}}
-        </div>
-    </body>
-</html>
-```
-
-----
-
-Solution
-```python
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-
-@app.route('/size/<size>/')
-def show_colour(size):
-    return render_template('size.html', size=size)
-
-
-app.run(debug=True)
-```
-
-----
-
-You can use for loops to repeat blocks of HTML
-
-```html
-<html>
-    <body>
-    <ul>
-    {% for fruit in fruits %}
-        <li>fruit</li>
-    {% endfor %}
-    </ul>
-    </body>
-</html>
-```
-
-----
-
-```python
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-
-@app.route('/size/<size>/')
-def show_fruits(size):
-    fruits = ['apple', 'banana', 'pear']
-
-    return render_template('fruit.html', fruits=fruits)
-
-
-app.run(debug=True)
-```
-
-----
-
-----
-
-The course guide has an example of using if statements and css inside Jinja templates
-
----
-
-### Flask: Forms
-
-----
-
-Covered in the course guide "Getting user generated data from your webpage to Python"
-
----
-
-
-
-### Recap
-
-----
-
-This session
-1. Pip package manager
-1. Getting data with an API
-1. Flask and Jinja
-
----
-
-PROJECTS
