@@ -1,6 +1,6 @@
 Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
-1  | Review | Not started | In progress |  Review 
+1  | Complete | Review | In progress |  Review 
 2  | Review | Not started | In progress |  Review 
 3  | Review | Not started | Not started |  Review 
 4  | Review | Not started | Not started |  Not started 
@@ -12,8 +12,8 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 Thursday (8th Aug):
-- Session 1: Write lesson plan
-- Session 1: Review slides
+- Session 1: Review slides (✓)
+- Session 1: Write lesson plan (✓)
 
 Friday (9th Aug):
 - Session 1: Student guide (excluding setup)
@@ -21,8 +21,8 @@ Friday (9th Aug):
 
 Saturday (10th Aug):
 - Session 2: slides
-- Session 2: lesson plan
 - Session 3: slides
+- Session 2: lesson plan
 - Session 3: lesson plan
 
 Sunday (11th Aug):
@@ -44,7 +44,6 @@ Thursday (14th Aug):
 Friday (15th Aug):
 - Session 8: slides
 - Session 8: lesson plan
-
 
 Saturday (16th Aug):
 - Session 2: homework
@@ -71,3 +70,11 @@ Suggested dates:
 - Slides and session plans: 29th August
 - Demo class: 3rd September 
 - Final submission: 6th September
+
+
+
+
+To do:
+- Session 1: Review slides
+  - Stats for popular? (x)
+  - ADD PYTHON 3 TO PROJECT SETUP SLIDE (x)

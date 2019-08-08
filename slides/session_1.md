@@ -16,13 +16,13 @@ Make sure that you have installed:
 Course overview:
 
 1. Data types, variables and operations
-1. Input, functions, loops and conditionals
-1. Flask
-1. APIs
-1. Git and the command-line
-1. Group project and Deploying code
+1. Input, loops and functions
+1. If statements
+1. Lists and dictionaries
+1. Files, packages and APIs
+1. Project planning and group project 
 1. Group project
-1. Group presentations
+1. Group project and presentations
 
 ----
 
@@ -31,8 +31,9 @@ Instructor Introductions
 ----
 
 This session:
+
 1. Run Python with files and console
-1. Data types
+1. Data types (Integers, Floats and Strings)
 1. Maths operations
 1. Understanding Error Messages
 1. Variables
@@ -46,10 +47,6 @@ Put a coloured Post-It note on the back of your laptop monitor during exercises:
 ----
 
 PyCharm
-
-----
-
-Slides are available at [https://github.com/craigargh/cfg-python](https://github.com/craigargh/cfg-python)
 
 ---
 
@@ -65,11 +62,8 @@ Slides are available at [https://github.com/craigargh/cfg-python](https://github
 
 Python:
 
-1. Designed to be clean and readable
-1. 3rd party libraries
- - Web
- - Data science
- - Machine learning
+1. Designed to be readable
+1. Wide selection of 3rd party libraries
 1. Popular
 1. Open Source
 
@@ -88,6 +82,14 @@ Scholarships for under-represented groups
 Create a new project called `cfg_python`
 
 ![create new PyCharm project](gifs/pycharm_new.gif)
+
+----
+
+NOTE TO CRAIG: Explain what the UI and new project layout is
+
+Briefly mention what venv is 
+
+Mention not to save anything in the venv folder
 
 ----
 
@@ -115,16 +117,20 @@ Run the program
 
 You've just run your first Python program
 
----
-
-
-### Numbers and Operators in Python
-
 ----
 
-**Integer:** a Python **data type** for **whole numbers**. For example `5`, `-99` and `1048` are all integers.
+**Exercise 1.1:** Now that you've run your first program, try the following:
 
-**Float:** a Python **data type** for **decimal numbers**. For example `5.6`, `9.0` and `-67.1001` are all floats.
+- Change the message to anything you want
+- Add different characters/symbols to the message
+- Output multiple messages in the same file
+- Find out what happens when they remove different parts of the code (e.g. brackets)
+
+Don't worry if something unexpected happens. Think about what you changed and why it might have caused it to happen.
+
+---
+
+## Python Console
 
 ----
 
@@ -155,9 +161,19 @@ The Python console:
 
 ![open Python console](gifs/pycharm_python_shell.gif)
 
+---
+
+### Numbers and Operators in Python
+
 ----
 
-**Exercise 1.1:** Type these lines into your **Python console**:
+**Integer:** a Python **data type** for **whole numbers**. For example `5`, `-99` and `1048` are all integers.
+
+**Float:** a Python **data type** for **decimal numbers**. For example `5.6`, `9.0` and `-67.1001` are all floats.
+
+----
+
+**Exercise 1.2:** Type these lines into your **Python console**:
 
 ```python
 5 - 6
@@ -259,7 +275,7 @@ hello
 
 Will cause this exception
 
-```
+```bash
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'hello' is not defined
@@ -280,7 +296,7 @@ The `*` and `+` operators work on strings as well as integers.
 Let's investigate what they do
 
 ----
-**Exercise 1.2:**
+**Exercise 1.3:**
 
 In your **Python console** type each of these
 
@@ -352,13 +368,15 @@ print("Cat" + 3)
 ```bash
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: cannot concatenate 'str' and 'int' objects
+TypeError: must be str, not int
 ```
+
+In older Python versions:
 
 ```bash
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: must be str, not int
+TypeError: cannot concatenate 'str' and 'int' objects
 ```
 
 ----
@@ -375,7 +393,7 @@ print("Cat" + str(3))
 
 ----
 
-**Variable:** a reusable **label** for a piece of data in Python
+**Variable:** a reusable **label** for a data value in Python
 
 ----
 
@@ -424,7 +442,7 @@ The `oranges` variable is reused twice in the program
 
 ----
 
-**Exercise 1.3:**: In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
+**Exercise 1.4:**: In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
 
 Your will need:
 1. A **variable** for the number of **cats**
@@ -497,10 +515,11 @@ print(output)
 
 ----
 
-**Exercise 1.4:** Rewrite `cat_food.py` to use string formatting instead of joining strings with `+`.
+**Exercise 1.5:** Rewrite `cat_food.py` to use string formatting instead of joining strings with `+`.
 
 An example of string formatting:
-```
+
+```python
 user_name = 'sarah_1987'
 age = 23
 
@@ -558,6 +577,7 @@ print(output)
 1. Run Python with files and console
 1. Data types (Integers, Floats and Strings)
 1. Maths operations
+1. Understanding Error Messages
 1. Variables
 
 
