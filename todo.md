@@ -63,6 +63,7 @@ Other stuff:
 1. Write proposal for Code First: Girls (✓)
 1. Generate pdf script (✓)
 1. PDF styling (✓)
+1. Add Rock-Scissors-Paper to the if statements session
 1. Change session 3 examples: 
   - Change "What day is it?" to "Is the temperature freezing?"
   - Change "Should I buy a hat?" to an example that uses input() 

@@ -58,7 +58,7 @@ Slides are available at [https://github.com/craigargh/cfg-python](https://github
 
 ----
 
-> **Programming Language:** A language with a set of rules that communicates instructions to a computer
+> **Programming Language:** A language with a set of rules that are used to communicate instructions to a computer
 
 > **Program:** A set of instructions that are run by a computer
 
