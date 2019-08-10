@@ -26,7 +26,9 @@ Choose your own adventure/text-based game
 - Ideas
   - Escape room
 
-
+Spreadsheet analysis
+- Read from a csv
+- Do some analyses
 
 
 ---

@@ -1,3 +1,6 @@
+**Starter:** ???
+
+---
 
 ![Code First: Girls](images/logo_large.png)
 
@@ -6,6 +9,7 @@
 ---
 
 This session
+1. Files
 1. Pip package manager
 1. APIs
 
@@ -37,7 +41,7 @@ pip install requests
 
 ----
 
-**Application Programming Interface (API):** A way to interact with another application from your code through requests.
+**Application Programming Interface (API):** A way to send data between programs
 
 Web APIs allow you to do this over the internet.
 
@@ -109,8 +113,6 @@ print(pokemon['height'])
 print(pokemon['weight'])
 ```
 
-Note: get_pokemon_height.py
-
 ---
 
 
@@ -119,10 +121,12 @@ Note: get_pokemon_height.py
 ----
 
 This session
+1. Files
 1. Pip package manager
-1. Getting data with an API
-1. Flask and Jinja
+1. APIs
 
----
+----
 
-PROJECTS
+**Homework:** Session 5 homework questions in your student guide
+
+Look at the project suggestions in your student guide and think about which one you might like to work on

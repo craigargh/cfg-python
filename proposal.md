@@ -35,7 +35,6 @@ Session 3
 
 Session 4
 - Lists
-- Lists and for loops
 - Dictionaries
 
 Session 5

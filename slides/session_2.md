@@ -1,4 +1,4 @@
-**Starter:** Discuss your homework with the person sitting next to you
+**Starter:** Discuss your homework with a partner
 
 ---
 
@@ -41,15 +41,51 @@ print('Hello, {}'.format(name))
 
 ----
 
-TO DO: WRITE AN EXERCISE FOR INPUT
+**Exercise 2.1:** Write a program that asks two questions using `input()` then prints the values that were entered. You can choose any questions that you want.
+
+Example:
+
+```python
+animal = input('Do you like dogs or cats more? ')
+pet_name = input('What would name your pet?')
+
+print('You like {} and you would name your pet {}'.format(animal, pet_name))
+```
 
 ----
 
-TO DO: Converting strings to integers
+The `int()` function converts string value into integer values:
+
+```python
+apples_string = '12'
+total_apples = int(apples_string) + 5
+
+print(total_apples) 
+```
 
 ----
 
-TO DO: WRITE AN EXERCISE FOR INT() AND INPUT()
+The `input()` always returns a string value. You can convert this string value to an integer with `int()`:
+
+```python
+purchased_apples = input('How many apples did you buy? ')
+total_apples = int(purchased_apples) + 5
+
+print(total_apples)
+```
+
+----
+
+**Exercise 2.2:** You have friends at your house for dinner and you've accidentaly burnt the lasagne. Time to order pizza.
+
+Write a program calculate how many pizzas you need to feed you and your friends
+
+```python
+friends = # Add input here
+pizzas = friends * 0.5
+
+print('You need {} pizzas for {} friends'.format(pizzas, friends))
+```
 
 ---
 
@@ -93,7 +129,10 @@ turtle.done()
 
 ----
 
-The turtle's speed can be set with `turtle.speed(1)` for slow
+You can change the turtle's speed:
+
+- `turtle.speed('slowest')` for slow
+- `turtle.speed('fastest')` for fast
 
 ---
 
@@ -182,7 +221,7 @@ turtle.done()
 
 ----
 
-**Exercise 1.1:** Create a new file called `triangle.py`. Using `turtle` draw a triangle.
+**Exercise 2.3:** Create a new file called `triangle.py`. Using `turtle` draw a triangle.
 
 A triangle has **three** sides and an angle of **120** degrees
 
@@ -245,7 +284,7 @@ turtle.done()
 
 ----
 
-**`for` loop:** allows you to repeat a block of code for every item in a list
+**`for` loop:** allows you to repeat a block of code multiple times
 
 
 ----
@@ -260,12 +299,14 @@ A `for` loop has
 
 ----
 
-The pre-written `range()` function returns a list of numbers
+The pre-written `range()` function can be used to make a `for` loop repeat a certain number of times 
 
 ```python
 for number in range(5):
     print(number)
 ```
+
+The `range()` function starts counting from `0`
 
 ----
 
@@ -312,7 +353,7 @@ turtle.done()
 
 ----
 
-**Exercise 1.2: Choose your sides**
+**Exercise 2.4: Choose your sides**
 
 In this exercise you'll create a program that can draw shapes with any number of sides.
 
@@ -410,7 +451,7 @@ All functions have
 
 ----
 
-We call a function to use it
+You write a function with its name and brackets `()` to use/call it e.g. `square()`
 
 ```python
 import turtle
@@ -451,7 +492,7 @@ square()
 
 ----
 
-**Exercise 1.4:** Create a function that draws a triangle using turtle.
+**Exercise 2.5:** Create a function that draws a triangle using turtle.
 
 ----
 
@@ -477,7 +518,7 @@ triangle()
 
 ----
 
-**Argument:** A parameter used to change the behaviour of a function
+**Argument:** A piece of data that is given to a function when it is called
 
 ----
 
@@ -500,7 +541,7 @@ square(100)
 
 ----
 
-**Exercise 1.5:** Modify your triangle function so that you can set the **side length** using an argument
+**Exercise 2.6:** Modify your triangle function so that you can set the **side length** using an argument
 
 **Extension:** Use a second argument to set the **colour** of the triangle
 
@@ -586,17 +627,15 @@ Values can be returned from functions using the `return` operator
 def add(num_1, num_2):
     return num_1 + num_2
 
-my_height = 182
-friend_height = 160
 
-total_height = add(my_height, friend_height)
+total_height = add(182, 160)
 
 print(total_height)
 ```
 
 ----
 
-**Exercise 1.6:** Complete the function to return the area of a circle
+**Exercise 2.7:** Complete the function to return the area of a circle
 
 
 
@@ -639,5 +678,8 @@ This session:
 1. Importing libraries
 1. Problem solving with Turtle
 1. For Loops
-1. Lists
 1. Functions
+
+----
+
+**Homework:** Session 2 homework questions in your student guide

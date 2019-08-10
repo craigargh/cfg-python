@@ -8,12 +8,9 @@
 
 ----
 
-
 This session:
 1. Logical Operators
 1. If Statements
-1. Functions
-1. Dictionaries
 
 ---
 
@@ -23,7 +20,7 @@ This session:
 
 **Bolean:** A data-type that is either `True` or `False`
 
-**Logical Operators:** used to check if an expression is `True` or `False`
+**Logical Operators:** compare values to determine wheter something is `True` or `False`
 
 ----
 
@@ -52,18 +49,19 @@ Less than or equal | `<=`
 
 ----
 
-This code checks if today is not Monday
+This code checks if the current temperature is freezing:
+
 ```python
-today = input('What day is it? ')
+temperature = input('What is the temperature? ')
 
-is_not_monday = today != 'Monday'
+is_freezing = int(temperature) <= 0
 
-print('Today is not Monday: {}'.format(is_not_monday))
+print('The temperature is freezing: {}'.format(is_freezing))
 ```
 
 ----
 
-**Exercise:** You have a budget of £10 and want to write a program to decide which burger restaurant to go to.
+**Exercise 3.1:** You have a budget of £10 and want to write a program to decide which burger restaurant to go to.
 
 1. Input the `price` of a burger using `input()`
 1. Check whether the `price` is less than or equal (`<=`) `10.00`
@@ -76,7 +74,6 @@ Burger is within budget: True
 **Hint:** remember to convert the input from a string to a decimal with `float()`
 
 ----
-
 
 Answer
 
@@ -100,19 +97,22 @@ not | reverse the expression (`True` becomes `False` and vice-versa)
 
 ----
 
-This program will work out if you should buy a hat:
+This program will work out if you should visit Mars based on whether you want to visit and if you can afford it:
 
 ```python
-enough_money = True
-hat_looks_good = True
+mars_choice = input('Would you like to visit Mars? y/n')
+is_willing = mars_choice == 'y'
 
-should_buy_hat = enough_money and hat_looks_good
+affordable = input('Can you afford to visit Mars? y/n')
+can_afford = affordable == 'y'
 
-print('You should buy the hat: {}'.format(should_buy_hat))
+should_visit_mars = is_willing and can_afford
+
+print('You should visit Mars: {}'.format(should_visit_mars))
 ```
 ----
 
-**Exercise:** Add code to your burger program to input whether the restaurant has a vegetarian option
+**Exercise 3.2:** Add code to your burger program to input whether the restaurant has a vegetarian option
 
 The output should say whether the cost is within budget **AND** has a vegetarian option
 
@@ -168,9 +168,9 @@ This program checks whether you are an admin and you have entered the right pass
 
 ```python
 name = input("What is your name? ")
-password = input("What is your password? ")
-
 is_admin = name == 'admin'
+
+password = input("What is your password? ")
 is_password_correct = password == 'dinosaurs'
 
 if is_admin and is_password_correct:
@@ -182,7 +182,7 @@ if not is_admin or not is_password_correct:
 
 ----
 
-**Exercise:** Rewrite the output of your burger program to use if statements
+**Exercise 3.3:** Rewrite the output of your burger program to use if statements
 
 Depending on the input the output should be:
 
@@ -195,6 +195,10 @@ Otherwise it should be:
 ```bash
 Probably not a good idea
 ```
+
+---
+
+### Else Statements
 
 ----
 
@@ -209,153 +213,68 @@ password = input('password: ')
 if password == 'jumanji':
     print('Success!')
 else:
-    print('Fail!')
+    print('Failure!')
 
 ```
 
 ----
 
-Here's the program that helps you decide whether to buy a hat using `if` and `else`:
+Here's the admin program rewritten to use `else`:
 
 ```python
-enough_money = True
-hat_looks_good = True
+name = input("What is your name? ")
+is_admin = name == 'admin'
 
-if enough_money and hat_looks_good:
-    print('Go for it!')
+password = input("What is your password? ")
+is_password_correct = password == 'dinosaurs'
+
+if is_admin and is_password_correct:
+    print('Welcome')
+
 else:
-    print('Probably not a good idea')
+    print('Go away')
+```
+
+----
+
+**Exercise 3.4:**
+
+```python
+???
 ```
 
 ---
 
 
-### Dictionaries
-
+### Elif Statements
 ----
 
-**Dictionary:** Stores a colleciton of labelled items. Each item has a key and a value
-
-----
+**Exercise ???:** Rock, scissors, paper
 
 ```python
-person = {
-    'name': 'Jessica',
-    'age': 23,
-    'height': 172
-}
+import random
+
+
+def random_choice():
+    choice_number = random.randint(1, 3)
+
+    if choice_number == 1:
+        choice = 'rock'
+    elif choice_number == 2:
+        choice = 'scissors'
+    else:
+        choice = 'paper'
+
+    return choice
+
+my_choice = input('Choose rock, scissors or paper: ')
+opponent_choice = random_choice()
+
+print('You opponent chose {}'.format(opponent_choice))
+
+if my_choice = 'rock' and opponent_choice == 'scissors':
+    print('You win!')
 ```
-
-----
-
-Values in a dictionary are accessed using their keys
-```python
-person = {
-    'name': 'Jessica',
-    'age': 23,
-    'height': 172
-}
-
-print(person['name'])
-```
-
-----
-
-**Exercise:** Print the values of `name`, `post_code` and `street_number` from the dictionary
-
-```python
-place = {
-    'name': 'The Anchor',
-    'post_code': 'E14 6HY',
-    'street_number': '54',
-    'location': {
-        'longitude': 127,
-        'latitude': 63,
-    }
-}
-```
-
-**Extension:** Print the values of `longitude` and `latitude` from the inner dictionary
-
-----
-
-Solution:
-
-```python
-place = {
-    'name': 'The Anchor',
-    'post_code': 'E14 6HY',
-    'street_number': '54',
-    'location': {
-        'longitude': 127,
-        'latitude': 63,
-    }
-}
-
-print(place['name'])
-print(place['post_code'])
-print(place['street_number'])
-```
-
-----
-
-Extension:
-
-```python
-print(place['location']['longitude'])
-print(place['location']['latitude'])
-
-
-location = place['location']
-
-print(location['longitude'])
-print(location['latitude'])
-```
-
-----
-
-Putting dictionaries inside a list is very common
-
-```python
-people = [
-    {'name': 'Jessica', 'age': 23},
-    {'name': 'Trisha', 'age': 24},
-]
-
-for person in people:
-    print(person['name'])
-    print(person['age'])
-```
-
-----
-
-**Exercise:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
-
-```python
-fruits = [
-    {'name': 'apple', 'colour': 'red', 'price': 0.12},
-    {'name': 'banana', 'colour': 'yellow', 'price': 0.2},
-    {'name': 'pear', 'colour': 'green', 'price': 0.19},
-]
-```
-
-----
-
-Solution
-
-```python
-fruits = [
-    {'name': 'apple', 'colour': 'red', 'price': 0.12},
-    {'name': 'banana', 'colour': 'yellow', 'price': 0.2},
-    {'name': 'pear', 'colour': 'green', 'price': 0.19},
-]
-
-for fruit in fruits:
-    print(fruit['name'])
-    print(fruit['colour'])
-    print(fruit['price'])
-```
-
 
 ---
 
@@ -366,5 +285,7 @@ for fruit in fruits:
 This session:
 1. Logical Operators
 1. If Statements
-1. Functions
-1. Dictionaries
+
+----
+
+**Homework:** Session 3 homework questions in your student guide

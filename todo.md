@@ -6,10 +6,6 @@ Other stuff:
 1. Write proposal for Code First: Girls (✓)
 1. Generate pdf script (✓)
 1. PDF styling (✓)
-1. Add Rock-Scissors-Paper to the if statements session
-1. Change session 3 examples: 
-  - Change "What day is it?" to "Is the temperature freezing?"
-  - Change "Should I buy a hat?" to an example that uses input() 
 1. Add relative paths to course handbook images instead of hardcoded to personal computer
 1. Update README for Jupyter/RISE slides
 1. Number all course guide exercises so they can be referenced in the slides and number all exercises in the slides
@@ -20,19 +16,6 @@ Other stuff:
 1. Check formatting (titles, exercises, lists) is consistent
 1. Style reveal-md to match RISE/Jupyter styling
 1. Delete unused files
-
-Issues:
-- Project learning curve
-  - Remove project; or
-  - More supporting resources for project (example APIs)
-  - Template repository or Cookie Cutter
-- Not much depth on Flask
-  - More sessions on Flask
-  - More supporting resources
-- APIs for project
-  - More supporting resources
-  - Restrict APIs that they can use
-- Projects are hard with only a couple of instructors
   
 Key:
 - In Progress (~)
