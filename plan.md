@@ -17,16 +17,7 @@ Thursday (8th Aug):
 
 Saturday (10th Aug):
 - Session 2: slides (✓)
-- Session 3: slides
-  - Add homework slide (✓)
-  - Exercise for else
-  - elif definition
-  - elif example
-  - elif exercise
-  - Challenges section:
-  	- Exercise: Rock/scissors/paper
-  	- Exercise: for loop and if statements
-  - Add: Starter
+- Session 3: slides (✓)
 - Session 4: slides
   - Add exercise for lists
   - Replace turtle exercise for lists
@@ -101,3 +92,5 @@ To do:
 - Session 1: Review slides
   - Stats for popular? (x)
   - ADD PYTHON 3 TO PROJECT SETUP SLIDE (x)
+- Session 3: slides
+  - Write text for exercise 3.6-3.8
