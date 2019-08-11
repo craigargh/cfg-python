@@ -18,23 +18,10 @@ Thursday (8th Aug):
 Saturday (10th Aug):
 - Session 2: slides (✓)
 - Session 3: slides (✓)
-- Session 4: slides
-  - Make dictionary exercise more interesting
-  - Challenges for lists and dictionaries
-- Session 5: slides
-  - Files section
-    - Reading/writing to a text file
-    - Reading a csv
-    - Writing to a csv
-  - Add a link to PyPi and mention/link to a list of interesting packages
-  - Should I use a different API than the Pokemon one?
-  - Add homework slide
+- Session 4: slides (✓)
 
 Sunday (11th Aug):
-
-- Add solutions for all exercises to slides
-- Add meaningful starters for all sessions
-
+- Session 5: slides (✓)
 
 Monday (12th Aug):
 - Session 1: Student guide (including setup)
@@ -46,33 +33,38 @@ Wednesday (13th Aug):
 - Demo
 
 Thursday (14th Aug):
-- Session 2: lesson plan
-- Session 3: lesson plan
-- Session 4: lesson plan
-- Session 5: lesson plan
+- Session 2: student guide
+- Session 3: student guide
+- Session 4: student guide
+- Session 5: student guide
+- Test exercises/solutions work
+- Add solutions for all exercises to slides
+- Add links to more in-depth resources for each session to student guides
 
 Friday (15th Aug):
 - Session 2: homework
 - Session 3: homework
 - Session 4: homework
 - Session 5: homework
+- Add meaningful starters for all sessions
 
 Saturday (16th Aug):
+- Session 2: lesson plan
+- Session 3: lesson plan
+- Session 4: lesson plan
+- Session 5: lesson plan
+
+Monday (17th Aug):
 - Session 6: slides
 - Session 7: slides
 - Session 8: slides
+
+Wednesday (18th Aug):
 - Session 6: lesson plan
 - Session 7: lesson plan
 - Session 8: lesson plan
 
-Monday (17th Aug):
-- Session 2: student guide
-- Session 3: student guide
-- Session 4: student guide
-- Session 5: student guide
-- Add links to more in-depth resources for each session to student guides
-
-Wednesday (18th Aug):
+Thursday (19th Aug):
 - Session 6-8: student guide
 
 To do:
@@ -86,3 +78,10 @@ To do:
   - count()
   - min()
   - max()
+- Session 4: slides
+  - Make dictionary exercise more interesting
+  - Challenges for lists and dictionaries
+- Session 5: slides
+  - Add a link to PyPi and mention/link to a list of interesting packages
+  - Write explanations for files
+  - Write exercises

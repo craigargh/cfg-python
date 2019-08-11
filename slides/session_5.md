@@ -15,6 +15,77 @@ This session
 
 ---
 
+### Reading/Writing Files
+
+----
+
+Writing to a file
+
+```python
+with open('something.txt', 'w+') as text_file:
+    text_file.write('hello')
+```
+
+----
+
+Reading from a file
+
+```python
+with open('something.txt', 'w+') as text_file:
+    contents = text_file.read()
+
+print(contents)
+```
+
+----
+
+The `'w+'` argument allows you to read and write to a file while only opening it once 
+
+```python
+with open('something.txt', 'w+') as text_file:
+    contents = text_file.read()
+    output = reversed(contents)
+
+    text_file.write(output)
+```
+
+----
+
+**Exercise 5.1:** ???
+
+---
+
+### Reading/Writing CSV Files
+
+----
+
+```python
+import csv
+from pprint import pprint
+
+with open('.csv', 'w+') as csv_file:
+    spreadsheet = csv.reader(csv_file)
+
+pprint(spreadsheet)
+```
+
+----
+
+```python
+import csv
+
+data = [
+    ['name', 'age'],
+    ['Jill', 32],
+    ['Sara', 28],
+]
+
+with open('team.csv', 'w+') as csv_file:
+    spreadsheet = csv.writer(csv_file)
+    spreadsheet.writerows(data)
+```
+---
+
 ### Python Pip
 
 ----
@@ -90,7 +161,7 @@ Status Code | Name | Explanation
 
 ----
 
-**Task:** Get the *height* and *weight* of the Pokemon and print the output
+**Exercise:** Get the *height* and *weight* of the Pokemon and print the output
 
 Add `input()` to choose which Pokemon you want information about
 
