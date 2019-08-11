@@ -24,10 +24,13 @@ This session:
 
 List are written inside square brackets and separated by commas
 
+A list of integers
 
 ```python
 lottery_numbers = [4, 8, 15, 16, 23, 42]
 ```
+
+A list of strings
 
 ```python
 student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
@@ -38,7 +41,7 @@ student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
 Lists can be made up of values of one or more data types
 
 ```python
-orchid_row = ['Magnoliopsida', 12, 3, 8, 9, 'white']
+person = ['Jess', 32]
 ```
 
 ----
@@ -64,6 +67,85 @@ student_names = [
 
 print(student_names[0])
 ```
+----
+
+You can also set the values in lists using their indexes, similar to how you would a variable
+
+```python
+student_names = [
+    'Diedre',    # index 0
+    'Hank',      # index 1
+    'Helena',    # index 2
+    'Salome'     # index 3
+]
+
+student_names[1] = 'Joshua'
+```
+
+----
+
+**Exercise 4.1:** When I'm travelling in the winter I often forget to pack warm clothes. Let's write a program to help me to remember the right clothes.
+
+The program should check if the first item in the `clothes` list is `"shorts"`. If it is it should change the value to `"warm coat"`.
+
+```python
+clothes = [
+    "shorts",
+    "shoes",
+    "t-shirt",
+]
+```
+
+---
+
+### Checking and Adding Things In a List
+
+----
+
+You can check if an value is in a list using the `in` operator. If the value is in the list it will result in `True` and `False` if it is not.
+
+```python
+student_name = input('Which student are you looking for? ')
+
+students = [
+    'Diedre', 'Hank', 'Helena', 'Salome',
+]
+
+if student_name in students:
+    print('{} is in the class'.format(student_name))
+else:
+    print('{} is not in the class'.format(student_name))
+```
+
+----
+
+The `.append()` method is used to add items to a list
+
+```python
+students = [
+    'Diedre', 'Hank', 'Helena', 'Salome',
+]
+student_name = input('What is the name of the new student? ')
+
+students.append(student_name)
+
+print(students)
+```
+
+----
+
+**Exercise 4.2:** Whenever I'm shopping and I buy some bread I always forget to buy butter.
+
+In this program create a shopping list and if `'bread'` is in the shopping list, add butter to the shopping list.
+
+Steps:
+- Create a list called `shopping_list`
+- Add a list of strings to the list to represent groceries 
+- Check if `'bread'` is in the list
+- If bread is in the list append `'butter'` to the list
+- Print the shopping list
+
+Try running the program with and without bread in the list to check that your program works
 
 ---
 
@@ -75,8 +157,6 @@ Using lists and for loops together
 
 ----
 
-
-
 ```python
 student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
 
@@ -86,44 +166,49 @@ for student_name in student_names:
 
 ----
 
-**Exercise 1.3:** I have a load of cats and I want you to create a piece of art with all of their names on it.
-
-You need to use the turtle library to write the cats' names on each corner of a square.
-
-The `turtle.write()` function will write a string using turtle. I've started the code for you, you need to add the for loop:
-
+Counting the total number of items in a list using a for loop
 
 ```python
-import turtle
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+count = 0
 
-cat_names = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+for student_name in student_names:
+    count = count + 1
 
-# Add for loop here
-
-turtle.write(cat_name)
-turtle.forward(100)
-turtle.right(90)
-
-turtle.done()
-
+print(count)
 ```
 
 ----
 
-Solution:
+**Exercise 4.3:** I want to work out how much money I've spent on lunch this week. I've created a list of what I spent each day.
+
+Write a program that uses a `for` loop to calculate the total cost 
 
 ```python
-import turtle
+costs = [8.30, 7.12, 5.01, 1.00, 0.99, 5.92, 3.50]
+total_cost = 0
+```
 
-cat_names = ['Fluffy', 'Ginger', 'Whiskers', 'Rod']
+----
 
-for cat_name in cat_names:
-    turtle.write(cat_name)
-    turtle.forward(100)
-    turtle.right(90)
+The `len()` function can tell you how many items are in a list
 
-turtle.done()
+```python
+student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
+count = len(student_names)
 
+print(count)
+```
+
+----
+
+The `sum()` function can be used to add up all of the values in a list:
+
+```python
+costs = [8.30, 7.12, 5.01, 1.00, 0.99, 5.92, 3.50]
+total = sum(costs)
+
+print(total)
 ```
 
 ---
@@ -160,7 +245,7 @@ print(person['name'])
 
 ----
 
-**Exercise:** Print the values of `name`, `post_code` and `street_number` from the dictionary
+**Exercise 4.4:** Print the values of `name`, `post_code` and `street_number` from the dictionary
 
 ```python
 place = {
@@ -211,6 +296,10 @@ print(location['longitude'])
 print(location['latitude'])
 ```
 
+---
+
+### Dictionaries in Lists
+
 ----
 
 Putting dictionaries inside a list is very common
@@ -228,7 +317,7 @@ for person in people:
 
 ----
 
-**Exercise:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
+**Exercise 4.5:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
 
 ```python
 fruits = [
@@ -254,6 +343,14 @@ for fruit in fruits:
     print(fruit['colour'])
     print(fruit['price'])
 ```
+
+---
+
+### Challenges
+
+----
+
+???
 
 ---
 
