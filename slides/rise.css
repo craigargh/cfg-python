@@ -22,3 +22,7 @@
 .rendered_html table {
     font-size: 24px;
 }
+
+.prompt_container {
+	display: none;
+}

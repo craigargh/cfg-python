@@ -16,7 +16,7 @@ Give a choice of pre-written project briefs:
 Session 1:
 - Setup
 - Course overview
-- Running Python files
+- Running Python files and console
 - Data types
 - Maths operations
 - Understanding Error Messages

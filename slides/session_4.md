@@ -98,7 +98,7 @@ clothes = [
 
 ---
 
-### Checking and Adding Things In a List
+### append() and in
 
 ----
 
@@ -145,7 +145,9 @@ Steps:
 - If bread is in the list append `'butter'` to the list
 - Print the shopping list
 
-Try running the program with and without bread in the list to check that your program works
+Try running the program with and without bread in the list to check that your program works.
+
+Extension: Check if butter is already in the shopping list before adding it
 
 ---
 

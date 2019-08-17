@@ -296,6 +296,7 @@ The `*` and `+` operators work on strings as well as integers.
 Let's investigate what they do
 
 ----
+
 **Exercise 1.3:**
 
 In your **Python console** type each of these
@@ -450,6 +451,7 @@ Your will need:
 1. A `print()` function to output the result
 
 **Extension:** change the calculation to work out the amount needed for 7 days
+
 ----
 
 An example answer:

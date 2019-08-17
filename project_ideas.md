@@ -20,8 +20,7 @@ Recipe/Book Search
   - Be able to load searched items from your favourites
 
 Choose your own adventure/text-based game
-- 
--Extension
+- Extension
   - Inventory e.g. keys
 - Ideas
   - Escape room
@@ -29,16 +28,3 @@ Choose your own adventure/text-based game
 Spreadsheet analysis
 - Read from a csv
 - Do some analyses
-
-
----
-
-Same 2 hours x 8 w/ projects
-
-Make sure it can be adapted for 
-
-Around September 10-15th deadline
-
-Send markdown slides examples to Ragini
-
-

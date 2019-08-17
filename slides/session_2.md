@@ -11,7 +11,7 @@
 This session:
 
 1. User Input
-1. Importing libraries
+1. Importing modules
 1. Problem solving with Turtle
 1. For Loops
 1. Functions
@@ -89,25 +89,30 @@ print('You need {} pizzas for {} friends'.format(pizzas, friends))
 
 ---
 
-### Python Libraries
+### Python Modules
 
 ----
 
-**Library:** Structured code that someone else has written that you can reuse in your programs
+**Module:** Structured code that someone else has written that you can reuse in your programs
 
 ----
 
-Libraries are imported into your Python programs:
+Modules are imported into your Python programs:
 
 ```python
 import turtle
 ```
 
-Turtle is library for creating basic drawings.
+Turtle is module for creating basic drawings.
+
+
+---
+
+### Problem Solving (with Turtles)
 
 ----
 
-After importing a library you can use the library's functions:
+After importing a module you can use the module's functions:
 
 ```python
 import turtle
@@ -134,9 +139,6 @@ You can change the turtle's speed:
 - `turtle.speed('slowest')` for slow
 - `turtle.speed('fastest')` for fast
 
----
-
-### Problem Solving (with Turtles)
 
 ----
 
@@ -675,7 +677,7 @@ print(area)
 
 This session:
 
-1. Importing libraries
+1. Importing modules
 1. Problem solving with Turtle
 1. For Loops
 1. Functions
