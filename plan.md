@@ -1,7 +1,7 @@
 Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
 1  | Complete | Review | In progress |  Review 
-2  | Complete | In progress | In progress |  Review 
+2  | Complete | Review | In progress |  Review 
 3  | Review | In progress | Not started |  Review 
 4  | Review | In progress | Not started |  Not started 
 5  | Review | In progress | Not started |  Not started 
@@ -22,17 +22,27 @@ Saturday (16th Aug):
   - 4 (✓)
   - 5 (✓)
 - Lesson plan content
-- Session 2: lesson plan
+
+Sunday (18th Aug):
+- Session 2: lesson plan (✓)
+- Session 6-8 learning objectives
+
+
+Monday (19th Aug):
 - Session 3: lesson plan
+
+Tuesday (20th Aug):
 - Session 4: lesson plan
+
+Wednesday (21st Aug):
 - Session 5: lesson plan
 
-Monday (17th Aug):
+Saturday (25th Aug):
 - Session 6: slides
 - Session 7: slides
 - Session 8: slides
 
-Wednesday (18th Aug):
+Sunday (26th Aug):
 - Session 6: lesson plan
 - Session 7: lesson plan
 - Session 8: lesson plan

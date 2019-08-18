@@ -515,8 +515,9 @@ def triangle():
 
 triangle()
 ```
+---
 
-
+### Function Arguments
 
 ----
 
@@ -621,6 +622,10 @@ square(200, 'blue')
 square(100, 'yellow')
 ```
 
+---
+
+### Returning Values from Function
+
 ----
 
 Values can be returned from functions using the `return` operator
@@ -649,9 +654,9 @@ def circle_area():  # add the radius argument inside the brackets
     # return area here
 
 
-area =  circle_area(10)
+circle_1 =  circle_area(10)
 
-print(area)
+print(circle_1)
 
 ```
 
