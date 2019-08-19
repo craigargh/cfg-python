@@ -6,7 +6,9 @@ Session No: ???
 
 By the end of this session students will be able to:
 
-- ???
+- Plan a project using a project brief
+- Build an application to meet the requirements of a project brief
+- Design and implement extensions to the project
 
 
 ## Session Outline

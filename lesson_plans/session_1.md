@@ -8,7 +8,7 @@ By the end of this session students will be able to:
 
 - Understand the differences and uses of Python files and the Python console
 - Recognise the integer, float and string data types
-- Indentify different maths operations and their effects
+- Identify different maths operations and their effects
 - Locate key information on error messages
 - Explain what a variable is and how they are used
 - Demonstrate basic problem solving
