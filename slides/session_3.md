@@ -54,10 +54,12 @@ This code checks if the current temperature is freezing:
 ```python
 temperature = input('What is the temperature? ')
 
-is_freezing = int(temperature) <= 0
+is_freezing = float(temperature) <= 0.0
 
 print('The temperature is freezing: {}'.format(is_freezing))
 ```
+
+`float()` can convert strings to floats
 
 ----
 
