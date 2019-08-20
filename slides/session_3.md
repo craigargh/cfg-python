@@ -153,7 +153,6 @@ password = input('password: ')
 
 if password == 'jumanji':
     print('Success!')
-
 ```
 
 ----
@@ -241,12 +240,12 @@ else:
 
 **Exercise 3.4:** Now that you've finished your burger, you want to pay for your food. Let's write a program to calculate your meal and apply a discount if applicable. 
 
-If your total meal costs more than £20 and you have a discount code, the price will be reduced by 10%. The program should print "Discount applied" or "No discount" depending on whether the discount criteria was met.
+If your total meal costs more than £20 and you have a discount, the price will be reduced by 10%. The program should print "Discount applied" or "No discount" depending on whether the discount criteria was met.
 
 ```python
 meal_price = int(input('How much did the meal cost? '))
 
-discount_choice = input('Do you have a discount code? y/n ')
+discount_choice = input('Do you have a discount? y/n ')
 discount applicable = discount_choice == 'y'
 ```
 
@@ -347,29 +346,35 @@ To practice if statements choose one of the following exercises in your student 
 
 ----
 
-**Exercise 3.6:** Flip a coin
+**Exercise 3.6:** This program uses random to simulate a coin flip.
+
+To finish the program you will need to add the following:
+- If the random coin flip matches the choice input by the user then they win
+- Ohterwise if the random coin flip does not match the choice input by the user then they lose
 
 ```python 
 import random
 
+def flip_coin():
+    random_number = random.rand_int(1, 2)
+    if random_number == 1:
+        side = 'heads'
+    else:
+        side = 'tails'
+    return side
+
 choice = int(input('heads or tails: '))
-random_number = random.rand_int(1, 2)
+result = flip_coin()
 
-if random_number == 1:
-    side = 'heads'
-else:
-    side = 'tails'
-
-print('The coin landed on {}'.format(side))
+print('The coin landed on {}'.format(result))
 ```
 
 ----
 
-**Exercise 3.7:** Rock, scissors, paper
+**Exercise 3.7:** This program simulates rock, paper, scissors. The first winning condition has been added. To finish the program you'll need to add all of the other winning and losing conditions.
 
 ```python
 import random
-
 
 def random_choice():
     choice_number = random.rand_int(1, 3)
@@ -396,7 +401,7 @@ if my_choice = 'rock' and opponent_choice == 'scissors':
 
 **Exercise 3.8:** Not Quite Roulette
 
-Ask the user to enter the following using `input()`:
+Ask the user to enter the following three things using `input()`:
 - The amount they want to bet
 - A colour (red or black)
 - A number between 1 and 100

@@ -2,7 +2,7 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
 1  | Complete | Review | In progress |  Review 
 2  | Complete | Review | In progress |  Review 
-3  | Review | In progress | Not started |  Review 
+3  | Review | Review | Not started |  Review 
 4  | Review | In progress | Not started |  Not started 
 5  | Review | In progress | Not started |  Not started 
 6  | Review | Not started | Not started |  n/a 
@@ -12,43 +12,23 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-Saturday (16th Aug):
-- Lesson plan placeholder files (✓)
-- Lesson plan section headers 2-5 (✓)
-- Lesson plan exercises 2-4 (✓)
-- Lesson plan learning objectives
-  - 2 (✓)
-  - 3 (✓)
-  - 4 (✓)
-  - 5 (✓)
-- Lesson plan content
-
-Sunday (18th Aug):
-- Session 2: lesson plan (✓)
-- Session 6-8 learning objectives
-
-
-Monday (19th Aug):
-- Session 3: lesson plan
-
 Tuesday (20th Aug):
+- Session 3: lesson plan
 - Session 4: lesson plan
 
 Wednesday (21st Aug):
 - Session 5: lesson plan
 
 Saturday (25th Aug):
+- Session 6-8: Project briefs
+
+Sunday (26th Aug):
 - Session 6: slides
 - Session 7: slides
 - Session 8: slides
-
-Sunday (26th Aug):
 - Session 6: lesson plan
 - Session 7: lesson plan
 - Session 8: lesson plan
-
-Thursday (19th Aug):
-- Session 6-8: student guide
 
 To do:
 - Session 1: Review slides
@@ -57,6 +37,7 @@ To do:
   - Update setup slides
   - Integrate console back into numbers exercise
   - Summarise console and file differences in a table
+  - Incorporate Ragini's feedback
 - Session 3: slides
   - Write text for exercise 3.6-3.8
 - Session 4 supplementary:
@@ -72,18 +53,14 @@ To do:
   - Write explanations for files
   - Write exercises
 
-
-- Session 1: Student guide (including setup)
-- Session 1: Review homework
-- Review all session one resources
-- Preparation for Wednesday
+- Add solutions for all exercises to slides
+- Test exercises/solutions work
 
 - Session 2: student guide
 - Session 3: student guide
 - Session 4: student guide
 - Session 5: student guide
-- Test exercises/solutions work
-- Add solutions for all exercises to slides
+
 - Add links to more in-depth resources for each session to student guides
 
 - Session 2: homework
@@ -91,3 +68,4 @@ To do:
 - Session 4: homework
 - Session 5: homework
 - Add meaningful starters for all sessions
+- Session 1-8: student guide
