@@ -12,17 +12,26 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-Tuesday (20th Aug):
-- Session 3: lesson plan
+Thursday (22nd Aug):
 - Session 4: lesson plan
 
-Wednesday (21st Aug):
-- Session 5: lesson plan
+Friday (23rd Aug):
+- 
 
-Saturday (25th Aug):
+Saturday (24th Aug):
+- Review sessions 1-4 slides
+- Finalise sessions 1-4 slides
+- Review sessions 1-4 lesson plans
+- Finalise session 1-4 lesson plans
+- Export and upload session 1-4 slides
+- Copy and upload session 1-4 lesson plans
+
 - Session 6-8: Project briefs
 
-Sunday (26th Aug):
+Sunday (25th Aug):
+
+
+- Session 5: lesson plan
 - Session 6: slides
 - Session 7: slides
 - Session 8: slides
@@ -69,3 +78,14 @@ To do:
 - Session 5: homework
 - Add meaningful starters for all sessions
 - Session 1-8: student guide
+
+
+Supplementary:
+- Using Python with the terminal
+- While loops
+- Project guides
+- Solutions
+- Setup
+- Extra functions for lists
+- Links to further materials
+- How to setup the Jupyter notebooks as slides

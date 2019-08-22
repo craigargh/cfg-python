@@ -134,16 +134,8 @@ print(students)
 
 ----
 
-**Exercise 4.2:** Whenever I'm shopping and I buy some bread I always forget to buy butter.
+**Exercise 4.2:** Whenever I'm shopping and I buy some bread I always forget to buy butter. Create a list and if `'bread'` is in the list, add `'butter'` to the shopping list.
 
-In this program create a shopping list and if `'bread'` is in the shopping list, add butter to the shopping list.
-
-Steps:
-- Create a list called `shopping_list`
-- Add a list of strings to the list to represent groceries 
-- Check if `'bread'` is in the list
-- If bread is in the list append `'butter'` to the list
-- Print the shopping list
 
 Try running the program with and without bread in the list to check that your program works.
 
