@@ -136,8 +136,9 @@ print(students)
 
 **Exercise 4.2:** Whenever I'm shopping and I buy some bread I always forget to buy butter. Create a list and if `'bread'` is in the list, add `'butter'` to the shopping list.
 
-
 Try running the program with and without bread in the list to check that your program works.
+
+Remember the `in` operator checks if an item is in a list and the `.append()` method adds an item to a list.
 
 Extension: Check if butter is already in the shopping list before adding it
 
@@ -185,18 +186,7 @@ total_cost = 0
 
 ----
 
-The `len()` function can tell you how many items are in a list
-
-```python
-student_names = ['Diedre', 'Hank', 'Helena', 'Salome']
-count = len(student_names)
-
-print(count)
-```
-
-----
-
-The `sum()` function can be used to add up all of the values in a list:
+There is an easier way to do the last program without a for loop. The `sum()` function can be used to add up all of the values in a list:
 
 ```python
 costs = [8.30, 7.12, 5.01, 1.00, 0.99, 5.92, 3.50]
@@ -204,6 +194,14 @@ total = sum(costs)
 
 print(total)
 ```
+
+----
+
+Some other list functions:
+- `len()`: the number of items in a list
+- `max()`: The biggest value in a list
+- `min()`: The smallest value in a list
+- `reversed()`: Reverses the order of a list
 
 ---
 

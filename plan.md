@@ -16,7 +16,7 @@ Thursday (22nd Aug):
 - Session 4: lesson plan
 
 Friday (23rd Aug):
-- 
+- Make a plan for Saturday
 
 Saturday (24th Aug):
 - Review sessions 1-4 slides
