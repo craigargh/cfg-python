@@ -1,4 +1,11 @@
-**Starter:** Discuss your homework with a partner
+**Starter:** There are three mistakes in this program. What are the mistakes and how do you fix them?
+
+```python
+name = Jess
+age = 20
+
+print('My name is {} and I am {} years old').format(age, name) 
+```
 
 ---
 
@@ -22,7 +29,7 @@ By the end of this you will be able to:
 
 - Construct programs that use user input
 - Describe the purpose of Python modules
-- Solve problems to create drawings using the Turtle library
+- Solve problems to create drawings using the Turtle module
 - Modify duplicated code to use for Loops 
 - Construct reusable functions
 
@@ -42,7 +49,7 @@ The `input()` function allows you to input data after the program has started ru
 
 ----
 
-In a new file called `my_name.py`
+This program uses input to ask what your name is
 
 ```python
 name = input('What is you name? ')
@@ -57,7 +64,7 @@ Example:
 
 ```python
 animal = input('Do you like dogs or cats more? ')
-pet_name = input('What would name your pet?')
+pet_name = input('What would name your pet? ')
 
 print('You like {} and you would name your pet {}'.format(animal, pet_name))
 ```
@@ -114,7 +121,7 @@ print('You need {} pizzas for {} friends'.format(pizzas, friends))
 
 ----
 
-**Module:** Structured code that someone else has written that you can reuse in your programs
+**Module:** Code that someone else has written that you can reuse in your programs
 
 ----
 
@@ -129,7 +136,7 @@ Turtle is module for creating basic drawings.
 
 ---
 
-### Problem Solving (with Turtles)
+### Problem Solving (with Turtle)
 
 ----
 
@@ -162,8 +169,6 @@ You can change the turtle's speed:
 
 
 ----
-
-Let's make square together (file name `square.py`)
 
 A square has **four** sides and an angle of **ninety** degrees:
 
@@ -210,8 +215,6 @@ turtle.right(angle)
 turtle.done()
 ```
 
-Change `square.py` to use variables
-
 ----
 
 You can play around with filling the shape and colors:
@@ -252,7 +255,7 @@ A triangle has **three** sides and an angle of **120** degrees
 
 ----
 
-Solution:
+Solution
 
 ```python
 import turtle
@@ -274,7 +277,7 @@ turtle.done()
 
 ----
 
-Extension Answer:
+Extension Solution
 
 ```python
 import turtle
@@ -309,6 +312,10 @@ turtle.done()
 
 **`for` loop:** allows you to repeat a block of code multiple times
 
+```python 
+for number in range(100):
+    print(number)
+```
 
 ----
 
@@ -322,14 +329,14 @@ A `for` loop has
 
 ----
 
-The pre-written `range()` function can be used to make a `for` loop repeat a certain number of times 
+The pre-written `range()` function can be used to make a `for` loop repeat a certain number of times. 
+
+The `range()` function starts counting from `0`
 
 ```python
 for number in range(5):
     print(number)
 ```
-
-The `range()` function starts counting from `0`
 
 ----
 
@@ -403,7 +410,7 @@ turtle.done()
 
 ----
 
-Solution:
+Solution
 
 
 ```python
@@ -423,7 +430,7 @@ turtle.done()
 
 ----
 
-Extension Solution:
+Extension Solution
 
 ```python
 import turtle
@@ -519,7 +526,7 @@ square()
 
 ----
 
-Solution:
+Solution
 
 ```python
 import turtle
@@ -571,7 +578,7 @@ square(100)
 
 ----
 
-Solution:
+Solution
 
 ```python
 import turtle
@@ -707,6 +714,31 @@ This session:
 1. Problem solving with Turtle
 1. For Loops
 1. Functions
+
+----
+
+**Question 1:** What is a Python module?
+
+----
+
+**Question 2:** What is more suitable name for this function?
+
+```python
+def x(days):
+    minutes = days * 24 * 60
+    return minutes
+
+print(x(10))
+```
+
+----
+
+**Question 3:** Why won't this program run?
+
+```python
+for number in range(100)
+print(number)
+```
 
 ----
 

@@ -14,11 +14,9 @@ Plan:
 
 Saturday (24th Aug):
 - Session 2
-  - Review slides
-  - Meaningful starter
-  - Recap questions
-  - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
   - Review lesson plan
+  - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
+  
 
 - Session 1
   - Review slides
