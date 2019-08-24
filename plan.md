@@ -14,22 +14,11 @@ Plan:
 
 
 Saturday (24th Aug):
-- Session 4
-  - Review slides
-  - Meaningful starter
-  - Recap questions
-  - Make dictionary exercise more interesting
-  - Challenges for lists and dictionaries
-  - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
-  - Incorporate feedback from session 1
-  - Review lesson plan
-
 - Session 2
   - Review slides
   - Meaningful starter
   - Recap questions
   - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
-  - Incorporate feedback from session 1
   - Review lesson plan
 
 - Session 1
@@ -46,15 +35,11 @@ Saturday (24th Aug):
   - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
   - Review lesson plan
 
+- Session 4
+  - Challenges for lists and dictionaries
 
 - Check timings for all exercises and sections
 
-- Review sessions 1-4 slides
-- Finalise sessions 1-4 slides
-- Review sessions 1-4 lesson plans
-- Finalise session 1-4 lesson plans
-
-- Upgrade RISE version to match work laptop
 - Remove `in []` from slide styling
 - Can I get the same styling applied to pdf exports?
 - Re-record gifs
@@ -73,6 +58,9 @@ Scaffolding recap questions in terms of challenge
   - Record myself presenting each of the sessions to the pictures in my office
 
 - Session 5: slides
+  - Add an analogy for how APIs work (e.g. a restaurant)
+  - Add understand how data is sent using APIs to the learning objectives
+  - Is there an option on the csvreader to read as a dictionary?
   - Add a link to PyPi and mention/link to a list of interesting packages
   - Write explanations for files
   - Write exercises

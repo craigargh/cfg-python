@@ -19,9 +19,9 @@ Please do not change the intro and closing blocks - feel free to add more sessio
 
 ## Intro & Framing
 
-This session focuses on lists and dictionaries. So far students have used string, integer, float and Boolean data types along with variables. Through the use of lists they can make collections of multiple data values. Creating list and basic list operations as well as using lists with for loops are covered in this session. 
+This session focuses on lists and dictionaries. So far students have used string, integer, float and Boolean data types along with variables. With lists they can make collections of multiple data values. Creating lists, basic list operations, and using lists with for loops are covered in this session. 
 
-The second part of this session introduces the dictionary data type. Similar to lists, dictionaries allow programmers to create structure of multiple data values. Unlike lists, dictionaries allow programmers to label the data to give it meaning through the use dictionary keys.
+The second part of this session introduces the dictionary data type. Similar to lists, dictionaries allow programmers to create structure of multiple data values. Dictionaries also allow programmers to label the data to give it meaning through the use dictionary keys.
 
 Like the previous session, this session includes challenge exercises at the end, which are ordered by difficulty.
 
@@ -29,14 +29,14 @@ Like the previous session, this session includes challenge exercises at the end,
 
 ??? minutes
 
-The first block introduces lists. In the previous session students have created variables that reference a single data value. Lists allow students to have a collection of multiple data values in a single variable. 
+The first block introduces lists. Lists allow students to have a collection of multiple data values in a single variable. 
 
-Students are taught how to access data in a list using indexes. It is important to note that indexes start counting from 0.
+Students are taught how to access data in a list using indexes. It is important to highlight to students that indexes start counting from 0.
 
 ### Relevant Exercise(s):
 
 Exercise 4.1: 5-10 minutes
-- This exercise is to practice creating lists and accessing the list items using indexes
+- In this exercise students will practice creating lists and accessing the list items using indexes
 - The students need to add an if statement to check the value of the first item
 - Recommend that the students try running the program with and without "shorts" as the first item in the list
 - Extension: Change the other items in the list to clothing more appropriate to winter if the first item is shorts 
@@ -45,7 +45,7 @@ Exercise 4.1: 5-10 minutes
 
 ??? minutes
 
-The `in` operator and append() method are two very useful features of lists in Python. The `in` operator can check whether a value is in a list. The append() method can add new values to a list.
+This block covers two useful features of lists, specifically The `in` operator and `append()` method. The `in` operator can check whether a value is in a list. The `append()` method can add new values to a list.
 
 
 ### Relevant Exercise(s):
@@ -53,17 +53,16 @@ The `in` operator and append() method are two very useful features of lists in P
 Exercise 4.2: 10-13 minutes
 - The exercise is designed to practice the `in` operator and `.append()` function
 - The scenario is that I want to add butter to my shopping list if bread is in my shopping list
-- This exercise is a bit more challenging as students will need to combine ideas from the two previous code examples
-- Students will need to use an if statement as part of their program
+- If students feel overwhelmed suggest building it up in stages i.e. check bread is in the list with an if before doing anything else
 - Extension: only add butter to the list if it is not already in the list
 
 ## Block 3: For Loops and Lists
 
 ??? minutes
 
-This section is about combining lists and for loops. Students learned about using for loops with the range() function in session two. 
+This section is about combining lists and for loops. Students learned about using for loops with the `range()` function in session two. 
 
-Instructors should run through each repeat/iteration of the for loops in the examples with students. For the first example try explaining it along the lines of "the value of `student_name` is 'Diedre' on the first repeat, then Python runs the code in the block. Python then moves onto the next value in the list, so `student_name` is equal to 'Hank' on the second repeat and so on, until there are not any more items in the list and the program continues after the for block"
+When explaining the code examples, instructors should run through each repeat/iteration step-by-step. Explain what the value of the for loop's variable is, what happens in the code block, and how after running the code block the loop gets the next value and starts againt.
 
 
 ### Relevant Exercise(s):
@@ -77,7 +76,7 @@ Exercise 4.3 10-13 minutes
 
 ??? minutes
 
-This block introduces dictionaries. Dictionaries store data in a collection and label each piece of data to give it meaning with keys. Instructors should explain that each item in a dictionary has a key and a value. Keys are used to extract data values from dictionaries.
+This block introduces dictionaries. Instructors should emphasize that each item in a dictionary has a key and a value.
 
 
 ### Relevant Exercise(s):
@@ -96,7 +95,7 @@ Working with dictionaries inside of lists is very common for programmers. This b
 ### Relevant Exercise(s):
 
 Exercise 4.5 5 minutes
-- Students need to use a for loop to print the name, colour and price of each item in the example list
+- Students need to use a combination of a for loop and dictionary indexes to print the name, colour and price of each item in the example list
 - Extension: Add more items to the list
 
 ## Block 6: Challenges  

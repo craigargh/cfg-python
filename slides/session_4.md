@@ -1,4 +1,16 @@
-**Starter:** ???
+**Starter:** There are four mistakes in this program. What are the mistakes and how would you fix them?
+
+```python
+carrots = input('How many carrots do you have? ')
+rabbits = 6
+
+if rabbits < carrots:
+    print('There are not enough carrots')
+if rabbits > carrots:
+    print('There are too many carrots')
+else:
+    print('You have the right number of carrots')
+```
 
 ---
 
@@ -79,7 +91,7 @@ print(student_names[0])
 ```
 ----
 
-You can also set the values in lists using their indexes, similar to how you would a variable
+You can also set the values in lists using their indexes, similar to how you would set a variable
 
 ```python
 student_names = [
@@ -108,7 +120,7 @@ clothes = [
 
 ----
 
-An example solution:
+Solution
 
 ```python
 clothes = [
@@ -165,11 +177,9 @@ Try running the program with and without bread in the list to check that your pr
 
 Remember the `in` operator checks if an item is in a list and the `.append()` method adds an item to a list.
 
-Extension: Check if butter is already in the shopping list before adding it
-
 ----
 
-An example answer:
+Solution
 
 ```python
 shopping_list = [
@@ -180,23 +190,6 @@ shopping_list = [
 ]
 
 if 'bread' in shopping_list:
-    shopping_list.append('butter')
-```
-
-----
-
-An example extension solution:
-
-```python
-shopping_list = [
-    'bread',
-    'butter',
-    'cheese',
-    'pop tarts',
-    'carrots',
-]
-
-if 'bread' in shopping_list and 'butter' not in shopping_list:
     shopping_list.append('butter')
 ```
 
@@ -243,7 +236,7 @@ total_cost = 0
 ```
 ----
 
-An example solution:
+Solution
 
 ```python
 costs = [8.30, 7.12, 5.01, 1.00, 0.99, 5.92, 3.50]
@@ -281,7 +274,7 @@ Some other list functions:
 
 ----
 
-**Dictionary:** Stores a colleciton of labelled items. Each item has a key and a value
+**Dictionary:** Stores a colleciton of labelled items. Each item has a *key* and a *value*
 
 ----
 
@@ -326,7 +319,7 @@ place = {
 
 ----
 
-Solution:
+Solution
 
 ```python
 place = {
@@ -424,6 +417,45 @@ for fruit in fruits:
 This session:
 1. Lists 
 1. Dictionaries
+
+----
+
+**Question 1:** What shape brackets are used for creating a list and what shape brackets are used for creating a dictionary?
+
+----
+
+**Question 2:** What is the result of this program?
+
+```python
+cheeses = [
+    'brie',
+    'cheedar',
+    'wensleydale',
+    'edam',
+]
+
+print(cheeses[4])
+```
+
+----
+
+**Question 3:** This program raises an error when I run it. What do I need to change to get it to run?
+
+```python
+trees = [
+    {'leaf_colour': 'green', 'height': 2120},
+    {'leaf_colour': 'green', 'height': 2300},
+
+
+new_tree = {
+    'leaf_colour': 'green',
+    'height': 1020
+}
+
+trees.append(new_tree)
+
+print(trees)
+```
 
 ----
 
