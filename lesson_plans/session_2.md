@@ -27,14 +27,14 @@ This session focuses on repetition and reusabilitiy in code. Students will be in
 - For loops
 - Functions
 
-Several of the exercises require the students to develop problem solving skills in order to create basic shapes and drawings using the Python turtle module.
+Several of the exercises require the students to create basic shapes and drawings using the Python turtle module in order to develop their problem solving skills.
 
 
 ## Block 1: User Input
 
 4-5 minutes
 
-The first block introduces students to the `input()` function. Time should be taken to show students where PyCharm expects you to enter user input.
+The first block introduces students to the `input()` function. Time should be taken to show students how to input values with PyCharm.
 
 4-5 minutes
 
@@ -62,7 +62,7 @@ This block explains the purpose of Python modules i.e. reusable code that someon
 
 This block introduces drawing with the turtle module. From this block students should start to understand how parts of programs can be repeated and reordered to solve problems. 
 
-The class should follow along as the instructor demonstrates how to draw a square with the turtle module. By rewriting the square program to use variables students are reminded that data values and variables are interchangeable.
+The students should follow along as the instructor demonstrates how to draw a square with the turtle module. By rewriting the square program to use variables students are reminded that data values and variables are interchangeable.
 
 
 ### Relevant Exercise(s):
@@ -71,7 +71,7 @@ Exercise 2.3: 10 minutes
 - This exercise helps develop the students' ability to adapt an existing piece of code to solve a different problem
 - The square program can be used as a starting point for students
 - Extension 1: Draw a octagon instead of square
-- Extension 2: Draw a circle. It is unlikely that the students will complete this one, it is instead meant to setup them up to understand why repitition with for loops is so useful later in the session.
+- Extension 2: Draw a circle (it is unlikely that the students will complete this one, it is instead meant to setup them up to understand why repitition with for loops is so useful later in the session)
 
 ## Block 4: For Loops
 

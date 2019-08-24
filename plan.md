@@ -12,11 +12,7 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-Saturday (24th Aug):
-- Session 2
-  - Review lesson plan
-  - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
-  
+Sunday (25th Aug):
 
 - Session 1
   - Review slides
@@ -25,8 +21,6 @@ Saturday (24th Aug):
   - Incorporate feedback from session 1
   - Check session 1 changes on work laptop
   - Stats for popular?
-  - ADD PYTHON 3 TO PROJECT SETUP SLIDE
-  - Update setup slides
   - Integrate console back into numbers exercise
   - Summarise console and file differences in a table
   - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
@@ -34,15 +28,38 @@ Saturday (24th Aug):
 
 - Session 4
   - Challenges for lists and dictionaries
+- Session 1
+  - ADD PYTHON 3 TO PROJECT SETUP SLIDE
+  - Update setup slides
+
 
 - Check timings for all exercises and sections
-
 - Remove `in []` from slide styling
 - Can I get the same styling applied to pdf exports?
+- Add recap questions to lesson plans
 - Re-record gifs
 - Upload session 1-4 Jupyter notebooks with images and css
 - Export and upload session 1-4 slides
 - Copy and upload session 1-4 lesson plans
+
+
+Tuesday:
+- Program an example escape room game
+- Program an example csv analysis program
+- Program an example recipe search
+- Program an example Top Trumps
+
+Wednesday:
+-
+
+Thursday:
+- Session 5 lesson plan 
+
+Friday:
+- 
+
+Saturday:
+
 
 
 
@@ -103,3 +120,4 @@ Supplementary:
 - Extra functions for lists
 - Links to further materials
 - How to setup the Jupyter notebooks as slides
+- Common issues with Virtual Environments in PyCharm
