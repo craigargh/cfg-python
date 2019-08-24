@@ -534,7 +534,33 @@ This session:
 
 ----
 
-Question 1: Name two 
+Question 1: Equals to (==) is a comparison operator. Name two more comparison operators
+
+----
+
+Question 2: What is the output of this code?
+
+```python
+print(True and True)
+print(True and False)
+print(True or True)
+print(True or False)
+```
+
+----
+
+Question 3: I expect this code to output "This is too many apples", but instead it outputs "That is a sensible number of apples". Why does this happen?
+
+```python
+apples = 100
+
+if apples >= 10:
+    print('That is a sensible number of apples')
+elif apples > 50:
+    print('This is too many apples')
+elif apples < 10:
+    print('That is not enough apples')
+```
 
 ----
 

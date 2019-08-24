@@ -2,7 +2,7 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
 1  | Complete | Review | In progress |  Review 
 2  | Complete | Review | In progress |  Review 
-3  | Complete | Review | Not started |  Review 
+3  | Complete | Complete | Not started |  Review 
 4  | Review | Review | Not started |  Not started 
 5  | Review | In progress | Not started |  Not started 
 6  | Review | Not started | Not started |  n/a 
@@ -14,9 +14,6 @@ Plan:
 
 
 Saturday (24th Aug):
-- Session 3
-  - Recap questions
-
 - Session 4
   - Review slides
   - Meaningful starter

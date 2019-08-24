@@ -133,8 +133,22 @@ Exercise 3.8: 10-15 minutes
 How can you get the learners to articulate what they learned today, celebrate what they achieved and inform them what they need to do as homework?
 
 Recap questions:
-1. 
+Question 1: 
+Equals to (==) is a comparison operator. Name two more comparison operators
 
+Answers: Greater than, less than, greater than or equal, less than or equal, not equal to
+
+Question 2: 
+What is the output of this code?
+
+Answer:
+True, False, True, True
+
+Question 3:
+I expect this code to output "This is too many apples", but instead it outputs "That is a sensible number of apples". Why does this happen?
+
+Answer:
+The program checks if the number of apples is more than ten before it can check if the number is more than 50. The order of these two comparisons needs to be swapped.
 
 ## Homework Tasks
 
