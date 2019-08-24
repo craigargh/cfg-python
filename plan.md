@@ -2,7 +2,7 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
 1  | Complete | Review | In progress |  Review 
 2  | Complete | Review | In progress |  Review 
-3  | Review | Review | Not started |  Review 
+3  | Complete | Review | Not started |  Review 
 4  | Review | Review | Not started |  Not started 
 5  | Review | In progress | Not started |  Not started 
 6  | Review | Not started | Not started |  n/a 
@@ -15,12 +15,7 @@ Plan:
 
 Saturday (24th Aug):
 - Session 3
-  - Review lesson plan
-  - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
-  - Incorporate feedback from session 1
   - Recap questions
-  
-  
 
 - Session 4
   - Review slides
@@ -73,7 +68,12 @@ Saturday (24th Aug):
 
 
 To do:
-- Make sure each exercise has a scenario (e.g. check an item is in my shopping list) and context (what it is meant to practice e.g. if statements)
+Scaffolding recap questions in terms of challenge
+  - Factual (What is an operator - name 2), 
+  - Inferential (Here is some code - can you work out what the resulting output will be?) , 
+  - Connection-based (In what situation would you use the Python console instead of the Python file?)
+- How do I incorporate my way of presenting into the instructor notes
+  - Record myself presenting each of the sessions to the pictures in my office
 
 - Session 5: slides
   - Add a link to PyPi and mention/link to a list of interesting packages

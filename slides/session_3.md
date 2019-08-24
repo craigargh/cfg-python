@@ -30,6 +30,7 @@ for number in range(9):
 ----
 
 Topics in this session:
+1. Comparison Operators
 1. Logical Operators
 1. If Statements
 
@@ -38,19 +39,19 @@ Topics in this session:
 By the end of this session you will be able to:
 
 - Identify Boolean data values
-- Explain and combine logical operators to compare data values
+- Explain and combine comparison and logical operators to compare data values
 - Apply if, else and elif Statements to control the flow of programs
 - Build short games using randomisation
 
 ---
 
-### Logical Operators
+### Comparisons and Logical Operators
 
 ----
 
 **Bolean:** A data-type that is either `True` or `False`
 
-**Logical Operators:** compare values to determine wheter something is `True` or `False`
+**Comparison operator:** compare values to determine wheter something is `True` or `False`
 
 ----
 
@@ -66,7 +67,7 @@ print('Today is Monday: {}'.format(is_monday))
 
 ----
 
-Summary of operators in Python
+Summary of comparison operators in Python
 
 Name | Python
 ---|---
@@ -119,7 +120,7 @@ print('Burger is within budget: {}'.format(within_budget))
 
 ----
 
-There are operators to combine multiple checks
+There are logical operators to combine multiple checks
 
 Python | What it does
 ---|---
@@ -189,7 +190,7 @@ if password == 'jumanji':
 
 An `if` statement has the following:
 1. The `if` keyword
-1. A condition (logical operator expression)
+1. A condition (comparison)
 1. A colon
 1. Body (indented four spaces)
 
@@ -527,9 +528,16 @@ random_colour = colour()
 ----
 
 This session:
+1. Comparison operators 
 1. Logical Operators
 1. If Statements
 
 ----
+
+Question 1: Name two 
+
+----
+
+
 
 **Homework:** Session 3 homework questions in your student guide
