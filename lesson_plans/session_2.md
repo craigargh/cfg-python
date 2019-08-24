@@ -7,8 +7,8 @@ Session No: 2
 By the end of this session students will be able to:
 
 - Construct programs that use user input
-- Describe the purpose of Python libraries
-- Solve problems to create drawings using the Turtle library
+- Describe the purpose of Python modules
+- Solve problems to create drawings using the Turtle module
 - Modify duplicated code to use for Loops 
 - Construct reusable functions
 
@@ -23,11 +23,11 @@ Please do not change the intro and closing blocks - feel free to add more sessio
 This session focuses on repetition and reusabilitiy in code. Students will be introduced to the following Python programming concepts:
 
 - Use input
-- Libraries
+- Modules
 - For loops
 - Functions
 
-Several of the exercises require the students to develop problem solving skills in order to create basic shapes and drawings using the Python turtle library.
+Several of the exercises require the students to develop problem solving skills in order to create basic shapes and drawings using the Python turtle module.
 
 
 ## Block 1: User Input
@@ -51,11 +51,11 @@ Exercise 2.2: 5 minutes
 - This exercise introduces the use of `int()` when used in combination with `input()`
 - Students should use the code in the exercise as a starting point for their solutions
 
-## Block 2: Python Libraries
+## Block 2: Python Modulees
 
 3 minutes
 
-This block explains the purpose of Python libraries i.e. reusable code that someone else has written that you can use. This lesson uses the turtle module in the standard library. The Python Package Index (PyPI) is introduced in a later session.
+This block explains the purpose of Python modules i.e. reusable code that someone else has written that you can use. This lesson uses the turtle module in the standard library. The Python Package Index (PyPI) is introduced in a later session.
 
 
 ## Block 3: Problem Solving (with Turtles)

@@ -1,4 +1,25 @@
-**Starter:** ???
+**Starter:** Rewrite this code to use a for loop and the `range()` function:
+
+```python
+print('~' * 0)
+print('~' * 1)
+print('~' * 2)
+print('~' * 3)
+print('~' * 4)
+print('~' * 5)
+print('~' * 6)
+print('~' * 7)
+print('~' * 8)
+```
+
+----
+
+Starter solution
+
+```python
+for number in range(9):
+    print('~' * number)
+```
 
 ---
 
@@ -8,9 +29,18 @@
 
 ----
 
-This session:
+Topics in this session:
 1. Logical Operators
 1. If Statements
+
+----
+
+By the end of this session you will be able to:
+
+- Identify Boolean data values
+- Explain and combine logical operators to compare data values
+- Apply if, else and elif Statements to control the flow of programs
+- Build short games using randomisation
 
 ---
 
@@ -36,7 +66,7 @@ print('Today is Monday: {}'.format(is_monday))
 
 ----
 
-Operators in Python
+Summary of operators in Python
 
 Name | Python
 ---|---
@@ -49,6 +79,8 @@ Less than or equal | `<=`
 
 ----
 
+`float()` can convert strings to floats
+
 This code checks if the current temperature is freezing:
 
 ```python
@@ -58,8 +90,6 @@ is_freezing = float(temperature) <= 0.0
 
 print('The temperature is freezing: {}'.format(is_freezing))
 ```
-
-`float()` can convert strings to floats
 
 ----
 
@@ -77,7 +107,7 @@ Burger is within budget: True
 
 ----
 
-Answer
+Solution
 
 ```python
 price = input('How much is a burger? ')
@@ -102,10 +132,10 @@ not | reverse the expression (`True` becomes `False` and vice-versa)
 This program will work out if you should visit Mars based on whether you want to visit and if you can afford it:
 
 ```python
-mars_choice = input('Would you like to visit Mars? y/n')
+mars_choice = input('Would you like to visit Mars? y/n ')
 is_willing = mars_choice == 'y'
 
-affordable = input('Can you afford to visit Mars? y/n')
+affordable = input('Can you afford to visit Mars? y/n ')
 can_afford = affordable == 'y'
 
 should_visit_mars = is_willing and can_afford
@@ -185,16 +215,36 @@ if not is_admin or not is_password_correct:
 
 **Exercise 3.3:** Rewrite the output of your burger program to use if statements
 
-Depending on the input the output should be:
+If it is a good choice it should be:
 
 ```bash
 This restaurant is a great choice!
 ```
 
-Otherwise it should be:
+If it is **not** a good choice it should be:
 
 ```bash
 Probably not a good idea
+```
+
+----
+
+Solution
+
+```python
+price = input('How much is a burger? ')
+vegetarian = input('Is there a vegetarian option? (y/n) ')
+
+within_budget = float(price) <= 10.00
+has_vegetarian = vegetarian == 'y'
+
+is_good_choice = within_budget and has_vegetarian
+
+if is_good_choice:
+    print('This restaurant is a great choice!')
+
+if not is_good_choice:
+    print('Probably not a good idea')
 ```
 
 ---
@@ -243,10 +293,29 @@ else:
 If your total meal costs more than £20 and you have a discount, the price will be reduced by 10%. The program should print "Discount applied" or "No discount" depending on whether the discount criteria was met.
 
 ```python
-meal_price = int(input('How much did the meal cost? '))
+meal_price = float(input('How much did the meal cost? '))
 
 discount_choice = input('Do you have a discount? y/n ')
 discount applicable = discount_choice == 'y'
+```
+
+----
+
+Solution
+
+```python
+meal_price = float(input('How much did the meal cost? '))
+
+discount_choice = input('Do you have a discount? y/n ')
+discount applicable = discount_choice == 'y'
+
+if discount_applicable:
+    meal_price = meal_price * 0.9
+    print('Discount applied')
+else:
+    print('No discount')
+
+print('Total cost: {}'.format(meal_price))
 ```
 
 ---
@@ -305,6 +374,23 @@ Write a program to:
 - Prints "The oven is too cold" if the temperature is under 150
 - Prints "The oven is at the perfect temperature" if the temperature is 180
 - Prints "The temperature is close enough" for any other temperature
+
+----
+
+Solution
+
+```python
+temperature = float(input('What is the temperature of the oven? '))
+
+if temperature > 200:
+    print('The oven is too hot')
+elif temperature < 150:
+    print('The oven is too cold')
+elif temperature == 180:
+    print('The oven is at the perfect temperature')
+else:
+    print('The temperature is close enough')
+```
 
 ---
 

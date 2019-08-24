@@ -7,7 +7,7 @@ Session No: 3
 By the end of this session students will be able to:
 
 - Identify Boolean data values
-- Explain and combine logical operators to check conditions
+- Explain and combine logical operators to compare data values
 - Apply if, else and elif Statements to control the flow of programs
 - Build short games using randomisation
 
@@ -28,6 +28,8 @@ At the end of the session students can select one (or more) of three exercises t
 ??? minutes
 
 This first part of this block introduces comparisons, such as equals (==) and less than (<). There is not enough time in the session to dedicate time to each comparison, so they are summarised in a table. 
+
+Make sure you point out to students that `==` is used to compare values and `=` is to set variables, as this is a common mistake with students.
 
 The second part of this block introduces the boolean operators `and`, `or`, and `not`. 
 

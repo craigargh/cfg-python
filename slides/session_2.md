@@ -16,6 +16,16 @@ This session:
 1. For Loops
 1. Functions
 
+----
+
+By the end of this you will be able to:
+
+- Construct programs that use user input
+- Describe the purpose of Python modules
+- Solve problems to create drawings using the Turtle library
+- Modify duplicated code to use for Loops 
+- Construct reusable functions
+
 ---
 
 
@@ -82,6 +92,17 @@ Write a program calculate how many pizzas you need to feed you and your friends
 
 ```python
 friends = # Add input here
+pizzas = friends * 0.5
+
+print('You need {} pizzas for {} friends'.format(pizzas, friends))
+```
+
+----
+
+Solution
+
+```python
+friends = int(input('How many friends are at your house? '))
 pizzas = friends * 0.5
 
 print('You need {} pizzas for {} friends'.format(pizzas, friends))
@@ -231,7 +252,7 @@ A triangle has **three** sides and an angle of **120** degrees
 
 ----
 
-Answer:
+Solution:
 
 ```python
 import turtle
@@ -662,7 +683,7 @@ print(circle_1)
 
 ----
 
-Answer
+Solution
 
 ```python
 def circle_area(radius):

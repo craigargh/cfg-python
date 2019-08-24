@@ -12,6 +12,16 @@ This session:
 1. Lists
 1. Dictionaries
 
+----
+
+By the end of this session you will be able to:
+
+- Create lists to store multiple data values 
+- Combine lists and for loops
+- Construct dictionaries to structure data
+- Solve problems using lists and dictionaries
+
+
 ---
 
 ### Lists
@@ -96,6 +106,21 @@ clothes = [
 ]
 ```
 
+----
+
+An example solution:
+
+```python
+clothes = [
+    "shorts",
+    "shoes",
+    "t-shirt",
+]
+
+if clothes[0] == 'shorts':
+    clothes[0] = 'warm coat'
+```
+
 ---
 
 ### append() and in
@@ -142,6 +167,39 @@ Remember the `in` operator checks if an item is in a list and the `.append()` me
 
 Extension: Check if butter is already in the shopping list before adding it
 
+----
+
+An example answer:
+
+```python
+shopping_list = [
+    'bread',
+    'cheese',
+    'pop tarts',
+    'carrots',
+]
+
+if 'bread' in shopping_list:
+    shopping_list.append('butter')
+```
+
+----
+
+An example extension solution:
+
+```python
+shopping_list = [
+    'bread',
+    'butter',
+    'cheese',
+    'pop tarts',
+    'carrots',
+]
+
+if 'bread' in shopping_list and 'butter' not in shopping_list:
+    shopping_list.append('butter')
+```
+
 ---
 
 ### For Loops ♥ Lists
@@ -182,6 +240,19 @@ Write a program that uses a `for` loop to calculate the total cost
 ```python
 costs = [8.30, 7.12, 5.01, 1.00, 0.99, 5.92, 3.50]
 total_cost = 0
+```
+----
+
+An example solution:
+
+```python
+costs = [8.30, 7.12, 5.01, 1.00, 0.99, 5.92, 3.50]
+total_cost = 0
+
+for cost in costs:
+    total_cost = total_cost + cost
+
+print(total_cost)
 ```
 
 ----

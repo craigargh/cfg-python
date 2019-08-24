@@ -30,7 +30,13 @@ Instructor Introductions
 
 ----
 
-This session:
+Put a coloured Post-It note on the back of your laptop monitor during exercises:
+- Red/pink: I need instructor support
+- Green: I do not need instructor support
+
+----
+
+Topics this session:
 
 1. Run Python with files and console
 1. Data types (Integers, Floats and Strings)
@@ -40,9 +46,14 @@ This session:
 
 ----
 
-Put a coloured Post-It note on the back of your laptop monitor during exercises:
-- Red/pink: I need instructor support
-- Green: I do not need instructor support
+By the end of this session you will be able to:
+
+- Understand the differences and uses of Python files and the Python console
+- Recognise the integer, float and string data types
+- Identify different maths operations and their effects
+- Locate key information on error messages
+- Explain what a variable is and how they are used
+- Demonstrate basic problem solving
 
 ----
 
@@ -454,7 +465,7 @@ Your will need:
 
 ----
 
-An example answer:
+An example solution:
 
 ```python
 cats = 10
@@ -531,7 +542,7 @@ print(output)
 
 ----
 
-Answer:
+Solution
 
 ```python
 cats = 10
