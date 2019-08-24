@@ -3,7 +3,7 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 1  | Complete | Review | In progress |  Review 
 2  | Complete | Review | In progress |  Review 
 3  | Complete | Complete | Not started |  Review 
-4  | Review | Review | Not started |  Not started 
+4  | Complete | Complete | Not started |  Not started 
 5  | Review | In progress | Not started |  Not started 
 6  | Review | Not started | Not started |  n/a 
 7  | Not started | Not started | Not started | n/a 
@@ -11,7 +11,6 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 
 Plan: 
-
 
 Saturday (24th Aug):
 - Session 2
