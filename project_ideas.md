@@ -22,8 +22,12 @@ Recipe/Book Search
 Choose your own adventure/text-based game
 - Extension
   - Inventory e.g. keys
+  - Keep track of 
 - Ideas
   - Escape room
+- Extra things to introduce
+  - While loops or counter() 
+  - break
 
 Spreadsheet analysis
 - Read from a csv

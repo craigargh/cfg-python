@@ -13,24 +13,25 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 Plan: 
 
 Sunday (25th Aug):
-- Can I get the same styling applied to pdf exports?
-- Add recap questions to lesson plans
-- Check timings for all exercises and sections
-
-
-
 - Session 4
   - Challenges for lists and dictionaries
-- Session 1
-  - ADD PYTHON 3 TO PROJECT SETUP SLIDE
-  - Update setup slides
+- Add recap questions to lesson plans
+- Check timings for all exercises and sections
+- Copy session 1 lesson plan into Google Doc
+- Copy session 2 lesson plan into Google Doc
+- Copy session 3 lesson plan into Google Doc
+- Copy session 4 lesson plan into Google Doc
 
 
-
+Monday (26th Aug):
+- Can I get the same styling applied to pdf exports?
 - Re-record gifs
-- Upload session 1-4 Jupyter notebooks with images and css
-- Export and upload session 1-4 slides
-- Copy and upload session 1-4 lesson plans
+- Upload session 1-4 Jupyter notebooks with images, settings and css
+- Export and upload session 1-4 slide pdfs
+- Write brief explanation of how to setup Jupyter + RISE
+- Ask for a change in deadline dates from Friday to Monday
+
+----
 
 
 Tuesday:
@@ -53,14 +54,10 @@ Saturday:
 
 
 To do:
-Scaffolding recap questions in terms of challenge
-  - Factual (What is an operator - name 2), 
-  - Inferential (Here is some code - can you work out what the resulting output will be?) , 
-  - Connection-based (In what situation would you use the Python console instead of the Python file?)
-- How do I incorporate my way of presenting into the instructor notes
-  - Record myself presenting each of the sessions to the pictures in my office
 
-- Session 5: slides
+
+- Session 5:
+  - Should I add a section on how to create your own Python modules?
   - Add an analogy for how APIs work (e.g. a restaurant)
   - Add understand how data is sent using APIs to the learning objectives
   - Is there an option on the csvreader to read as a dictionary?
@@ -113,3 +110,22 @@ Supplementary:
 
 Session 8:
 - PyCon Scholarships for under-represented groups
+- Do a presentation on next steps after the course (either at the start of the session, or before or after presentations)
+
+----
+
+
+Scaffolding recap questions in terms of challenge
+  - Factual (What is an operator - name 2), 
+  - Inferential (Here is some code - can you work out what the resulting output will be?) , 
+  - Connection-based (In what situation would you use the Python console instead of the Python file?)
+- How do I incorporate my way of presenting into the instructor notes
+  - Record myself presenting each of the sessions to the pictures in my office
+
+
+Structure for project brief:
+- Overview
+- Minimal that you should aim to complete
+- Extensions
+- Extra Python stuff that you will need to know to complete this
+- Example code
