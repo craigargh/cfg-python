@@ -1,6 +1,6 @@
 Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
-1  | Complete | Review | In progress |  Review 
+1  | Complete | Complete | In progress |  Review 
 2  | Complete | Complete | In progress |  Review 
 3  | Complete | Complete | Not started |  Review 
 4  | Complete | Complete | Not started |  Not started 
@@ -13,10 +13,6 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 Plan: 
 
 Sunday (25th Aug):
-
-- Session 1
-  - Review lesson plan
-  - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
 
 - Session 4
   - Challenges for lists and dictionaries
@@ -52,8 +48,7 @@ Friday:
 - 
 
 Saturday:
-
-
+-
 
 
 To do:

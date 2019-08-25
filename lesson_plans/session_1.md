@@ -38,41 +38,42 @@ Before the start of the session the students are expected to have installed PyCh
 
 5 minutes
 
-As a group the instructor walks the students through creating a new Python file and running it in PyCharm. The students should follow each step as the instructor demonstrates it.
+At the start of the sesison the instructor walks the class through creating a new Python file and running it in PyCharm. The students should follow each step as the instructor demonstrates it.
 
 ### Relevant Exercise(s):
 
 Exercise 1.1: 4 minutes
 - This exercise gives the students a chance to explore their first program
-- You can use this time to support students that were unable to run their first program
-- Question the students that changed the program and get them to share what happened
+- Use this time to support students that were unable to run their first program
+- Briefly question the students that changed the program and ask them to share what happened
 
 
-## Block 3: The Python Console
-
-3-5 minutes
-
-The Python console is an alternative way to run Python programs. The instructor will walk students through the locating the Python console and executing a Python statement.
-
-
-## Block 4: Number Data Types and Operators
+## Block 3: Number Data Types and Operators
 
 2 minutes
 
-This block introduces the integer and float data types along with maths operators
+This block introduces the integer and float data types along with maths operators.
+
+The Python console is used in this exercise. The instructor should walk students through the locating the Python console and executing a Python statement.
 
 ### Relevant Exercise(s):
 
-Exercise 1.2: 5 minutes
+Exercise 1.2: 3-5 minutes
 - The students will explore different maths operators using the Python shell
 - They should be able to identify the purpose of each opeartor.
 - Ask different students to share with the rest of the class what each operator does after they have completed the exercise
+
+## Block 4: The Python Console
+
+3-5 minutes
+
+This block is a brief explanation of when it is appropriate to use the Python console and when it is appropriate to use files.
 
 ## Block 5: String Data Type
 
 In this block students are introduced to the string data type along with common mistakes when using strings. 
 
-The instructor will explain an error message so that students can better understand them when debugging their own programs. Instructors should bring attention to:
+Explain an error message so that students can better understand them when debugging their own programs. Instructors should bring attention to:
 1. The line number
 1. The error type (e.g. NameError)
 1. The error message (e.g. "name 'hello' is not defined")
@@ -84,7 +85,7 @@ Throughout the course when assisting students with error messages one-to-one, ge
 
 Exercise 1.3: 5 minutes
 - Students will explore different methods and operations with strings
-- Get the students to share what each line does, first with their partner, then as a pair with the rest of the group
+- Get the students to share what each line does, first with a partner, then as a pair with the rest of the group
 - Students that make more progress should try to identify why the error message occurred  
 
 
@@ -96,9 +97,8 @@ Variables are introduced in this block. Students are also given their first exer
 
 Exercise 1.4: 10-15 minutes
 - Students need to create a program that calculates how many cans of cat food are needed to feed 10 cats
-- This is the students' first longer exercise
 - The exercise combines all of the things that they have learned up to this point
-- Hint: Students can refer back to the oranges calculator example on the previous slide
+- Students can refer back to the oranges calculator example on the previous slide
 - Extension: students should modify the program to calculate how many cans are needed for seven days
 
 
@@ -116,10 +116,6 @@ Exercise 1.5: 5-8 minutes
 ## Recap & Closing
 How can you get the learners to articulate what they learned today, celebrate what they achieved and inform them what they need to do as homework?
 
-Recap questions:
-- If I wanted to write a program that I will run multiple times, should I use the Python console or a Python file?
-- What are the three data types that we learned about today?
-- 
 
 
 ## Homework Tasks
