@@ -1,7 +1,7 @@
 Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
 1  | Complete | Review | In progress |  Review 
-2  | Complete | Review | In progress |  Review 
+2  | Complete | Complete | In progress |  Review 
 3  | Complete | Complete | Not started |  Review 
 4  | Complete | Complete | Not started |  Not started 
 5  | Review | In progress | Not started |  Not started 
@@ -15,12 +15,6 @@ Plan:
 Sunday (25th Aug):
 
 - Session 1
-  - Recap questions
-  - Summarise operator types in a table
-  - Integrate console back into numbers exercise
-  - Summarise console and file differences in a table
-  - Stats for popular?
-  - Incorporate feedback from session 1 
   - Review lesson plan
   - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
 
@@ -33,6 +27,7 @@ Sunday (25th Aug):
 
 - Check timings for all exercises and sections
 - Remove `in []` from slide styling
+- Make tables bigger
 - Can I get the same styling applied to pdf exports?
 - Add recap questions to lesson plans
 - Re-record gifs

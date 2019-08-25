@@ -149,39 +149,6 @@ Don't worry if something unexpected happens. Think about what you changed and wh
 
 ---
 
-## Python Console
-
-----
-
-There are two main ways to write and run Python programs:
-1. With files 
-1. On the Python console (also called the shell)
-
-----
-
-Python files:
-- `.py` file extension
-- Runs all lines from top-to-bottom
-- Only shows output when using `print()`
-- Can be re-run
-
-----
-
-The Python console:
-
-- Each line starts with `>>>`
-- Runs one line at a time
-- Interactive
-- Immediate output
-- Exploration
-- Can't re-run (use files instead)
-
-----
-
-![open Python console](gifs/pycharm_python_shell.gif)
-
----
-
 ### Numbers and Operators in Python
 
 ----
@@ -189,6 +156,12 @@ The Python console:
 **Integer:** a Python **data type** for **whole numbers**. For example `5`, `-99` and `1048` are all integers.
 
 **Float:** a Python **data type** for **decimal numbers**. For example `5.6`, `9.0` and `-67.1001` are all floats.
+
+----
+
+Opening the Python Console
+
+![open Python console](gifs/pycharm_python_shell.gif)
 
 ----
 
@@ -259,6 +232,24 @@ Operator types
 * `/`: division
 * `**`: exponent
 * `%`: modulo (remainder)
+
+---
+
+## Python Console
+
+----
+
+There are two main ways to write and run Python programs:
+1. With files 
+1. On the Python console (also called the shell)
+
+----
+
+Python File | Python Console
+---|---
+Runs all lines from top-to-bottom | Runs one line as it is entered
+Only shows output when using `print()` | Shows output for every line
+For code that will be ran multiple times | Interactive for exploration
 
 ---
 
@@ -604,6 +595,27 @@ print(output)
 1. Understanding Error Messages
 1. Variables
 
+
+----
+
+**Question 1:** What are the names of the maths operators?
+
+----
+
+**Question 2:** In what situation should you use a Python file and when should you use the Python Console?
+
+----
+
+**Question 3:** What is the output of this code?
+
+```python
+days = 31
+hours = "24"
+total_hours = days * hours
+
+msg = "There are {} in {} days".format(total_hours, days)
+print(msg)
+```
 
 ---
 
