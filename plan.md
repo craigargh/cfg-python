@@ -13,12 +13,10 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 Plan: 
 
 Sunday (25th Aug):
-
-- Remove `in []` from slide styling
-- Make tables bigger
-- Check timings for all exercises and sections
 - Can I get the same styling applied to pdf exports?
 - Add recap questions to lesson plans
+- Check timings for all exercises and sections
+
 
 
 - Session 4
