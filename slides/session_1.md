@@ -1,6 +1,3 @@
-Updated course handbook:
-1. https://bit.ly/2T13uWJ
-
 Make sure that you have installed:
 1. Python 3.7 (www.python.org/downloads/)
 1. PyCharm Community Edition (www.jetbrains.com/pycharm/download/)
@@ -19,7 +16,7 @@ Course overview:
 1. Input, loops and functions
 1. If statements
 1. Lists and dictionaries
-1. Files, packages and APIs
+1. Files, modules and APIs
 1. Project planning and group project 
 1. Group project
 1. Group project and presentations
@@ -78,33 +75,29 @@ Python:
 1. Popular
 1. Open Source
 
-----
-
-PyCon - Annual conferences held in different countries
-
-Scholarships for under-represented groups
-
 ---
 
-### Your first Python program
+### Your first Python Program
 
 ----
 
-Create a new project called `cfg_python`
+Open PyCharm and click `Create New Project`
+
+[IMAGE OF PYCHARM LANDING PAGE]
+
+----
+
+Call the project `cfg-python`
+
+Under `Project Interpreter: New Virtualenv environment`, set Base interpreter to Python 3.7
 
 ![create new PyCharm project](gifs/pycharm_new.gif)
 
 ----
 
-NOTE TO CRAIG: Explain what the UI and new project layout is
+Right click on `cfg-python` > `New` > `Python File`
 
-Briefly mention what venv is 
-
-Mention not to save anything in the venv folder
-
-----
-
-Create a new Python file called `hello` (`.py` is added automatically)
+Name the file `hello` (`.py` is added automatically)
 
 ![create new PyCharm file](gifs/pycharm_new_file.gif)
 
@@ -118,7 +111,7 @@ print('Hello, World!')
 
 ----
 
-Run the program
+Right-click in your new file >  `Run 'hello'`
 
 ![run the Python program](gifs/pycharm_run.gif)
 
@@ -130,12 +123,27 @@ You've just run your first Python program
 
 ----
 
+**Function:** A reusable piece of code that completes a specific task
+
+You can recognise a function as they are a word followed by round brackets `()` e.g. `print()`
+
+----
+
+The `print()` function is used to output a message to the programmer
+
+You can change the data given to the function to change the output
+
+```python
+print('I hope it is sunny this weekend')
+```
+
+----
+
 **Exercise 1.1:** Now that you've run your first program, try the following:
 
 - Change the message to anything you want
-- Add different characters/symbols to the message
-- Output multiple messages in the same file
-- Find out what happens when they remove different parts of the code (e.g. brackets)
+- Repeat the code on multiple lines to output several messages
+- Find out what happens when you remove different parts of the code (e.g. brackets)
 
 Don't worry if something unexpected happens. Think about what you changed and why it might have caused it to happen.
 
@@ -260,7 +268,7 @@ Operator types
 
 **String:** a Python data type for **text** and **characters**.
 
-`'Hello'`, `"abcdef1234"` and `'cats'` are all strings
+For example `'Hello'`, `"abcdef1234"` and `'cats'` are all strings
 
 ----
 
@@ -367,28 +375,28 @@ Results:
 
 1. The `*` operator repeats a string a number of times
 
-1. `.upper()`, `.lower()` and `.title()` are **methods**. They perform a specific action on the string e.g. uppercasing the characters
+1. `.upper()`, `.lower()` and `.title()` are **methods**
 
 ----
 
-This exception is caused when trying to join a string value with an integer value
+**method:** A repeatable piece of code that completes a task for specific data-type
+
+Methods are like funcitons, but they are tied to a specific data-types e.g. `.upper()` can only used with a string and not an integet or a float
+
+----
+
+Running this code
 
 ```python
 print("Cat" + 3)
 ```
 
-```bash
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: must be str, not int
-```
-
-In older Python versions:
+Will cause this exception
 
 ```bash
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: cannot concatenate 'str' and 'int' objects
+TypeError: can only concatenate str (not "int") to str
 ```
 
 ----
@@ -465,8 +473,7 @@ Your will need:
 
 ----
 
-An example solution:
-
+An Example Solution
 ```python
 cats = 10
 cans = 2
@@ -479,7 +486,7 @@ print(output)
 
 ----
 
-Extension answer:
+Extension Solution
 
 ```python
 cats = 10
@@ -563,6 +570,10 @@ print(output)
 
 **Comment:** a way for a programmer to write human-readable notes in their code. When running a program, comments are ignored by Python.
 
+```python
+# This is a comment
+```
+
 
 ----
 
@@ -596,6 +607,4 @@ print(output)
 
 ---
 
-**Homework:**
-
-[https://github.com/craigargh/cfg-python/tree/master/homework/session_1.md](https://github.com/craigargh/cfg-python/tree/master/homework/session_1.md)
+**Homework:** Session 1 homework questions in your student guide

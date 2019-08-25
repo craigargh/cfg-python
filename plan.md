@@ -15,16 +15,14 @@ Plan:
 Sunday (25th Aug):
 
 - Session 1
-  - Review slides
-  - Meaningful starter
   - Recap questions
-  - Incorporate feedback from session 1
-  - Check session 1 changes on work laptop
-  - Stats for popular?
+  - Summarise operator types in a table
   - Integrate console back into numbers exercise
   - Summarise console and file differences in a table
-  - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
+  - Stats for popular?
+  - Incorporate feedback from session 1 
   - Review lesson plan
+  - Context (what are they learning?) and scenario (what is the gimmick?) for each exercise
 
 - Session 4
   - Challenges for lists and dictionaries
@@ -121,3 +119,6 @@ Supplementary:
 - Links to further materials
 - How to setup the Jupyter notebooks as slides
 - Common issues with Virtual Environments in PyCharm
+
+Session 8:
+- PyCon Scholarships for under-represented groups
