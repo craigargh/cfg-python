@@ -23,6 +23,15 @@
     font-size: 24px;
 }
 
-.prompt_container {
+div.prompt_container {
 	display: none;
 }
+
+div.input {
+	padding-left: 2px;
+}
+
+div.prompt {
+	display: none;
+}
+

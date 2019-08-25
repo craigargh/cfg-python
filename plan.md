@@ -14,6 +14,13 @@ Plan:
 
 Sunday (25th Aug):
 
+- Remove `in []` from slide styling
+- Make tables bigger
+- Check timings for all exercises and sections
+- Can I get the same styling applied to pdf exports?
+- Add recap questions to lesson plans
+
+
 - Session 4
   - Challenges for lists and dictionaries
 - Session 1
@@ -21,11 +28,7 @@ Sunday (25th Aug):
   - Update setup slides
 
 
-- Check timings for all exercises and sections
-- Remove `in []` from slide styling
-- Make tables bigger
-- Can I get the same styling applied to pdf exports?
-- Add recap questions to lesson plans
+
 - Re-record gifs
 - Upload session 1-4 Jupyter notebooks with images and css
 - Export and upload session 1-4 slides
