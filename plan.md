@@ -15,7 +15,6 @@ Plan:
 Monday (26th Aug):
 
 Export:
-- Check Session 1 slides
 - Check Session 2 slides
 - Check Session 3 slides
 - Check Session 4 slides
@@ -25,7 +24,14 @@ Export:
 - Upload session 3 Jupyter notebooks
 - Upload session 4 Jupyter notebooks
 - Can I get the same styling applied to pdf exports?
-- Export and upload session 1-4 slide pdfs
+- Session 1: Run cells that need code ouput
+- Export and upload session 1 slide pdfs
+- Session 2: Run cells that need code ouput
+- Export and upload session 2 slide pdfs
+- Session 3: Run cells that need code ouput
+- Export and upload session 3 slide pdfs
+- Session 4: Run cells that need code ouput
+- Export and upload session 4 slide pdfs
 
 Email
 - Mention that I've uploaded sesison 1-4

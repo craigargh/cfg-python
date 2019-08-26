@@ -562,7 +562,7 @@ elif apples < 10:
     print('That is not enough apples')
 ```
 
-----
+---
 
 
 

@@ -42,11 +42,6 @@ By the end of this you will be able to:
 
 The `input()` function allows you to input data after the program has started running
 
-
-----
-
-[GIF OF USING input()]
-
 ----
 
 This program uses input to ask what your name is
@@ -55,6 +50,9 @@ This program uses input to ask what your name is
 name = input('What is you name? ')
 print('Hello, {}'.format(name))
 ```
+----
+
+[GIF OF USING input()]
 
 ----
 
@@ -406,8 +404,6 @@ turtle.right(angle)
 turtle.done()
 ```
 
-**Extension:** Create a new file called `spiral.py` and write a program to create a 100 sided spiral with an angle of 90 degrees
-
 ----
 
 Solution
@@ -423,24 +419,6 @@ side_length = 60
 
 for side in range(sides):
     turtle.forward(side_length)
-    turtle.right(angle)
-
-turtle.done()
-```
-
-----
-
-Extension Solution
-
-```python
-import turtle
-
-sides = 100 
-
-angle = 360 / sides
-
-for side in range(sides):
-    turtle.forward(side)
     turtle.right(angle)
 
 turtle.done()
@@ -740,6 +718,6 @@ for number in range(100)
 print(number)
 ```
 
-----
+---
 
 **Homework:** Session 2 homework questions in your student guide

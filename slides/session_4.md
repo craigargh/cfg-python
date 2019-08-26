@@ -169,7 +169,7 @@ print(reversed(costs))
 **Exercise 4.2:** Make a list of game scores. Using list functions write code to output information of the scores in the following format:
 
 ```bash
-Number of scoes: 10
+Number of scores: 10
 Highest score: 200
 Lowest score: 3
 ```
@@ -522,6 +522,6 @@ trees.append(new_tree)
 print(trees)
 ```
 
-----
+---
 
 **Homework:** Session 4 homework questions in your student guide
