@@ -1,9 +1,9 @@
 Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
-1  | Complete | Complete | In progress |  Review 
+1  | Complete | Uploaded | In progress |  Review 
 2  | Complete | Uploaded | In progress |  Review 
 3  | Complete | Uploaded | Not started |  Review 
-4  | Complete | Complete | Not started |  Not started 
+4  | Complete | Uploaded | Not started |  Not started 
 5  | Review | In progress | Not started |  Not started 
 6  | Review | Not started | Not started |  n/a 
 7  | Not started | Not started | Not started | n/a 
@@ -15,17 +15,15 @@ Plan:
 Monday (26th Aug):
 
 Session content:
-- Session 4
-- Introduction to the course section for session 1
-  - Mention programming languages communicate between people and computers, human languages communucate between peope and people
 - Add recap questions to lesson plans
-- Check timings for all exercises and sections
-- Re-record gifs
+
 
 Styling:
 - Can I get the same styling applied to pdf exports?
+- Re-record gifs
 
 Export:
+- Check slides before exporting
 - Upload session 1-4 Jupyter notebooks with images, settings and css
 - Export and upload session 1-4 slide pdfs
 - Write brief explanation of how to setup Jupyter + RISE

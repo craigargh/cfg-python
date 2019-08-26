@@ -33,9 +33,15 @@ Before the start of the session the students are expected to have installed PyCh
 
 ## Block 1: Introduction to the Course
 
+In this block you will give an overview of the course. You'll also explain what a programming language and why Python is a good choice for beginners. 
+
+When explaining what a programming language is, try explaining that human languages are used by people to communicate things to other people, while programming languages are used by people to communicate instructions to a computer.
+
+One suggested teaching method to help instructors with larger classes is the use of post-it notes during exercises. A red/pink post-it note on the back of the student's laptop means the student would like instructor support, whereas a green post-it note means they do not need additional support. You do not need to use this system if you do not want to.
 
 ## Block 2: Your First Python Program
 
+At the start of the session the instructor walks the class through creating a new Python file and running it in PyCharm. The students should follow each step as the instructor demonstrates it.
 
 ### Relevant Exercise(s):
 
