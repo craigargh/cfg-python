@@ -494,7 +494,7 @@ This session:
 ```python
 cheeses = [
     'brie',
-    'cheedar',
+    'cheddar',
     'wensleydale',
     'edam',
 ]

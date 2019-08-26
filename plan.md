@@ -14,21 +14,24 @@ Plan:
 
 Monday (26th Aug):
 
-Session content:
-- Add recap questions to lesson plans
-
-
 Styling:
+- Write brief explanation of how to setup Jupyter + RISE
+  - How to install Jupyter + RISE
+  - How to run slides
+  - How to export PDF
+  - Where to make styling changes
 - Can I get the same styling applied to pdf exports?
-- Re-record gifs
 
 Export:
 - Check slides before exporting
 - Upload session 1-4 Jupyter notebooks with images, settings and css
 - Export and upload session 1-4 slide pdfs
-- Write brief explanation of how to setup Jupyter + RISE
-- Ask for a change in deadline dates from Friday to Monday
 
+
+Email
+- Mention that I've uploaded sesison 1-4
+- Ask for a change in deadline dates from Friday to Monday
+- Mention that I need to re-record gifs
 ----
 
 Tuesday:
