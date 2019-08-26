@@ -15,8 +15,15 @@ Plan:
 Monday (26th Aug):
 
 Export:
-- Check slides before exporting
-- Upload session 1-4 Jupyter notebooks with images, settings and css
+- Check Session 1 slides
+- Check Session 2 slides
+- Check Session 3 slides
+- Check Session 4 slides
+- Upload images folder, settings (?) and css
+- Upload session 1 Jupyter notebooks
+- Upload session 2 Jupyter notebooks
+- Upload session 3 Jupyter notebooks
+- Upload session 4 Jupyter notebooks
 - Can I get the same styling applied to pdf exports?
 - Export and upload session 1-4 slide pdfs
 
