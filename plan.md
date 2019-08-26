@@ -14,19 +14,11 @@ Plan:
 
 Monday (26th Aug):
 
-Styling:
-- Write brief explanation of how to setup Jupyter + RISE
-  - How to install Jupyter + RISE
-  - How to run slides
-  - How to export PDF
-  - Where to make styling changes
-- Can I get the same styling applied to pdf exports?
-
 Export:
 - Check slides before exporting
 - Upload session 1-4 Jupyter notebooks with images, settings and css
+- Can I get the same styling applied to pdf exports?
 - Export and upload session 1-4 slide pdfs
-
 
 Email
 - Mention that I've uploaded sesison 1-4
@@ -90,6 +82,9 @@ To do:
 - Session 5: student guide
 
 - Add links to more in-depth resources for each session to student guides
+
+- Write brief explanation of how to setup Jupyter + RISE
+  - Where to make styling changes
 
 - Session 2: homework
 - Session 3: homework
