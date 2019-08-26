@@ -193,6 +193,21 @@ if 'bread' in shopping_list:
     shopping_list.append('butter')
 ```
 
+----
+
+To check if an item is not in a list 
+
+```python
+fridge = [
+    'cheese',
+    'pizza',
+    'coke',
+]
+
+if 'milk' not in fridge:
+    print('You have no milk in the fridge')
+```
+
 ---
 
 ### For Loops ♥ Lists

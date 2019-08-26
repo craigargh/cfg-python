@@ -12,27 +12,35 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-Sunday (25th Aug):
+Monday (26th Aug):
+
+Session content:
 - Session 4
-  - Challenges for lists and dictionaries
+  
+  - Copy changes to lesson plan
+  - Change exercise numbers in Google Docs lesson plan
+  - Remove challenges from Google Docs lesson plan
+  - Add list function section to slides
+  - Add list function exercise to slides
+  - Add random choice section to slides with name generator example
+  - Add random choice exercise to slides
+  - Change exercise numbers in slides
+- Introduction to the course section for session 1
+  - Mention programming languages communicate between people and computers, human languages communucate between peope and people
 - Add recap questions to lesson plans
 - Check timings for all exercises and sections
-- Copy session 1 lesson plan into Google Doc
-- Copy session 2 lesson plan into Google Doc
-- Copy session 3 lesson plan into Google Doc
-- Copy session 4 lesson plan into Google Doc
-
-
-Monday (26th Aug):
-- Can I get the same styling applied to pdf exports?
 - Re-record gifs
+
+Styling:
+- Can I get the same styling applied to pdf exports?
+
+Export:
 - Upload session 1-4 Jupyter notebooks with images, settings and css
 - Export and upload session 1-4 slide pdfs
 - Write brief explanation of how to setup Jupyter + RISE
 - Ask for a change in deadline dates from Friday to Monday
 
 ----
-
 
 Tuesday:
 - Program an example escape room game
@@ -50,8 +58,18 @@ Friday:
 - 
 
 Saturday:
--
+- Review session 5 lesson plan
+- Review session 5 slides
+- Upload session 5 lesson plan
+- Upload sessoin 5 slides
+- Upload sessoin 5 slides pdf
 
+- Session 6: slides
+- Session 7: slides
+- Session 8: slides
+- Session 6: lesson plan
+- Session 7: lesson plan
+- Session 8: lesson plan
 
 To do:
 
@@ -73,14 +91,6 @@ To do:
   - count()
   - min()
   - max()
-
-- Session 5: lesson plan
-- Session 6: slides
-- Session 7: slides
-- Session 8: slides
-- Session 6: lesson plan
-- Session 7: lesson plan
-- Session 8: lesson plan
 
 - Session 2: student guide
 - Session 3: student guide
@@ -111,6 +121,12 @@ Supplementary:
 Session 8:
 - PyCon Scholarships for under-represented groups
 - Do a presentation on next steps after the course (either at the start of the session, or before or after presentations)
+
+
+Session 4 homework ideas
+  - Filter of some sort
+  - Filter that 
+  - Find recipes that contain a specific ingredient (list of dicts with a list inside)
 
 ----
 

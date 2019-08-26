@@ -1,4 +1,4 @@
-# Session Title: Variables and Data Types
+# Session Title: Data Types and Variables 
 
 Session No: 1
  
@@ -36,9 +36,6 @@ Before the start of the session the students are expected to have installed PyCh
 
 ## Block 2: Your First Python Program
 
-5 minutes
-
-At the start of the sesison the instructor walks the class through creating a new Python file and running it in PyCharm. The students should follow each step as the instructor demonstrates it.
 
 ### Relevant Exercise(s):
 
