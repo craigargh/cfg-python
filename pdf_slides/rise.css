@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+.reveal h1, .reveal h2, .reveal h3 {
+    color: #c6213f !important;
+    font-family: 'Arimo', sans-serif !important;
+    text-transform: uppercase !important;
+}
+
+.reveal .text_cell {
+    font-family: 'Questrial', sans-serif !important;
+}
+
+.reveal .chalkboard-button {
+    display: none !important;
+}
+
+.reveal .progress span {
+	background: #c6213f !important;
+}
+
+.rendered_html table {
+    font-size: 32px;
+}
+
+div.prompt_container {
+	display: none;
+}
+
+div.input {
+	padding-left: 2px;
+}
+
+div.prompt {
+	display: none;
+}
+

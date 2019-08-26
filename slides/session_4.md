@@ -131,6 +131,8 @@ clothes = [
 
 if clothes[0] == 'shorts':
     clothes[0] = 'warm coat'
+
+print(clothes)
 ```
 
 ---
@@ -161,7 +163,7 @@ Functions for changing the order of a list
 costs = [1.2, 4.3, 2.0, 0.5]
 
 print(sorted(costs))
-print(reversed(costs))
+print(list(reversed(costs)))
 ```
 
 ----

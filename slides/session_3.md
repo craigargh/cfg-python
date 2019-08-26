@@ -297,7 +297,7 @@ If your total meal costs more than £20 and you have a discount, the price will 
 meal_price = float(input('How much did the meal cost? '))
 
 discount_choice = input('Do you have a discount? y/n ')
-discount applicable = discount_choice == 'y'
+discount_applicable = discount_choice == 'y'
 ```
 
 ----
@@ -404,22 +404,22 @@ Python has a built-in library for random data
 ```python
 import random
 
-random_integer = random.rand_int(1, 100)
+random_integer = random.randint(1, 100)
 
 print(random_integer)
 ```
 
 ----
 
-The `rand_int()` function generates a random number between two values
+The `randint()` function generates a random number between two values
 
-This program uses `rand_int()` to simulate dice with any number of sides
+This program uses `randint()` to simulate dice with any number of sides
 
 ```python
 import random
 
 sides = int(input('How many sides does the die have? '))
-random_integer = random.rand_int(1, sides)
+random_integer = random.randint(1, sides)
 
 print('You rolled a {}'.format(random_integer))
 ```
@@ -443,7 +443,7 @@ To finish the program you will need to add the following:
 import random
 
 def flip_coin():
-    random_number = random.rand_int(1, 2)
+    random_number = random.randint(1, 2)
     if random_number == 1:
         side = 'heads'
     else:
@@ -464,7 +464,7 @@ print('The coin landed on {}'.format(result))
 import random
 
 def random_choice():
-    choice_number = random.rand_int(1, 3)
+    choice_number = random.randint(1, 3)
 
     if choice_number == 1:
         choice = 'rock'
@@ -507,7 +507,7 @@ import random
 
 
 def colour():
-    random_number = random.rand_int(1, 2)
+    random_number = random.randint(1, 2)
 
     if random_number == 1:
         colour = 'red'
@@ -517,7 +517,7 @@ def colour():
     return colour
 
 
-random_number = random.rand_int(1, 100)
+random_number = random.randint(1, 100)
 random_colour = colour()
 ```
 

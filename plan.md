@@ -15,15 +15,7 @@ Plan:
 Monday (26th Aug):
 
 Export:
-- Check Session 2 slides
-- Check Session 3 slides
-- Check Session 4 slides
-- Upload images folder, settings (?) and css
-- Upload session 1 Jupyter notebooks
-- Upload session 2 Jupyter notebooks
-- Upload session 3 Jupyter notebooks
-- Upload session 4 Jupyter notebooks
-- Can I get the same styling applied to pdf exports?
+
 - Session 1: Run cells that need code ouput
 - Export and upload session 1 slide pdfs
 - Session 2: Run cells that need code ouput
@@ -37,7 +29,10 @@ Email
 - Mention that I've uploaded sesison 1-4
 - Ask for a change in deadline dates from Friday to Monday
 - Mention that I need to re-record gifs
+- Mention that I need to fix the images and styling in the pdfs
 ----
+
+
 
 Tuesday:
 - Program an example escape room game
@@ -68,8 +63,13 @@ Saturday:
 - Session 7: lesson plan
 - Session 8: lesson plan
 
+----
+
+
 To do:
 
+- Can I get the same styling applied to pdf exports?
+- How do I fix the images in the pdf export
 
 - Session 5:
   - Should I add a section on how to create your own Python modules?
