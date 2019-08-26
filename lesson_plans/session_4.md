@@ -117,7 +117,8 @@ If you are short of time in this session, feel free to skip this block
 ### Relevant Exercise(s):
 
 Exercise 4.7: 5+ minutes
-- Students will use random.choice() to generate randomised sentences from a list of verbs, nouns and adjectives
+- Students will use random.choice() to generate randomised names from a list of firstnames and lastnames
+- Extension: Create randomised sentences using a list of nouns and a list of verbs
 - If you are short of time in this session, feel free to skip this exercise
 
 

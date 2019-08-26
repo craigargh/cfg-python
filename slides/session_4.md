@@ -29,9 +29,9 @@ This session:
 By the end of this session you will be able to:
 
 - Create lists to store multiple data values 
+- Identify different list functions 
 - Combine lists and for loops
 - Construct dictionaries to structure data
-- Solve problems using lists and dictionaries
 
 
 ---
@@ -135,6 +135,49 @@ if clothes[0] == 'shorts':
 
 ---
 
+### List Functions
+
+----
+
+There are functions designed for lists
+- `len()`: the number of items in a list
+- `max()`: The biggest value in a list
+- `min()`: The smallest value in a list
+
+```python
+costs = [1.2, 4.3, 2.0, 0.5]
+
+print(len(costs))
+print(max(costs))
+print(min(costs))
+```
+----
+
+Functions for changing the order of a list
+- `sorted()`: Sorts the 
+- `reversed()`: Reverses the order of a list
+
+```python
+costs = [1.2, 4.3, 2.0, 0.5]
+
+print(sorted(costs))
+print(reversed(costs))
+```
+
+----
+
+**Exercise 4.2:** Make a list of game scores. Using list functions write code to output information of the scores in the following format:
+
+```bash
+Number of scoes: 10
+Highest score: 200
+Lowest score: 3
+```
+
+**Extension:** Output all of the scores in descending order
+
+---
+
 ### append() and in
 
 ----
@@ -171,7 +214,7 @@ print(students)
 
 ----
 
-**Exercise 4.2:** Whenever I'm shopping and I buy some bread I always forget to buy butter. Create a list and if `'bread'` is in the list, add `'butter'` to the shopping list.
+**Exercise 4.3:** Whenever I'm shopping and I buy some bread I always forget to buy butter. Create a list and if `'bread'` is in the list, add `'butter'` to the shopping list.
 
 Try running the program with and without bread in the list to check that your program works.
 
@@ -241,7 +284,7 @@ print(count)
 
 ----
 
-**Exercise 4.3:** I want to work out how much money I've spent on lunch this week. I've created a list of what I spent each day.
+**Exercise 4.4:** I want to work out how much money I've spent on lunch this week. I've created a list of what I spent each day.
 
 Write a program that uses a `for` loop to calculate the total cost 
 
@@ -273,14 +316,6 @@ total = sum(costs)
 
 print(total)
 ```
-
-----
-
-Some other list functions:
-- `len()`: the number of items in a list
-- `max()`: The biggest value in a list
-- `min()`: The smallest value in a list
-- `reversed()`: Reverses the order of a list
 
 ---
 
@@ -316,7 +351,7 @@ print(person['name'])
 
 ----
 
-**Exercise 4.4:** Print the values of `name`, `post_code` and `street_number` from the dictionary
+**Exercise 4.5:** Print the values of `name`, `post_code` and `street_number` from the dictionary
 
 ```python
 place = {
@@ -388,7 +423,7 @@ for person in people:
 
 ----
 
-**Exercise 4.5:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
+**Exercise 4.6:** Using a for loop, output the values `name`, `colour` and `price` of each dictionary in the list
 
 ```python
 fruits = [
@@ -417,11 +452,26 @@ for fruit in fruits:
 
 ---
 
-### Challenges
+### Random Choice
 
 ----
 
-???
+The `choice()` function in the random module returns a random item from a list
+
+```python
+import random
+
+colours = ['red', 'green', 'blue']
+chosen_colour = random.choice(colours)
+
+print(chosen_colour)
+```
+
+----
+
+**Exercise 4.7:** Write a program to create a random name. You should have a list of random firstnames and a list of lastnames. Choose a random item from each and display the result.
+
+Extension: Using list of verbs and a list of nouns, create randomised sentences
 
 ---
 

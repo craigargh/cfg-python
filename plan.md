@@ -1,8 +1,8 @@
 Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
 1  | Complete | Complete | In progress |  Review 
-2  | Complete | Complete | In progress |  Review 
-3  | Complete | Complete | Not started |  Review 
+2  | Complete | Uploaded | In progress |  Review 
+3  | Complete | Uploaded | Not started |  Review 
 4  | Complete | Complete | Not started |  Not started 
 5  | Review | In progress | Not started |  Not started 
 6  | Review | Not started | Not started |  n/a 
@@ -16,15 +16,6 @@ Monday (26th Aug):
 
 Session content:
 - Session 4
-  
-  - Copy changes to lesson plan
-  - Change exercise numbers in Google Docs lesson plan
-  - Remove challenges from Google Docs lesson plan
-  - Add list function section to slides
-  - Add list function exercise to slides
-  - Add random choice section to slides with name generator example
-  - Add random choice exercise to slides
-  - Change exercise numbers in slides
 - Introduction to the course section for session 1
   - Mention programming languages communicate between people and computers, human languages communucate between peope and people
 - Add recap questions to lesson plans
