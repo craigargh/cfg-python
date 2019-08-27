@@ -12,56 +12,49 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-Monday (26th Aug):
-
-Export:
-
-- Session 1: Run cells that need code ouput
-- Export and upload session 1 slide pdfs
-- Session 2: Run cells that need code ouput
-- Export and upload session 2 slide pdfs
-- Session 3: Run cells that need code ouput
-- Export and upload session 3 slide pdfs
-- Session 4: Run cells that need code ouput
-- Export and upload session 4 slide pdfs
-
-Email
-- Mention that I've uploaded sesison 1-4
-- Ask for a change in deadline dates from Friday to Monday
-- Mention that I need to re-record gifs
-- Mention that I need to fix the images and styling in the pdfs
-----
-
-
-
 Tuesday:
+
+- Session 5: Update lesson plan
+- Add exercise 5.2
+- Session 5: Add diagram for requests and responses
+- Add definition for request and response
+- Add meaningful starter
+
+
+Wednesday:
+- Session 6: Lesson Plan
+
+Thursday:
+- Session 7: Lesson Plan
+
+Friday
+- Session 8: Lesson Plan
+
+Saturday:
+- Session 6: slides
+- Session 7: slides
+- Session 8: slides
+
 - Program an example escape room game
 - Program an example csv analysis program
 - Program an example recipe search
 - Program an example Top Trumps
 
-Wednesday:
--
+Sunday:
+- Student guides for projects
 
-Thursday:
-- Session 5 lesson plan 
+Monday:
+- Review and export slides
+- Review and export lesson plans
+
+Tuesday
+
+Wednesday
+
+Thursday
 
 Friday:
-- 
-
-Saturday:
-- Review session 5 lesson plan
-- Review session 5 slides
-- Upload session 5 lesson plan
-- Upload sessoin 5 slides
-- Upload sessoin 5 slides pdf
-
-- Session 6: slides
-- Session 7: slides
-- Session 8: slides
-- Session 6: lesson plan
-- Session 7: lesson plan
-- Session 8: lesson plan
+- DEADLINE: ALL SLIDES
 
 ----
 
@@ -74,7 +67,7 @@ To do:
 - Session 5:
   - Should I add a section on how to create your own Python modules?
   - Add an analogy for how APIs work (e.g. a restaurant)
-  - Add understand how data is sent using APIs to the learning objectives
+  - Add "understand how data is sent using APIs" to the learning objectives
   - Is there an option on the csvreader to read as a dictionary?
   - Add a link to PyPi and mention/link to a list of interesting packages
   - Write explanations for files

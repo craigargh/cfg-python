@@ -22,8 +22,10 @@ This session
 Writing to a file
 
 ```python
-with open('something.txt', 'w+') as text_file:
-    text_file.write('hello')
+with open('people.txt', 'w+') as text_file:
+    people = 'Joanne \nSusan \nAmina'
+
+    text_file.write(people)
 ```
 
 ----
@@ -31,7 +33,7 @@ with open('something.txt', 'w+') as text_file:
 Reading from a file
 
 ```python
-with open('something.txt', 'w+') as text_file:
+with open('people.txt', 'r') as text_file:
     contents = text_file.read()
 
 print(contents)
@@ -39,37 +41,39 @@ print(contents)
 
 ----
 
-The `'w+'` argument allows you to read and write to a file while only opening it once 
+**Exercise 5.1:** Create a to-do list program that writes user input to a file
 
-```python
-with open('something.txt', 'w+') as text_file:
-    contents = text_file.read()
-    output = reversed(contents)
+The program should:
+- Ask the user to input a new to-do item
+- Read the contents of the existing to-do items
+- Add the new to do item to the to-do items
+- Save the updated to-do items
 
-    text_file.write(output)
-```
+You will need to manually create a new file called `todo.txt` in the same folder as your program before you start
 
 ----
 
-**Exercise 5.1:** ???
+Solution
+
+```python
+new_item = input('Enter a to-do item: ')
+
+with open('todo.txt', 'r') as todo_file:
+    todo = todo_file.read()
+
+todo = todo + new_item + '\n'
+
+with open('todo.txt', 'w+') as todo_file:
+    todo_file.write(todo)
+```
 
 ---
 
-### Reading/Writing CSV Files
+### Working With CSV Files
 
 ----
 
-```python
-import csv
-from pprint import pprint
-
-with open('.csv', 'w+') as csv_file:
-    spreadsheet = csv.reader(csv_file)
-
-pprint(spreadsheet)
-```
-
-----
+Writing a CSV
 
 ```python
 import csv
@@ -84,6 +88,26 @@ with open('team.csv', 'w+') as csv_file:
     spreadsheet = csv.writer(csv_file)
     spreadsheet.writerows(data)
 ```
+
+
+----
+
+Reading a CSV
+
+```python
+import csv
+
+with open('team.csv', 'w+') as csv_file:
+    spreadsheet = csv.reader(csv_file)
+    
+    for row in spreadsheet:
+        print(row)
+```
+
+----
+
+**Exercise 5.2:** 
+
 ---
 
 ### Python Pip
@@ -112,9 +136,13 @@ pip install requests
 
 ----
 
-**Application Programming Interface (API):** A way to send data between programs
+**Application Programming Interface (API):** A way for different programs to interact. For example they can send data to one another.
 
-Web APIs allow you to do this over the internet.
+Web APIs allow you to interact with other programs over the internet.
+
+----
+
+[DIAGRAM FOR REQUESTS AND RESPONSES]
 
 ----
 
@@ -139,7 +167,9 @@ Save this as `get_pokemon.py`
 import requests
 from pprint import pprint
 
-url = 'https://pokeapi.co/api/v2/pokemon/151/'
+pokemon_number = input("What is the Pokemon's ID? ")
+
+url = 'https://pokeapi.co/api/v2/pokemon/{}}/'.format(pokemon_number)
 
 response = requests.get(url)
 print(response)
@@ -161,9 +191,9 @@ Status Code | Name | Explanation
 
 ----
 
-**Exercise:** Get the *height* and *weight* of the Pokemon and print the output
+**Exercise 5.3:** Get the *height* and *weight* of a specific Pokemon and print the output
 
-Add `input()` to choose which Pokemon you want information about
+Extension: Print the names of all of a specific Pokemon's moves
 
 ----
 
@@ -182,6 +212,26 @@ pokemon = response.json()
 print(pokemon['name'])
 print(pokemon['height'])
 print(pokemon['weight'])
+```
+
+----
+
+Extension Solution
+
+```python
+import requests
+
+pokemon_number = input("What is the Pokemon's ID? ")
+
+url = 'https://pokeapi.co/api/v2/pokemon/{}/'.format(pokemon_number)
+
+response = requests.get(url)
+pokemon = response.json()
+
+moves = pokemon['moves']
+
+for move in moves:
+    print(move['move']['name'])
 ```
 
 ---
