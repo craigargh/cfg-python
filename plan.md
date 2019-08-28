@@ -12,18 +12,6 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-Tuesday:
-
-- Session 5: Update lesson plan
-- Add exercise 5.2
-- Session 5: Add diagram for requests and responses
-- Add definition for request and response
-- Add meaningful starter
-
-
-Wednesday:
-- Session 6: Lesson Plan
-
 Thursday:
 - Session 7: Lesson Plan
 
@@ -35,13 +23,17 @@ Saturday:
 - Session 7: slides
 - Session 8: slides
 
+- Add exercise 5.2
+- Session 5: Add diagram for requests and responses
+- Add definition for request and response
+- Add meaningful starter
+
+Sunday:
+- Student guides for projects
 - Program an example escape room game
 - Program an example csv analysis program
 - Program an example recipe search
 - Program an example Top Trumps
-
-Sunday:
-- Student guides for projects
 
 Monday:
 - Review and export slides
