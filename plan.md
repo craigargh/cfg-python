@@ -12,9 +12,6 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-Thursday:
-- Session 7: Lesson Plan
-
 Friday
 - Session 8: Lesson Plan
 

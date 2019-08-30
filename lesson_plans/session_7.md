@@ -1,6 +1,6 @@
-# Session Title: ???
+# Session Title: Project
 
-Session No: ???
+Session No: 7
  
 ## Learning Objectives:
 
@@ -16,17 +16,19 @@ Please do not change the intro and closing blocks - feel free to add more sessio
 
 ## Intro & Framing
 
-???
+In this session students will work on their projects. At the start of the session try to check-in with each of the groups to check their progress. 
 
-## Block 1: ??? 
+If you have time to organise it, the start of this session is an ideal time to have someone deliver a short (< 10 minutes) presentation about their work as a developer. Ideally the person giving the presentation should have a similar background to the students on the course. 
 
-??? minutes
+## Block 1: Projects 
 
+120 minutes
+
+Students will work on their projects. 
 
 ### Relevant Exercise(s):
 
-Exercise ???: ??? minutes
-- 
+N/A
 
 
 ## Recap & Closing

@@ -20,8 +20,36 @@ Please do not change the intro and closing blocks - feel free to add more sessio
 
 ## Block 1: ??? 
 
-??? minutes
+60 minutes
 
+### Relevant Exercise(s):
+
+Exercise ???: ??? minutes
+- 
+
+## Block 2: Student Presentations
+
+40 minutes (depending on number of groups)
+
+Ask students not to continue working on their projects while others are presenting.
+
+### Relevant Exercise(s):
+
+Exercise ???: ??? minutes
+- 
+
+## Block 3: What's next?
+
+10 minutes
+
+### Relevant Exercise(s):
+
+Exercise ???: ??? minutes
+- 
+
+## Block 4: Winners and Celebration 
+
+60 minutes
 
 ### Relevant Exercise(s):
 
