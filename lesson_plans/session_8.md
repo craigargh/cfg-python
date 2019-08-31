@@ -38,18 +38,9 @@ Ask students not to continue working on their projects while others are presenti
 Exercise ???: ??? minutes
 - 
 
-## Block 3: What's next?
+## Block 3: Closing
 
-10 minutes
-
-### Relevant Exercise(s):
-
-Exercise ???: ??? minutes
-- 
-
-## Block 4: Winners and Celebration 
-
-60 minutes
+5 minutes
 
 ### Relevant Exercise(s):
 

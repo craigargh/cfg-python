@@ -12,9 +12,6 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 Saturday:
-- Session 7: slides
-- Session 8: slides
-
 - Add exercise 5.2
 - Session 5: Add diagram for requests and responses
 - Add definition for request and response
