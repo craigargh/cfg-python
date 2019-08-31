@@ -11,12 +11,7 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 
 Plan: 
-
-Friday
-- Session 8: Lesson Plan
-
 Saturday:
-- Session 6: slides
 - Session 7: slides
 - Session 8: slides
 
@@ -24,6 +19,13 @@ Saturday:
 - Session 5: Add diagram for requests and responses
 - Add definition for request and response
 - Add meaningful starter
+
+- Session 6: Review lesson plan
+- Session 6: Review slides
+- Session 7: Review lesson plan
+- Session 7: Review slides
+- Session 8: Review lesson plan
+- Session 8: Review slides
 
 Sunday:
 - Student guides for projects

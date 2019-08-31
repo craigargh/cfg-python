@@ -5,9 +5,66 @@
 ----
 
 This session
+1. Overview of projects
+1. Form groups
 1. Planning your project
-1. Doing your project
-1. git (optional)
+1. Project work
+
+----
+
+By the end of this session you will be able to:
+
+- Plan a project as a team using a project brief 
+- Build an application to meet the requirements of a project brief
+- Design and implement extensions to the project
+
+---
+
+### Project Briefs
+
+----
+
+Until the end of the course you will be working on group projects
+
+In the second half of the final session each group will present their project
+
+----
+
+In your student handbook there are four project briefs
+
+Each brief includes:
+- Overview of the project
+- Required tasks
+- Ideas for extending the project
+- Additional Python explanations (if applicable)
+- Links to useful resources
+- Example project code
+
+----
+
+When you start the project, do the required tasks first
+
+After completing the required tasks, add your own ideas to the project
+
+----
+
+Projects:
+- Text-based Adventure Game
+- Top-Trumps
+- Recipe Search
+- Spreadsheet Analysis
+
+----
+
+**Exercise 6.1:** Read the project briefs and decide which project that you want to work on
+
+---
+
+### Groups
+
+----
+
+**Exercise 6.2:** Get into groups of 2-3 people
 
 ---
 
@@ -15,44 +72,17 @@ This session
 
 ----
 
-When you start a new project you may have lots of ideas on what it could do.
-
-In this session we'll cover a technique called MoSCoW to prioritise your ideas.
+After completing the project's required tasks, you can customise it with your own ideas
 
 ----
 
-**Task:** If you have an idea, give a brief description to the rest of the students
-
-Get together in groups of 2-3 people
+**Project Requirement:** Tasks that must be completed in order for the project to do what you want it to do
 
 ----
 
-**Task:** Get together with your group. As a single sentence write a very brief summary of what the project will do.
+MoSCoW is a technique for prioritising requirements
 
-For example: 
-
-> A website where you can search for books
-
-----
-
-**Task:** Next, write down all of things that you think your project could do. 
-
-Don't worry if an idea sounds stupid or too difficult at this stage. Just get as many ideas as possible.
-
-----
-
-For example:
-- Users should be able to enter the book's name in a search box
-- The price of the book should be shown on the search results
-- The user should be able to order the book from Amazon
-- The author of the book should be shown in the search results
-- The book's front cover should be shown in the search results
-
-----
-
-MoSCoW is a technique for prioritising requirements. 
-
-You put your requirements into four groups:
+Requirements are put into four groups:
 - Must
 - Should
 - Could
@@ -60,34 +90,61 @@ You put your requirements into four groups:
 
 ----
 
-**Task:** Group your ideas using MoSCoW
-
-The instructors will review these with you and help you prioritise 5 things that you should aim to complete by the next session
+A example list of requirements for a book search:
+- Users should be able to enter the book's name to search for it
+- The price of the book should be shown on the search results
+- The user should be able to order the book from Amazon
+- The author of the book should be shown in the search results
+- The book's front cover should be shown in the search results
 
 ----
 
-**Task:** Look for APIs that you might be able to use for your projects. Some common APIs will have beginner friendly tutorials
+Prioritised list of requirements:
 
-> You can find tutorials by searching for something like `Spotify API Python beginner tutorial`
+Must
+- Users should be able to enter the book's name to search for it
+- The author of the book should be shown in the search results
 
+Should
+- The price of the book should be shown on the search results
+
+Could
+- The book's front cover should be shown in the search results
+
+Won't
+- The user should be able to order the book from Amazon
+
+----
+
+
+**Task 6.3:** 
+
+Tasks:
+1. Individually, come up with as many ideas for the project as possible
+2. Share one of your ideas with the group, going around each team member until all ideas have been covered
+3. As a group, prioritise the ideas into "Must, Should, Could, Won't"
 
 ---
 
-### Git
+### Project Work
 
 ----
 
-Version/source control is useful when working as part of a team.
+Work on your project with your group
 
-Git is the most widely used source control software.
+---
 
-GitHub is a website that allows you to host Git repositories.
-
-----
-
-A Git repository stores the versions of your application's code in a single location.
+**Session Recap**
 
 ----
 
-Follow the free git tutorial at Codecademy [www.codecademy.com/learn/learn-git](https://www.codecademy.com/learn/learn-git)
+**Question 1:** What is a requirement?
+
+----
+
+**Question 2:** Name the four categories for MSCoW
+
+---
+
+**Homework:** Continue working on your projects
 

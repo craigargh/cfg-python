@@ -41,11 +41,11 @@ Each brief includes:
 - An overview of the project
 - Tasks to create a minimum viable product
 - Ideas for extending the project further
-- Links to related resources, such as APIs
 - Explanations of any additional Python features that may be required by the project (if applicable)
+- Links to related resources, such as APIs
 - Example code for students that need additional support
 
-The most important part of each brief is the Tasks section. This section provides a list of tasks that will help the students build a minimal viable product. Students should aim to complete these tasks before adding their own ideas to the project. 
+The required tasks are designed to help students know what to do first when they start their projects. Students should aim to complete these tasks before adding their own ideas to the project. 
 
 After giving the overview of each project, give students a few minutes to read through them individually.
 
