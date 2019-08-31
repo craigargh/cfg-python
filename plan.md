@@ -12,13 +12,15 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 Saturday:
-- Add exercise 5.2 to lesson plan
-
 - Student guide structure
 - Program an example escape room game
 - Program an example csv analysis program
 - Program an example recipe search
 - Program an example Top Trumps
+- Project guide 1: first pass
+- Project guide 2: first pass
+- Project guide 3: first pass
+- Project guide 4: first pass
 
 Sunday:
 - Session 5: Review lesson plan
