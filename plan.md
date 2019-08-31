@@ -4,19 +4,25 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 2  | Complete | Uploaded | In progress |  Review 
 3  | Complete | Uploaded | Not started |  Review 
 4  | Complete | Uploaded | Not started |  Not started 
-5  | Review | In progress | Not started |  Not started 
-6  | Review | Not started | Not started |  n/a 
-7  | Not started | Not started | Not started | n/a 
-8  | Not started | Not started | Not started | n/a 
+5  | Review | Review | Not started |  Not started 
+6  | Review | Review | Not started |  n/a 
+7  | Review | Review | Not started | n/a 
+8  | Review | Review | Not started | n/a 
 
 
 Plan: 
 Saturday:
-- Add exercise 5.2
-- Session 5: Add diagram for requests and responses
-- Add definition for request and response
-- Add meaningful starter
+- Add exercise 5.2 to lesson plan
 
+- Student guide structure
+- Program an example escape room game
+- Program an example csv analysis program
+- Program an example recipe search
+- Program an example Top Trumps
+
+Sunday:
+- Session 5: Review lesson plan
+- Session 5: Review slides
 - Session 6: Review lesson plan
 - Session 6: Review slides
 - Session 7: Review lesson plan
@@ -24,12 +30,9 @@ Saturday:
 - Session 8: Review lesson plan
 - Session 8: Review slides
 
-Sunday:
-- Student guides for projects
-- Program an example escape room game
-- Program an example csv analysis program
-- Program an example recipe search
-- Program an example Top Trumps
+- Session 5: Add diagram for requests and responses
+- Session 5: Add definition for request and response
+- Session 5: Add meaningful starter
 
 Monday:
 - Review and export slides

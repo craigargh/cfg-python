@@ -106,7 +106,42 @@ with open('team.csv', 'w+') as csv_file:
 
 ----
 
-**Exercise 5.2:** 
+**Exercise 5.2:** This program is supposed to read data about trees from a file to find the shortest tree. Complete the program adding code to open `trees.csv`.
+
+The `trees.csv` file included with your student guides. Save the csv file in the same folder as your Python program.
+
+```python
+spreadsheet = # Add code to open the csv file
+
+heights = []
+
+for row in spreadsheet:
+    tree_height = row[1]
+    heights.append(tree_height)
+
+shortest_height = min(heights)
+print(shortest_height)
+```
+
+----
+
+Solution
+
+```python
+import csv
+
+with open('trees.csv', 'r') as csv_file:
+    spreadsheet = csv.reader(csv_file)
+
+    heights = []
+
+    for row in spreadsheet:
+        tree_height = row[1]
+        heights.append(tree_height)
+
+shortest_height = min(heights)
+print(shortest_height)
+```
 
 ---
 

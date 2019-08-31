@@ -54,7 +54,9 @@ This section builds on the previous one to show students how to read and write c
 ### Relevant Exercise(s):
 
 Exercise 5.2: 10 minutes
-- 
+- Students will need write code to open a csv file
+- The required csv file is provided with the student course materials
+- Save the csv file in the same folder as the Python file
 
 ## Block 3: Pip Package Manager
 
