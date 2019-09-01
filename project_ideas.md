@@ -1,9 +1,13 @@
 Top Trumps
 - Selection of APIs
+  - Harry Potter https://hp-api.herokuapp.com/
+  - Pokemon
+  - Star Wars
+  - Anime/Manga https://jikan.docs.apiary.io/#
 - Basic:
   - You are given a random card
   - Select one of the card's stats
-  - Another random card is selected 
+  - Another random card is selected for your opponent (the computer)
   - The stats of the two cards are compared
   - The game shows if you won based on whether your stat was higher or lower
 - Extension
@@ -18,6 +22,7 @@ Recipe/Book Search
 - Extension
   - Save a searched item as a text file
   - Be able to load searched items from your favourites
+  - Anime/Manga search https://api.jikan.moe/v3/search/manga?q=Sailor%20Moon
 
 Choose your own adventure/text-based game
 - Extension

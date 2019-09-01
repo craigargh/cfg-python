@@ -71,24 +71,6 @@ with open('todo.txt', 'w+') as todo_file:
 
 ### Working With CSV Files
 
-----
-
-Writing a CSV
-
-```python
-import csv
-
-data = [
-    ['name', 'age'],
-    ['Jill', 32],
-    ['Sara', 28],
-]
-
-with open('team.csv', 'w+') as csv_file:
-    spreadsheet = csv.writer(csv_file)
-    spreadsheet.writerows(data)
-```
-
 
 ----
 
@@ -97,14 +79,36 @@ Reading a CSV
 ```python
 import csv
 
-with open('team.csv', 'w+') as csv_file:
-    spreadsheet = csv.reader(csv_file)
-    
+with open('team.csv', 'r') as csv_file:
+    spreadsheet = csv.DictReader(csv_file)
     for row in spreadsheet:
-        print(row)
+        print(dict(row))
 ```
 
 ----
+
+Writing a CSV
+
+```python
+import csv
+
+field_names = ['name', 'age']
+
+data = [
+    {'name': 'Jill', 'age': 32},
+    {'name': 'Sara', 'age': 28},
+]
+
+with open('team.csv', 'w+') as csv_file:
+    spreadsheet = csv.DictWriter(csv_file, fieldnames=field_names)
+    
+    spreadsheet.writeheader()
+    spreadsheet.writerows(data)
+```
+
+----
+
+
 
 **Exercise 5.2:** This program is supposed to read data about trees from a file to find the shortest tree. Complete the program adding code to open `trees.csv`.
 
@@ -116,7 +120,7 @@ spreadsheet = # Add code to open the csv file
 heights = []
 
 for row in spreadsheet:
-    tree_height = row[1]
+    tree_height = row['height']
     heights.append(tree_height)
 
 shortest_height = min(heights)
@@ -131,12 +135,12 @@ Solution
 import csv
 
 with open('trees.csv', 'r') as csv_file:
-    spreadsheet = csv.reader(csv_file)
+    spreadsheet = csv.DictReader(csv_file)
 
     heights = []
 
     for row in spreadsheet:
-        tree_height = row[1]
+        tree_height = row['height']
         heights.append(tree_height)
 
 shortest_height = min(heights)

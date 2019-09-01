@@ -1,27 +1,16 @@
 Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
-1  | Complete | Uploaded | In progress |  Review 
-2  | Complete | Uploaded | In progress |  Review 
-3  | Complete | Uploaded | Not started |  Review 
-4  | Complete | Uploaded | Not started |  Not started 
+1  | Uploaded | Uploaded | In progress |  Review 
+2  | Uploaded | Uploaded | In progress |  Review 
+3  | Uploaded | Uploaded | Not started |  Review 
+4  | Uploaded | Uploaded | Not started |  Not started 
 5  | Review | Review | Not started |  Not started 
-6  | Review | Review | Not started |  n/a 
-7  | Review | Review | Not started | n/a 
-8  | Review | Review | Not started | n/a 
+6  | Review | Review | In progress |  n/a 
+7  | Review | Review | In progress | n/a 
+8  | Review | Review | In progress | n/a 
 
 
 Plan: 
-Saturday:
-- Student guide structure
-- Program an example escape room game
-- Program an example csv analysis program
-- Program an example recipe search
-- Program an example Top Trumps
-- Project guide 1: first pass
-- Project guide 2: first pass
-- Project guide 3: first pass
-- Project guide 4: first pass
-
 Sunday:
 - Session 5: Review lesson plan
 - Session 5: Review slides
@@ -32,22 +21,38 @@ Sunday:
 - Session 8: Review lesson plan
 - Session 8: Review slides
 
+Monday:
 - Session 5: Add diagram for requests and responses
 - Session 5: Add definition for request and response
 - Session 5: Add meaningful starter
 
-Monday:
-- Review and export slides
-- Review and export lesson plans
-
 Tuesday
+- Record gifs
 
 Wednesday
+- Small pdf export tweaks
+- Upload trees.csv and sales.csv
+- Review and export slides
+- Review and copy lesson plans
 
 Thursday
 
 Friday:
 - DEADLINE: ALL SLIDES
+
+Saturday:
+- Review project guides
+- Exercise and solution guides
+- Links to further materials
+- Homework guides
+- Add more data to sales.csv
+
+Sunday:
+- Setup guide
+
+Monday:
+- How to setup the Jupyter notebooks as slides
+- Common issues with Virtual Environments in PyCharm
 
 ----
 
@@ -58,13 +63,10 @@ To do:
 - How do I fix the images in the pdf export
 
 - Session 5:
-  - Should I add a section on how to create your own Python modules?
   - Add an analogy for how APIs work (e.g. a restaurant)
   - Add "understand how data is sent using APIs" to the learning objectives
   - Is there an option on the csvreader to read as a dictionary?
   - Add a link to PyPi and mention/link to a list of interesting packages
-  - Write explanations for files
-  - Write exercises
 
 - Add solutions for all exercises to slides
 - Test exercises/solutions work
@@ -94,15 +96,16 @@ To do:
 - Session 6-8: Project briefs
 
 Supplementary:
-- Using Python with the terminal
-- While loops
 - Project guides
 - Solutions
 - Setup
-- Extra functions for lists
 - Links to further materials
 - How to setup the Jupyter notebooks as slides
 - Common issues with Virtual Environments in PyCharm
+
+- Using Python with the terminal
+- While loops
+- Extra functions for lists
 
 Session 8:
 - PyCon Scholarships for under-represented groups

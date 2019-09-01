@@ -5,7 +5,7 @@ def read_data():
     data = []
 
     with open('sales.csv', 'r') as sales_csv:
-        spreadsheet = csv.reader(sales_csv)
+        spreadsheet = csv.DictReader(sales_csv)
         for row in spreadsheet:
             data.append(row)
 
@@ -17,7 +17,7 @@ def run():
 
     sales = []
     for row in data:
-        sale = int(row[1])
+        sale = int(row['sales'])
         sales.append(sale)
 
     total = sum(sales)

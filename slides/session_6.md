@@ -30,7 +30,7 @@ In the second half of the final session each group will present their project
 
 ----
 
-In your student handbook there are four project briefs
+In your student handbook there are three project briefs
 
 Each brief includes:
 - Overview of the project
@@ -49,9 +49,8 @@ After completing the required tasks, add your own ideas to the project
 ----
 
 Projects:
-- Text-based Adventure Game
 - Top-Trumps
-- Recipe Search
+- Search
 - Spreadsheet Analysis
 
 ----
