@@ -5,42 +5,35 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 3  | Uploaded | Uploaded | Not started |  Review 
 4  | Uploaded | Uploaded | Not started |  Not started 
 5  | Review | Review | Not started |  Not started 
-6  | Review | Review | In progress |  n/a 
-7  | Review | Review | In progress | n/a 
-8  | Review | Review | In progress | n/a 
+6  | Review | Review | Review |  n/a 
+7  | Review | Review | Review | n/a 
+8  | Review | Review | Review | n/a 
 
 
 Plan: 
-Sunday:
-- Session 5: Review lesson plan
-- Session 5: Review slides
-- Session 6: Review lesson plan
-- Session 6: Review slides
-- Session 7: Review lesson plan
-- Session 7: Review slides
-- Session 8: Review lesson plan
-- Session 8: Review slides
 
-Monday:
-- Session 5: Add diagram for requests and responses
-- Session 5: Add definition for request and response
-- Session 5: Add meaningful starter
-
-Tuesday
+Wednesday:
 - Record gifs
+  - Session 1: setup
+  - Session 2: input
+  - Session 5: pip in the terminal
 
-Wednesday
-- Small pdf export tweaks
-- Upload trees.csv and sales.csv
-- Review and export slides
-- Review and copy lesson plans
+Thursday:
+Session 5:
+- Add definition for request and response
+- Add diagram for requests and responses
 
-Thursday
+Session 8:
+- Add section about PyCon to slides
+- Add tips for group presentations
+- Fill in missing bits in lesson plan
+
 
 Friday:
-- DEADLINE: ALL SLIDES
+-
 
 Saturday:
+- Add homework to all lesson plans
 - Review project guides
 - Exercise and solution guides
 - Links to further materials
@@ -49,9 +42,16 @@ Saturday:
 
 Sunday:
 - Setup guide
+- Small pdf export tweaks
+- Upload trees.csv and sales.csv
+- Review and export slides
+- Review and copy lesson plans
 
 Monday:
+- DEADLINE: ALL SLIDES
 - How to setup the Jupyter notebooks as slides
+
+Tuesday:
 - Common issues with Virtual Environments in PyCharm
 
 ----

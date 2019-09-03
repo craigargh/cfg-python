@@ -1,12 +1,12 @@
 # Session Title: Files, Pip and APIs
 
-Session No: ???
+Session No: 5
  
 ## Learning Objectives:
 
 By the end of this session students will be able to:
 
-- Write programs that read and write to files
+- Create programs that read and write to files
 - Explain the purpose of the pip package manager
 - Gather data using web APIs
 
@@ -68,17 +68,17 @@ This block introduces students to the pip package manager. The Pip package manag
 
 N/A
 
-## Block 4: ??? 
+## Block 4: Requests 
 
 10 minutes
 
-This final block introduces students to the requests library. The requests library allows your Python code to communicate with external Web APIs. Web APIs can be used to retrieve data from specific places on the internet.
+This final block introduces students to the requests library. The requests library allows Python code to communicate with external Web APIs. Web APIs can be used to retrieve data from data sources on the internet.
 
 To practice interacing with Web APIs, students will write a short program to get information from the Pokemon API. The Pokemon API stores data about every Pokemon in the Pokemon series of games. It is designed for teaching beginners and does not require authentication. You may need to explain what Pokemon are to students.
 
-It is important for students to understand how to use the requests package as it is the most used Python package outside of the standard library.
+It is important for students to understand how to use the requests library as it is the most used Python package outside of the standard library.
 
-Some students using Macs may have an error about when using the requests library. This might be because their version of OpenSSL is out of date. They can fix this by installing a newer version of OpenSSL
+Some students using Macs may have an error about SSL when using the requests library. This might be because their version of OpenSSL is out of date. They can fix this by installing a newer version of OpenSSL
 
 ### Relevant Exercise(s):
 
@@ -93,7 +93,20 @@ Exercise 5.3: 10 minutes
 How can you get the learners to articulate what they learned today, celebrate what they achieved and inform them what they need to do as homework?
 
 Recap questions:
-- ???
+
+
+Question 1: What is a web API?
+
+A web API is a program/application on the internet that you can interact with to do things like retrieve data
+
+
+**Question 2:** What is the purpose of pip and PyPI?
+
+Pip is used to install Python third-party packages. PyPI is a website that has stores a large number of Python third-party packages.
+
+**Question 3:** Explain what this code does.
+
+The code uses the `requests` library to make a request to the Pokemon API url for items. It then gets the data from the response and prints the name of the item.
 
 
 ## Homework Tasks

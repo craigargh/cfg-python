@@ -1,4 +1,14 @@
-**Starter:** ???
+**Starter:** How do I output the `species` values for each of the dictionaries?
+
+```python
+[
+    {'species': 'zebra', 'name': 'Penelope'},
+    {'species': 'penguin', 'name': 'Jenn'},
+    {'species': 'elephant', 'name': 'Harris'},
+    {'species': 'flamingo', 'name': 'Florence'},
+]
+
+```
 
 ---
 
@@ -12,6 +22,14 @@ This session
 1. Files
 1. Pip package manager
 1. APIs
+
+----
+
+By the end of this session you will be able to:
+
+- Create programs that read and write to files
+- Explain the purpose of the pip package manager
+- Gather data using web APIs
 
 ---
 
@@ -46,7 +64,7 @@ print(contents)
 The program should:
 - Ask the user to input a new to-do item
 - Read the contents of the existing to-do items
-- Add the new to do item to the to-do items
+- Add the new to do item to the existing to-do items
 - Save the updated to-do items
 
 You will need to manually create a new file called `todo.txt` in the same folder as your program before you start
@@ -74,19 +92,6 @@ with open('todo.txt', 'w+') as todo_file:
 
 ----
 
-Reading a CSV
-
-```python
-import csv
-
-with open('team.csv', 'r') as csv_file:
-    spreadsheet = csv.DictReader(csv_file)
-    for row in spreadsheet:
-        print(dict(row))
-```
-
-----
-
 Writing a CSV
 
 ```python
@@ -108,6 +113,18 @@ with open('team.csv', 'w+') as csv_file:
 
 ----
 
+Reading a CSV
+
+```python
+import csv
+
+with open('team.csv', 'r') as csv_file:
+    spreadsheet = csv.DictReader(csv_file)
+    for row in spreadsheet:
+        print(dict(row))
+```
+
+----
 
 
 **Exercise 5.2:** This program is supposed to read data about trees from a file to find the shortest tree. Complete the program adding code to open `trees.csv`.
@@ -284,6 +301,28 @@ This session
 1. Files
 1. Pip package manager
 1. APIs
+
+----
+
+**Question 1:** What is a web API?
+
+----
+
+**Question 2:** What is the purpose of pip and PyPI?
+
+----
+
+**Question 3:** Explain what this code does:
+
+```python
+import requests
+
+url = 'https://pokeapi.co/api/v2/item/28/'
+response = requests.get(url)
+data = response.json()
+
+print(data['name'])
+```
 
 ----
 

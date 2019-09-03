@@ -1,12 +1,14 @@
-# Session Title: ???
+# Session Title: 8
 
-Session No: ???
+Session No: Projects and Presentations
  
 ## Learning Objectives:
 
 By the end of this session students will be able to:
 
-- ???
+- Build an application to meet the requirements of a project brief
+- Design and implement extensions to the project
+- Present and explain the finished team project to other students
 
 
 ## Session Outline

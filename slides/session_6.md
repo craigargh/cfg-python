@@ -6,7 +6,7 @@
 
 This session
 1. Overview of projects
-1. Form groups
+1. Form teams
 1. Planning your project
 1. Project work
 
@@ -24,9 +24,9 @@ By the end of this session you will be able to:
 
 ----
 
-Until the end of the course you will be working on group projects
+Until the end of the course you will be working on team projects
 
-In the second half of the final session each group will present their project
+In the second half of the final session each team will present their project
 
 ----
 
@@ -36,7 +36,6 @@ Each brief includes:
 - Overview of the project
 - Required tasks
 - Ideas for extending the project
-- Additional Python explanations (if applicable)
 - Links to useful resources
 - Example project code
 
@@ -59,11 +58,11 @@ Projects:
 
 ---
 
-### Groups
+### teams
 
 ----
 
-**Exercise 6.2:** Get into groups of 2-3 people
+**Exercise 6.2:** Get into teams of 2-3 people
 
 ---
 
@@ -75,13 +74,10 @@ After completing the project's required tasks, you can customise it with your ow
 
 ----
 
-**Project Requirement:** Tasks that must be completed in order for the project to do what you want it to do
-
-----
-
 MoSCoW is a technique for prioritising requirements
 
-Requirements are put into four groups:
+Requirements are put into four categories:
+
 - Must
 - Should
 - Could
@@ -116,12 +112,11 @@ Won't
 ----
 
 
-**Task 6.3:** 
+**Exercise 6.3:** Come up with ideas for your project
 
-Tasks:
 1. Individually, come up with as many ideas for the project as possible
-2. Share one of your ideas with the group, going around each team member until all ideas have been covered
-3. As a group, prioritise the ideas into "Must, Should, Could, Won't"
+2. Share one of your ideas with the team, going around each team member until all ideas have been covered
+3. As a team, prioritise the ideas into "Must, Should, Could, Won't"
 
 ---
 
@@ -129,7 +124,13 @@ Tasks:
 
 ----
 
-Work on your project with your group
+Work on your project with your team
+
+
+Tips:
+- Write your code as functions
+- Share your code with other team members frequently
+- Try to break down big tasks into smaller chunks
 
 ---
 
@@ -137,11 +138,7 @@ Work on your project with your group
 
 ----
 
-**Question 1:** What is a requirement?
-
-----
-
-**Question 2:** Name the four categories for MSCoW
+**Question 1:** Name the four categories for MSCoW
 
 ---
 
