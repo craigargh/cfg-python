@@ -23,16 +23,6 @@ This session:
 1. For Loops
 1. Functions
 
-----
-
-By the end of this you will be able to:
-
-- Construct programs that use user input
-- Describe the purpose of Python modules
-- Solve problems to create drawings using the Turtle module
-- Modify duplicated code to use for Loops 
-- Construct reusable functions
-
 ---
 
 

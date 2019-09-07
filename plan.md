@@ -14,13 +14,19 @@ Plan:
 
 Saturday:
 
-- Review feedback
+- Review and copy lesson plans
+- Be more specific with examples in the lesson plans
+
+- Decide where I can include images of stuff
+- Include more images where possible
 
 - Small pdf export tweaks
+  - Remove IN[] from pdf exports
 - Add more data to sales.csv
 - Upload trees.csv and sales.csv
+- Upload updated images
 - Review and export slides
-- Review and copy lesson plans
+
 
 Sunday:
 - Review project guides

@@ -24,16 +24,6 @@ This session:
 1. Lists
 1. Dictionaries
 
-----
-
-By the end of this session you will be able to:
-
-- Create lists to store multiple data values 
-- Identify different list functions 
-- Combine lists and for loops
-- Construct dictionaries to structure data
-
-
 ---
 
 ### Lists

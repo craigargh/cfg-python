@@ -23,14 +23,6 @@ This session
 1. Pip package manager
 1. APIs
 
-----
-
-By the end of this session you will be able to:
-
-- Create programs that read and write to files
-- Explain the purpose of the pip package manager
-- Gather data using web APIs
-
 ---
 
 ### Reading/Writing Files

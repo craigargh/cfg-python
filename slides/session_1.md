@@ -36,21 +36,10 @@ Put a coloured Post-It note on the back of your laptop monitor during exercises:
 Topics this session:
 
 1. Run Python with files and console
-1. Data types (Integers, Floats and Strings)
-1. Maths operations
-1. Understanding Error Messages
-1. Variables
-
-----
-
-By the end of this session you will be able to:
-
-- Understand the differences and uses of Python files and the Python console
-- Recognise the integer, float and string data types
-- Identify different maths operations and their effects
-- Locate key information on error messages
-- Explain what a variable is and how they are used
-- Demonstrate basic problem solving
+1. Recognise data types (Integers, Floats and Strings)
+1. Identify different maths operations
+1. Understand Error Messages
+1. Use variables in your programs
 
 ----
 

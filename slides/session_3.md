@@ -34,15 +34,6 @@ Topics in this session:
 1. Logical Operators
 1. If Statements
 
-----
-
-By the end of this session you will be able to:
-
-- Identify Boolean data values
-- Explain and combine comparison and logical operators to compare data values
-- Apply if, else and elif Statements to control the flow of programs
-- Build short games using randomisation
-
 ---
 
 ### Comparisons and Logical Operators
