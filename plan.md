@@ -12,43 +12,26 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-Wednesday:
-- Record gifs
-  - Session 1: setup
-  - Session 2: input
-  - Session 5: pip in the terminal
-
-Thursday:
-Session 5:
-- Add definition for request and response
-- Add diagram for requests and responses
-
-Session 8:
-- Add section about PyCon to slides
-- Add tips for group presentations
-- Fill in missing bits in lesson plan
-
-
-Friday:
--
-
 Saturday:
-- Add homework to all lesson plans
-- Review project guides
-- Exercise and solution guides
-- Links to further materials
-- Homework guides
-- Add more data to sales.csv
 
-Sunday:
-- Setup guide
+- Review feedback
+
 - Small pdf export tweaks
+- Add more data to sales.csv
 - Upload trees.csv and sales.csv
 - Review and export slides
 - Review and copy lesson plans
 
+Sunday:
+- Review project guides
+- Exercise and solution guides
+- Links to further materials
+- Homework guides
+- Setup guide
+
 Monday:
 - DEADLINE: ALL SLIDES
+- Reply to Ragini about Jupyter login
 - How to setup the Jupyter notebooks as slides
 
 Tuesday:

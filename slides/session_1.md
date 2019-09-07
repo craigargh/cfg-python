@@ -83,7 +83,7 @@ Python:
 
 Open PyCharm and click `Create New Project`
 
-[IMAGE OF PYCHARM LANDING PAGE]
+![PyCharm Landing Page](gifs/1_new_project.png)
 
 ----
 
@@ -91,7 +91,7 @@ Call the project `cfg-python`
 
 Under `Project Interpreter: New Virtualenv environment`, set Base interpreter to Python 3.7
 
-![create new PyCharm project](gifs/pycharm_new.gif)
+![create new PyCharm project](gifs/2_new_project.gif)
 
 ----
 
@@ -99,7 +99,7 @@ Right click on `cfg-python` > `New` > `Python File`
 
 Name the file `hello` (`.py` is added automatically)
 
-![create new PyCharm file](gifs/pycharm_new_file.gif)
+![create new PyCharm file](gifs/3_new_file.gif)
 
 ----
 
@@ -113,7 +113,7 @@ print('Hello, World!')
 
 Right-click in your new file >  `Run 'hello'`
 
-![run the Python program](gifs/pycharm_run.gif)
+![run the Python program](gifs/4_run.gif)
 
 ----
 
@@ -161,7 +161,7 @@ Don't worry if something unexpected happens. Think about what you changed and wh
 
 Opening the Python Console
 
-![open Python console](gifs/pycharm_python_shell.gif)
+![open Python console](gifs/5_python_console.gif)
 
 ----
 

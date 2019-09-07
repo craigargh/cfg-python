@@ -176,7 +176,7 @@ print(shortest_height)
 
 pip is used via the terminal (command-line)
 
-![Opening the terminal](gifs/terminal.gif)
+![Opening the terminal](gifs/7_pip.gif)
 
 ----
 
@@ -198,7 +198,13 @@ Web APIs allow you to interact with other programs over the internet.
 
 ----
 
-[DIAGRAM FOR REQUESTS AND RESPONSES]
+![](images/request_response.svg)
+
+----
+
+**API Request:** When your program asks an API for some or to complete a specific action
+
+**API Response:** The result of your request from the API
 
 ----
 

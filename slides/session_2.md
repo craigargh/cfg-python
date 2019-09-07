@@ -47,12 +47,12 @@ The `input()` function allows you to input data after the program has started ru
 This program uses input to ask what your name is
 
 ```python
-name = input('What is you name? ')
+name = input('What is your name? ')
 print('Hello, {}'.format(name))
 ```
 ----
 
-[GIF OF USING input()]
+![The input() function](gifs/6_input.gif)
 
 ----
 
