@@ -13,21 +13,17 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 Plan: 
 
 Sunday:
+- Add more data to sales.csv
 - Decide where I can include images of stuff
 
-- Session 1 images:
-  - Programming languages are used to communicate instructions from people to computers
-  - 
+- Images:
+  - Session 1: Programming languages are used to communicate instructions from people to computers
 
-
-- Include more images where possible
-
-- Small pdf export tweaks
-  - Remove IN[] from pdf exports
-- Add more data to sales.csv
 - Upload trees.csv and sales.csv
 - Upload updated images
-- Review and export slides
+- Upload Jupyter slides
+- Upload HTML slides
+- Upload pdf slides
 
 - Review lesson plans
 - Be more specific with examples in the lesson plans
