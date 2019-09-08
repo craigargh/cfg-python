@@ -303,7 +303,7 @@ Solution
 meal_price = float(input('How much did the meal cost? '))
 
 discount_choice = input('Do you have a discount? y/n ')
-discount applicable = discount_choice == 'y'
+discount_applicable = discount_choice == 'y'
 
 if discount_applicable:
     meal_price = meal_price * 0.9

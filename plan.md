@@ -13,12 +13,9 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 Plan: 
 
 Sunday:
-- Execute slides
-- Upload HTML slides
-- Upload pdf slides
-
 - Review lesson plans
 - Be more specific with examples in the lesson plans
+- Image for computer communication
 
 Monday:
 - DEADLINE: ALL SLIDES
