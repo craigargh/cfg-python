@@ -13,12 +13,7 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 Plan: 
 
 Sunday:
-- Images:
-  - Session 1: Programming languages are used to communicate instructions from people to computers
-
-- Upload trees.csv and sales.csv
-- Upload updated images
-- Upload Jupyter slides
+- Execute slides
 - Upload HTML slides
 - Upload pdf slides
 

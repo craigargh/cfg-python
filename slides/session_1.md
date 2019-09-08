@@ -57,7 +57,9 @@ PyCharm
 
 ----
 
-![]()
+Human languages are used to communicate between people
+
+Programming languages are used to communicate instructions from people to computers
 
 ----
 
