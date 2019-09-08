@@ -20,7 +20,7 @@ Please do not change the intro and closing blocks - feel free to add more sessio
 
 This is the final session of the course. In the first half the students will have some time to finish off their projects.
 
-In the second half of the session, the students will present their team projects to the rest of the students. There are is also a short section where the instructor will briefly cover careers that use Python and further resources that the students might find helpful.
+In the second half of the session, the students will present their team projects to the rest of the students. There is also a short section where the instructor will briefly cover careers that use Python and further resources that the students might find helpful.
 
 If you have access to a projector for the student presentation, try to bring adapters for HDMI, displayport, mini-displayport, USB-C and whatever Macs use these days.
 
@@ -40,7 +40,7 @@ N/A
 
 40 minutes (depending on the number of groups)
 
-In this block students will present their projects to the rest of the group. Presentations should last 5 minutes at most, with an additional few minutes for 2-3 questions from other students and intructors.
+In this block students will present their projects to the rest of the group. Presentations should last 5 minutes at most, with an additional few minutes for 2-3 questions from other students and instructors.
 
 Student presentations don't require a lot of preparation from the students. They don't need to prepare slides. Suggestions for what the presentations could include:
 

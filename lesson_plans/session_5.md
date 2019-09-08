@@ -26,7 +26,7 @@ The second part of this session focuses on making requests to Web APIs. Students
 
 This session intentionally covers less content than the previous sessions. This is so that you can either:
 - Cover any content that you missed from previous sessions
-- Start team projects early
+- Have more time for team projects
 
 ## Block 1: Reading and Writing Files
 

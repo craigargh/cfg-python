@@ -1,12 +1,11 @@
 # Session Title: Project
 
-Session No: 7
- 
+Session No: 
+
 ## Learning Objectives:
 
 By the end of this session students will be able to:
 
-By the end of this session you will be able to:
 - Build an application to meet the requirements of a project brief
 - Design and implement extensions to the project
 

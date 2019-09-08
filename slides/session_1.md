@@ -442,7 +442,7 @@ The `oranges` variable is reused twice in the program
 
 ----
 
-**Exercise 1.4:**: In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
+**Exercise 1.4:** In a new Python **file** called `cat_food.py`, create a program that calculates how many cans of cat food you need to feed 10 cats
 
 Your will need:
 1. A **variable** for the number of **cats**

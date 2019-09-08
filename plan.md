@@ -12,12 +12,14 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-Saturday:
-
-- Review and copy lesson plans
-- Be more specific with examples in the lesson plans
-
+Sunday:
 - Decide where I can include images of stuff
+
+- Session 1 images:
+  - Programming languages are used to communicate instructions from people to computers
+  - 
+
+
 - Include more images where possible
 
 - Small pdf export tweaks
@@ -27,21 +29,24 @@ Saturday:
 - Upload updated images
 - Review and export slides
 
+- Review lesson plans
+- Be more specific with examples in the lesson plans
 
-Sunday:
+Monday:
+- DEADLINE: ALL SLIDES
+- Reply to Ragini about Jupyter login
+
+This week:
 - Review project guides
 - Exercise and solution guides
 - Links to further materials
 - Homework guides
 - Setup guide
-
-Monday:
-- DEADLINE: ALL SLIDES
-- Reply to Ragini about Jupyter login
 - How to setup the Jupyter notebooks as slides
-
-Tuesday:
 - Common issues with Virtual Environments in PyCharm
+
+Friday:
+- DEADLINE: ALL RESOURCES
 
 ----
 

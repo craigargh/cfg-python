@@ -33,7 +33,7 @@ The aim of providing a brief, instead of allowing the students to come up with i
 1. Reduce the amount of time students need to take finding suitable APIs and tutorials
 1. Ensure that every team makes some progress on a project
 
-As this is a beginners' course, the students will not need to use GitHub to share their code with other team members, they won't need to deploy their projects using Heroku or a similar toool, and they won't build webpages with Flask. 
+As this is a beginners' course, the students will not need to use GitHub to share their code with other team members, they won't need to deploy their projects using Heroku or a similar tool, and they won't build webpages with Flask. 
 
 ## Block 1: Project Briefs
 
