@@ -187,6 +187,10 @@ An `if` statement has the following:
 
 ----
 
+![An if statement](images/if_statement.svg)
+
+----
+
 This program checks whether you are an admin and you have entered the right password:
 
 ```python

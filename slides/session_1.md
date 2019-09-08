@@ -59,7 +59,6 @@ PyCharm
 
 ![]()
 
-
 ----
 
 Python:
@@ -411,6 +410,9 @@ Creating (assigning) a variable has three parts:
 username = 'sarah_1987'
 age = 23
 ```
+----
+
+![A variable](images/variable.svg)
 
 ----
 

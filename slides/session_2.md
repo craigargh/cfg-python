@@ -311,8 +311,12 @@ A `for` loop has
 - A `for` operator
 - A variable name that stores each list value one at a time
 - An `in` operator
-- A list of values
+- A collection of values
 - A body (indented four spaces)
+
+----
+
+![A for loop](images/for_loop.svg)
 
 
 ----
@@ -446,6 +450,10 @@ All functions have
 1. brackets
 1. a colon
 1. body (indented 4 spaces)
+
+----
+
+![A function](images/function.svg)
 
 ----
 

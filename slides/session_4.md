@@ -318,7 +318,6 @@ print(total)
 
 **Dictionary:** Stores a colleciton of labelled items. Each item has a *key* and a *value*
 
-----
 
 ```python
 person = {
@@ -327,6 +326,10 @@ person = {
     'height': 172
 }
 ```
+
+----
+
+![A variable](images/dictionary.svg)
 
 ----
 
