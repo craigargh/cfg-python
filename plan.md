@@ -1,40 +1,43 @@
 Session | Slides | Lesson Plan | Student Guides | Homework
 ---|---|---|---|---
-1  | Uploaded | Uploaded | In progress |  Review 
-2  | Uploaded | Uploaded | In progress |  Review 
-3  | Uploaded | Uploaded | Not started |  Review 
-4  | Uploaded | Uploaded | Not started |  Not started 
-5  | Review | Review | Not started |  Not started 
-6  | Review | Review | Review |  n/a 
-7  | Review | Review | Review | n/a 
-8  | Review | Review | Review | n/a 
+1  | Uploaded | Uploaded | Uploaded | Review 
+2  | Uploaded | Uploaded | Uploaded | Review 
+3  | Uploaded | Uploaded | Uploaded | Review 
+4  | Uploaded | Uploaded | Uploaded | Review
+5  | Uploaded | Uploaded | Uploaded | Review 
+6  | Uploaded | Uploaded | Uploaded | n/a 
+7  | Uploaded | Uploaded | Uploaded | n/a 
+8  | Uploaded | Uploaded | Uploaded | n/a 
 
 
 Plan: 
+- Check existing setup steps
+- Setup guide for Windows
+- Setup guide for Mac
 
-Sunday:
-- Review lesson plans
-- Be more specific with examples in the lesson plans
-- Image for computer communication
-
-Monday:
-- DEADLINE: ALL SLIDES
-- Reply to Ragini about Jupyter login
-
-This week:
-- Review project guides
-- Exercise and solution guides
-- Links to further materials
-- Homework guides
-- Setup guide
 - How to setup the Jupyter notebooks as slides
 - Common issues with Virtual Environments in PyCharm
 
 Friday:
+- Mention not to call any files turtle.py in the second session
+- Tweak lesson plan example references
+- Add code for Exercises 3.6-3.9, 
+- Add code for homework
+- Copy code into separate files
+
+
 - DEADLINE: ALL RESOURCES
 
 ----
 
+- Links to further materials
+  - Real Python
+  - Official documentation
+  - Automate the Boring Stuff
+  - Talk Python
+
+
+----
 
 To do:
 

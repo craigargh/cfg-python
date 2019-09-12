@@ -1,27 +1,29 @@
 # Homework: Session 2
 
+This session:
+
+1. User Input
+1. Importing modules
+1. Problem solving with Turtle
+1. For Loops
+1. Functions
+
+Additional resources:
+- Input https://realpython.com/python-input-output/
+- turtle module documentation https://docs.python.org/3/library/turtle.html
+- for loops https://realpython.com/python-for-loop/
+- functions https://www.datacamp.com/community/tutorials/functions-python-tutorial
+
+
 ## Question 1
 
-I have a list of things I need to buy from my supermarket of choice. 
+Explain what this program does
 
 ```python
-shopping_list = [
-    "oranges",
-    "cat food",
-    "sponge cake",
-    "long-grain rice",
-    "cheese board",
-]
-
-
-print(shopping_list[1])
-
+for number in range(100):
+    output = 'o' * number
+	print(output)
 ```
-
-I want to know what the first thing I need to buy is. However, when I run the program it shows me a different answer to what I was expecting?
-
-What is the mistake? How do I fix it?
-
 
 ## Question 2
 
@@ -43,3 +45,8 @@ None
 ```
 
 Your boss expects the program to output the value `120`. What is wrong? How do you fix it?
+
+
+## Question 3
+
+Using the turtle module, write a program to draw a house. The house should at least have a roof, a door and some windows. Feel free to play around with the design of your house. 
