@@ -12,19 +12,19 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 
 Plan: 
 
-
 Friday:
-- Format setup instructions based on instructions
-- Format students guides based on instructions
-- Tweak lesson plan example references
-- Mention not to call any files turtle.py in the second session
+- Add code for Exercises 3.6-3.9
 
 - How to setup the Jupyter notebooks as slides
 - Common issues with Virtual Environments in PyCharm
 
-- Add code for Exercises 3.6-3.9, 
 - Add code for homework
 - Copy code into separate files
+
+- Invoice
+
+- Email Ragini
+  - Mention Code Blocks formatter
 
 - DEADLINE: ALL RESOURCES
 
