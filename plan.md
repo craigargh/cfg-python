@@ -13,7 +13,8 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 Plan: 
 
 Friday:
-- Add code for Exercises 3.6-3.9
+- Regenerate session 3
+- Reupload session 3
 
 - How to setup the Jupyter notebooks as slides
 - Common issues with Virtual Environments in PyCharm

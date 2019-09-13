@@ -445,7 +445,7 @@ def flip_coin():
         side = 'tails'
     return side
 
-choice = int(input('heads or tails: '))
+choice = input('heads or tails: ')
 result = flip_coin()
 
 print('The coin landed on {}'.format(result))
@@ -475,7 +475,7 @@ opponent_choice = random_choice()
 
 print('Your opponent chose {}'.format(opponent_choice))
 
-if my_choice = 'rock' and opponent_choice == 'scissors':
+if my_choice == 'rock' and opponent_choice == 'scissors':
     print('You win!')
 ```
 
