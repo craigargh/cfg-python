@@ -40,9 +40,9 @@ Topics in this session:
 
 ----
 
-**Bolean:** A data-type that is either `True` or `False`
+**Boolean:** A data-type that is either `True` or `False`
 
-**Comparison operator:** compare values to determine wheter something is `True` or `False`
+**Comparison operator:** compare values to determine whether something is `True` or `False`
 
 ----
 
@@ -432,7 +432,7 @@ To practice if statements choose one of the following exercises in your student 
 
 To finish the program you will need to add the following:
 - If the random coin flip matches the choice input by the user then they win
-- Ohterwise if the random coin flip does not match the choice input by the user then they lose
+- Otherwise if the random coin flip does not match the choice input by the user then they lose
 
 ```python 
 import random

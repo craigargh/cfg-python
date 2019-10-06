@@ -234,7 +234,7 @@ pprint(pokemon)
 
 ----
 
-Reponse status codes:
+Response status codes:
 
 Status Code | Name | Explanation
 --- | --- | ---

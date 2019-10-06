@@ -316,7 +316,7 @@ print(total)
 
 ----
 
-**Dictionary:** Stores a colleciton of labelled items. Each item has a *key* and a *value*
+**Dictionary:** Stores a collection of labelled items. Each item has a *key* and a *value*
 
 
 ```python
@@ -464,7 +464,7 @@ print(chosen_colour)
 
 ----
 
-**Exercise 4.7:** Write a program to create a random name. You should have a list of random firstnames and a list of lastnames. Choose a random item from each and display the result.
+**Exercise 4.7:** Write a program to create a random name. You should have a list of random first-names and a list of last-names. Choose a random item from each and display the result.
 
 Extension: Using list of verbs and a list of nouns, create randomised sentences
 

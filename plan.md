@@ -13,9 +13,6 @@ Session | Slides | Lesson Plan | Student Guides | Homework
 Plan: 
 
 Friday:
-- Regenerate session 3
-- Reupload session 3
-
 - How to setup the Jupyter notebooks as slides
 - Common issues with Virtual Environments in PyCharm
 

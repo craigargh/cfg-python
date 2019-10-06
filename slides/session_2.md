@@ -81,7 +81,7 @@ print(total_apples)
 
 ----
 
-**Exercise 2.2:** You have friends at your house for dinner and you've accidentaly burnt the lasagne. Time to order pizza.
+**Exercise 2.2:** You have friends at your house for dinner and you've accidentally burnt the lasagne. Time to order pizza.
 
 Write a program calculate how many pizzas you need to feed you and your friends
 
@@ -602,7 +602,7 @@ triangle(100, 'yellow')
 
 ----
 
-Functions can have multiple arguments seperated by commas
+Functions can have multiple arguments separated by commas
 
 ```python
 import turtle

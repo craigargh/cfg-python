@@ -494,7 +494,7 @@ print(msg)
 
 ----
 
-Python strings have a method (`.format()`) that substitutes placeholders `{}` for values
+Python strings have a method (`.format()`) that substitutes place-holders `{}` for values
 
 ```python
 oranges = 12
